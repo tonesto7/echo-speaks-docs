@@ -8,15 +8,16 @@
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build-search": "node build/build.search.js",
-    "build": "node build/build.js; node build/build.search.js; cp /dist ",
-    "build-win": "node build/build.js; node build/build.search.js; xcopy ./dist ./docs /c /s /i /y /l",
+    "build": "node build/build.js && node build/build.search.js",
+    "build-win": "node build/build.js; node build/build.search.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test:local": "npm run unit && npm run e2e",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
     "lint:css": "stylelint 'src/**/*.vue'",
-    "gh-pages": "GH_PAGES=true npm run build; git add .; git commit -m 'Update GitHub Pages'; git subtree push --prefix dist origin gh-pages"
+    "gh-pages": "GH_PAGES=true && npm run build && git add . && git commit -m 'Update GitHub Pages' && git subtree push --prefix dist origin gh-pages",
+    "gh-pages-win": "set GH_PAGES=true && npm run build && git add . && git commit -m \"Update GitHub Pages\" && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
