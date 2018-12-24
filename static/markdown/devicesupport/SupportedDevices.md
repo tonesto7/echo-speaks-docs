@@ -2,14 +2,14 @@
 
 | **Official Echo Devices** |
 |:-------------------------------------|
-| Echo Show (Gen 1,2)                  |
-| Echo Dot (Gen 1,2,3)                 |
-| Echo (Gen 1,2)                       |
-| Echo Plus (Gen 1,2)                  |
+| Echo Show (Gen 1, 2)                 |
+| Echo Dot (Gen 1, 2, 3)               |
+| Echo (Gen 1, 2)                      |
+| Echo Plus (Gen 1, 2)                 |
 | Echo Spot                            |
 | Echo Tap                             |
-| Fire TV (Gen 1,2, 3)                 |
-| Fire TV Stick (Gen 1,2, 3)           |
+| Fire TV (Gen 1, 2, 3)                |
+| Fire TV Stick (Gen 1, 2, 3)          |
 | Fire TV Cube                         |
 | Kindle Fire Tablets (HD Fire Models) |
 
@@ -18,10 +18,11 @@
 | Ecobee 4                      |
 | One-Link Safe and Sound       |
 
-### Notice
-
- There are a lot of devices out there that have Alexa integrated. They may or may not display in the app.We are attempting to make a way to better identify supported devices.
- In the mean time I will update this list as often as I can.
+### <p style="color: red;">Notice</p>
+  * There are a lot of devices out there that have Alexa integrated which may or may not display in the Echo Speaks app.  
+  We are attempting to make a way to better identify supported devices.  
+  In the mean time I will update this list as often as I can.
+ 
 
 ## Is your Device Incorrectly Identified?
 
