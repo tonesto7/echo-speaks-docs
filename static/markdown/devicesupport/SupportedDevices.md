@@ -1,11 +1,15 @@
 | **Devices tested to work with Echo Speaks:** |
-|:---------------------------------------------|
-| Echo Show (Gen 1,2)                          |
-|  Echo Dot (Gen 1,2,3)                        |
-|  Echo (Gen 1,2)                              |
-|  Echo Spot                                   |
-| Kindle Fire Tablets (HD Fire Models)         |
-| Ecobee 4                                     |
+|:--------------------------------------------|
+| Echo Show (Gen 1,2)                         |
+| Echo Dot (Gen 1,2,3)                        |
+| Echo (Gen 1,2)                              |
+| Echo Spot                                   |
+| Fire TV (Gen 1,2, 3)                        |
+| Kindle Fire Tablets (HD Fire Models)        |
+
+| **Other Devices with Alexa ** |
+|:------------------------------|
+| Ecobee 4                      |
 
 ***Notice:*** 
 
