@@ -6,19 +6,19 @@
 
    **It is assumed that the user has already registered their account on the SmartThings IDE website.  If you have not, please do so before proceeding any further.**
 
-   ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/IDE_Login.JPG)
+   ![](/static/img/IDE_Login.JPG)
 
 2. Navigate to the SmartApps Section of the SmartThings IDE by clicking 'My SmartApps' tab at the top of your screen:
 
-   ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/SA_Link.JPG)
+   ![](/static/img/SA_Link.JPG)
 
-3. Create a new smartapp by clicking on the ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/NewSA_button.JPG) button found in the top right corner of this page:
+3. Create a new smartapp by clicking on the ![](/static/img/NewSA_button.JPG) button found in the top right corner of this page:
 
-   ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/NewSA_Link.JPG)
+   ![](/static/img/NewSA_Link.JPG)
 
-4. Click on the ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/FromCode_button.JPG) button found at the top of the screen:
+4. Click on the ![](FromCode_button.JPG) button found at the top of the screen:
 
-  ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/NewSA_FromCode.JPG)
+  ![](/static/img/NewSA_FromCode.JPG)
 
 5. You will now be at this page:
 
