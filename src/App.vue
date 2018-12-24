@@ -43,7 +43,7 @@ export default {
   name: 'app',
   data () {
     return {
-      baseUrl: 'https://tonesto7.github.io/echo-speaks/#',
+      baseUrl: 'https://tonesto7.github.io/echo-speaks-docs/#',
       isNavOpen: false,
       tocItems: ConfigManager.getPages(),
       content: [],
