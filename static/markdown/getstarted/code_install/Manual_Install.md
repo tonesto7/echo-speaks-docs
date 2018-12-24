@@ -1,20 +1,20 @@
 ## SmartApp - Install
 
-1. Log-in to the SmartThings IDE at [ST IDE](https://account.smartthings.com/login)
+  1. Log-in to the SmartThings IDE at [ST IDE](https://account.smartthings.com/login)
 
   Once you log-in ensure you are able to see your hub and devices under the Locations tab.
 
   **It's assumed that you have already registered an account on the SmartThings IDE website.  If you have not, please do so before proceeding any further.**
   ![](https://tonesto7.github.io/echo-speaks-docs/static/img/IDE_Login.JPG)
   
-2. Navigate to the SmartApps Section of the SmartThings IDE by clicking *`My SmartApps`* tab at the top of your screen:
+  2. Navigate to the SmartApps Section of the SmartThings IDE by clicking *`My SmartApps`* tab at the top of your screen:
   ![](https://tonesto7.github.io/echo-speaks-docs/static/img/SA_Link.JPG)
 
 
-3. Create a new smartapp by clicking on the ![](https://tonesto7.github.io/echo-speaks-docs/static/img/NewSA_button.JPG) button found in the top right corner of this page:
+  3. Create a new smartapp by clicking on the ![](https://tonesto7.github.io/echo-speaks-docs/static/img/NewSA_button.JPG) button found in the top right corner of this page:
   ![](https://tonesto7.github.io/echo-speaks-docs/static/img/NewSA_Link.JPG)
 
-4. Click on the ![](https://tonesto7.github.io/echo-speaks-docs/static/img/FromCode_button.JPG) button found at the top of the screen:
+  4. Click on the ![](https://tonesto7.github.io/echo-speaks-docs/static/img/FromCode_button.JPG) button found at the top of the screen:
   ![](https://tonesto7.github.io/echo-speaks-docs/static/img/NewSA_FromCode.JPG)
 
 5. You will now be at this page:
