@@ -13,9 +13,7 @@
       </svg>
       <span class="header__name">{{ name }} <b>Documentation</b></span>
     </div>
-    <nav class="nav"
-      v-if="isVisible || isDesktop"
-    >
+    <nav class="nav" v-if="isVisible || isDesktop">
         <svg
           ref="nav__close"
           class="nav__icon nav__icon--close"
@@ -30,7 +28,7 @@
             :key="item.path"
             :to="item.path"
             class="nav__item"
-          > {{ item.name }}
+          ><font-awesome-icon :icon="item.icon" v-if="item.icon"/>
           </router-link>
         </ul>
     </nav>

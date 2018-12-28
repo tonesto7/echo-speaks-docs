@@ -2,13 +2,16 @@
     "appName": "Echo Speaks",
     "headerNavigation": [{
         "name": "Home",
-        "path": "/docs"
+        "path": "/docs",
+        "icon": "home"
     }, {
         "name": "FAQ",
-        "path": "/docs/faq"
+        "path": "/docs/faq",
+        "icon": "question-circle"
     }, {
         "name": "Donate",
-        "path": "/docs/donate"
+        "path": "/docs/donate",
+        "icon": ["fab", "paypal"]
     }],
     "landingPage": "/docs",
     "topics": [
@@ -25,7 +28,8 @@
             "description": "installation and configuration instructions",
             "icon": "play",
             "topics": ["started", "instructions", "setup", "configuration"],
-            "children": [{
+            "children": [
+              {
                 "route": "/appRequirements",
                 "name": "Requirements",
                 "description": "what's needed to make this all work!",
@@ -80,7 +84,7 @@
                     "description": "Confirm devices supported",
                     "icon": "thumbs-up",
                     "topics": ["process"],
-                    "markdown": "/static/markdown/process/Introduction.md"
+                    "markdown": "/static/markdown/devicesupport/SupportedDevices.md"
                 }, {
                     "route": "/deviceAttributes",
                     "name": "Available Device Attributes",
@@ -140,8 +144,8 @@
             "name": "Donate",
             "description": "want to donate for all of the work involved",
             "topics": [],
-            "icon": "donate",
-            "markdown": "/static/markdown/Donation.md"
+            "icon": ["fab", "paypal"],
+            "markdown": "/static/markdown/Donations.md"
         }, {
             "route": "/whatsNew",
             "name": "Whats new ?",

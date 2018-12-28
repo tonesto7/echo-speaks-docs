@@ -8,20 +8,22 @@ var metaMap = {}
  * processElement - recursively walk through a given node and enrich it with some additional
  * properties (to bring vue-tree-navigation and VueRouter in sync)
  */
-function processElement (node, parent) {
+function processElement (node, parent, isTreeObj = false) {
   // add fully qualified path and reference to component
   node.path = node.route
   if (!parent) node.breadCrumb = []
   else node.breadCrumb = JSON.parse(JSON.stringify(parent.breadCrumb))
   let parentPath = (parent != null) ? (parent.path + node.route) : '/'
-
+  console.log('node path: ' + node.path + ' | node.route: ' + node.route + ' | parent.path: ' + parent.path || null)
   node.breadCrumb.push({
     name: node.name,
     path: parentPath
   })
 
   node.component = DefaultPageRenderer
+
   if (parent != null) node.path = parent.path + node.route
+  // console.log('node path: ' + node.path)
 
   // process all childs and extracts the tiles (the next level of childs)
   let tiles = []
@@ -63,12 +65,12 @@ function processElement (node, parent) {
 /**
  * generateRoutingConfig - generates the routing for VueRouter out of the pageConfig.pages
  */
-function generateRoutingConfig (baseConfig) {
+function generateRoutingConfig (baseConfig, isTreeObj = false) {
   let pages = JSON.parse(JSON.stringify(baseConfig.pages))
 
   for (let i in pages) {
     let element = pages[i]
-    processElement(element, null)
+    processElement(element, null, isTreeObj)
   }
 
   // configure the default landing page
@@ -92,11 +94,11 @@ export default {
   /**
    * generates the routing config based on the tree
    */
-  getRoutingConfig: function () {
-    let routingConfig = generateRoutingConfig(this.getBaseConfig())
+  getRoutingConfig: function (isTreeObj = false) {
+    let routingConfig = generateRoutingConfig(this.getBaseConfig(), isTreeObj)
 
     // add more components
-
+    console.log('routingConfig:', routingConfig)
     return routingConfig
   },
 

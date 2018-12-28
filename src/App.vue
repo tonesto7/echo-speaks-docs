@@ -45,7 +45,7 @@ export default {
     return {
       baseUrl: 'https://tonesto7.github.io/echo-speaks-docs/#',
       isNavOpen: false,
-      tocItems: ConfigManager.getPages(),
+      tocItems: ConfigManager.getRoutingConfig(true),
       content: [],
       searchResultsVisible: false,
       searchResults: null,

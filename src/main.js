@@ -99,7 +99,8 @@ import {
   faStethoscope,
   faPlay,
   faTrashAlt,
-  faWind
+  faWind,
+  faHome
 } from '@fortawesome/free-solid-svg-icons'
 
 Vue.use(VueTreeNavigation)
@@ -198,7 +199,8 @@ library.add(
   faPaypal,
   faPlay,
   faTrashAlt,
-  faWind
+  faWind,
+  faHome
 )
 
 const filter = (text, length, clamp) => {
