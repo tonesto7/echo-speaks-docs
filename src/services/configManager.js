@@ -1,7 +1,8 @@
 import pageConfig from '../pageConfig.json'
 import axios from 'axios'
 
-const DefaultPageRenderer = () => import('@/views/DefaultPageRenderer')
+const DefaultPageRenderer = () =>
+    import('@/views/DefaultPageRenderer')
 var metaMap = {}
 
 /**
@@ -14,7 +15,7 @@ function processElement (node, parent, isTreeObj = false) {
   if (!parent) node.breadCrumb = []
   else node.breadCrumb = JSON.parse(JSON.stringify(parent.breadCrumb))
   let parentPath = (parent != null) ? (parent.path + node.route) : '/'
-  console.log('node path: ' + node.path + ' | node.route: ' + node.route + ' | parent.path: ' + parent.path || null)
+  console.log('node path: ' + node.path + ' | node.route: ' + node.route + ' | parent.path: ' + (parent.path || null))
   node.breadCrumb.push({
     name: node.name,
     path: parentPath
@@ -30,17 +31,15 @@ function processElement (node, parent, isTreeObj = false) {
   if (node.children) {
     for (var i in node.children) {
       let child = node.children[i]
-      tiles.push(
-        {
-          name: child.name,
-          description: child.description,
-          path: node.path + child.route,
-          icon: child.icon,
-          bgColor: child.bgColor,
-          owner: child.owner,
-          topics: child.topics
-        }
-      )
+      tiles.push({
+        name: child.name,
+        description: child.description,
+        path: node.path + child.route,
+        icon: child.icon,
+        bgColor: child.bgColor,
+        owner: child.owner,
+        topics: child.topics
+      })
       processElement(child, node)
     }
   }
@@ -74,26 +73,24 @@ function generateRoutingConfig (baseConfig, isTreeObj = false) {
   }
 
   // configure the default landing page
-  pages.push(
-    {
-      path: '/',
-      redirect: baseConfig.landingPage
-    }
-  )
+  pages.push({
+    path: '/',
+    redirect: baseConfig.landingPage
+  })
   return pages
 }
 
 export default {
   /**
-   * getMetaById - gets the page metadata by a given id
-   */
+     * getMetaById - gets the page metadata by a given id
+     */
   getMetaById: function (route) {
     return metaMap[route]
   },
 
   /**
-   * generates the routing config based on the tree
-   */
+     * generates the routing config based on the tree
+     */
   getRoutingConfig: function (isTreeObj = false) {
     let routingConfig = generateRoutingConfig(this.getBaseConfig(), isTreeObj)
 
@@ -103,22 +100,22 @@ export default {
   },
 
   /**
-   * getBaseConfig - returns the full json from pageConfig.json
-   */
+     * getBaseConfig - returns the full json from pageConfig.json
+     */
   getBaseConfig: function () {
     return pageConfig
   },
 
   /**
-   * getPages - returns the pages section from base config (for vue-tree-navigation)
-   */
+     * getPages - returns the pages section from base config (for vue-tree-navigation)
+     */
   getPages: function () {
     return this.getBaseConfig().pages
   },
 
   /**
-   * getStatus
-   */
+     * getStatus
+     */
   getStatus: () => {
     return new Promise((resolve, reject) => {
       const pathName = window.location.pathname
