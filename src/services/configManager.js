@@ -14,8 +14,8 @@ function processElement (node, parent, isTreeObj = false) {
   node.path = node.route
   if (!parent) node.breadCrumb = []
   else node.breadCrumb = JSON.parse(JSON.stringify(parent.breadCrumb))
-  let parentPath = (parent != null) ? (parent.path + node.route) : '/'
-  console.log('node path: ' + node.path + ' | node.route: ' + node.route + ' | parent.path: ' + (parent.path || null))
+  let parentPath = parent != null ? parent.path + node.route : '/'
+  // console.log('node path: ' + node.path + ' | node.route: ' + node.route + ' | parent.path: ' + (parent.path || null))
   node.breadCrumb.push({
     name: node.name,
     path: parentPath
@@ -46,7 +46,7 @@ function processElement (node, parent, isTreeObj = false) {
 
   // construct meta object we give to DefaultPageRenderer as part of the current route
   node.meta = {
-    tiles: (tiles.length > 0) ? tiles : null,
+    tiles: tiles.length > 0 ? tiles : null,
     name: node.name,
     description: node.description,
     markdown: node.markdown,
@@ -119,16 +119,19 @@ export default {
   getStatus: () => {
     return new Promise((resolve, reject) => {
       const pathName = window.location.pathname
-      const path = `${pathName.substring(0, pathName.length - 1)}/static/content.json`
+      const path = `${pathName.substring(
+        0,
+        pathName.length - 1
+      )}/static/content.json`
 
-      axios.get(path)
+      axios
+        .get(path)
         .then(response => {
           resolve(response.data)
         })
-        .catch((error) => {
+        .catch(error => {
           return reject(error)
         })
     })
   }
-
 }
