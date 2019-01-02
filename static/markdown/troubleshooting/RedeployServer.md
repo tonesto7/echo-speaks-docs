@@ -20,7 +20,7 @@ Redeploying the Echo Speaks server is a very simple process. Just fol
   ![](/static/img/TS-4.JPG)
 
 ##### Step 5:
-> Open the Echo Speaks smartapp and click on the Echo Service Settings.
+> Open the Echo Speaks SmartApp and click on the Echo Service Settings.
   ![](/static/img/TS-5.jpg)
 
 ##### Step 6:
@@ -29,7 +29,7 @@ Redeploying the Echo Speaks server is a very simple process. Just fol
   ![](/static/img/TS-7.jpg)
 
 ##### Step 7:
-> Open the Echo Speaks smartapp and click on the Echo Service Settings.
+> Open the Echo Speaks SmartApp and click on the Echo Service Settings.
   ![](/static/img/TS-5.jpg)
 
 ##### Step 8:
@@ -38,7 +38,7 @@ Redeploying the Echo Speaks server is a very simple process. Just fol
   ![](/static/img/TS-7.jpg)
 
 ##### Step 9:
-> Now that you have deleted the Echo Speaks server and reset the SmartApp, just follow this link below to redeploy your service.
+> Now that you have deleted the Echo Speaks server and reset the SmartApp, follow this link below to redeploy your service.
 >
 >[Server Configuration](https://tonesto7.github.io/echo-speaks-docs/#/docs/installation/configuration/serverConfig "wikilink")
 
