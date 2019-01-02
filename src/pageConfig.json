@@ -2,7 +2,7 @@
   "appName": "Echo Speaks",
   "headerNavigation": [{
     "name": "Home",
-    "path": "/",
+    "path": "/docs",
     "icon": "home"
   }, {
     "name": "FAQ",
@@ -13,12 +13,15 @@
     "path": "/donate",
     "icon": ["fab", "paypal"]
   }],
-  "landingPage": "/",
+  "landingPage": "/docs",
   "topics": [
     "home"
   ],
+  "rootDocPath": "/echo-speaks-docs/",
+  "rootDocUrl": "https://tonesto7.github.io/echo-speaks-docs",
   "pages": [{
-    "route": "/",
+    "route": "/docs",
+    "path": "docs",
     "name": "Documentation",
     "description": "this is the info page",
     "icon": "address-book",
@@ -70,13 +73,29 @@
           "markdown": "/static/markdown/getstarted/code_install/Manual_Install.md"
         }]
       }, {
-        "route": "/appConfig",
-        "path": "appConfig",
-        "name": "Configure Application",
-        "description": "configure the smartapp installation",
+        "route": "/configuration",
+        "path": "configuration",
+        "name": "Configure Application and Server",
+        "description": "configure the smartapp and server installation",
         "icon": "wrench",
-        "topics": ["configuration"],
-        "markdown": "/static/markdown/getstarted/AppConfig.md"
+        "topics": ["configuration", "setup"],
+        "children": [{
+          "route": "/appConfig",
+          "path": "appConfig",
+          "name": "SmartApp Configuration",
+          "description": "SmartApp setup",
+          "icon": "wrench",
+          "topics": ["smartapp", "setup"],
+          "markdown": "/static/markdown/getstarted/configuration/AppConfig.md"
+        }, {
+          "route": "/serverConfig",
+          "path": "serverConfig",
+          "name": "Server Configuration",
+          "description": "Heroku server setup",
+          "icon": "wrench",
+          "topics": ["server", "heroku", "setup"],
+          "markdown": "/static/markdown/getstarted/configuration/ServerConfig.md"
+        }]
       }]
     }, {
       "route": "/devices",
@@ -96,7 +115,7 @@
         }, {
           "route": "/deviceAttributes",
           "path": "deviceAttributes",
-          "name": "Available Device Attributes",
+          "name": "Device Attributes",
           "description": "All of the device attributes that are available",
           "icon": "project-diagram",
           "topics": ["attributes"],
@@ -105,7 +124,7 @@
         {
           "route": "/deviceCommands",
           "path": "deviceCommands",
-          "name": "Available Device Commands",
+          "name": "Device Commands",
           "description": "All of the device commands that are available",
           "icon": "project-diagram",
           "topics": ["commands"],
@@ -165,7 +184,7 @@
     }, {
       "route": "/whatsNew",
       "path": "whatsNew",
-      "name": "Whats new ?",
+      "name": "Whats new?",
       "description": "recent announcements, news, latest and greatest",
       "icon": "bullhorn",
       "topics": ["news"],

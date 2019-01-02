@@ -29,7 +29,7 @@
             :to="item.path"
             class="nav__item"
             exact>
-          <font-awesome-icon :icon="item.icon" v-if="item.icon"/>
+            <font-awesome-icon :icon="item.icon" v-if="item.icon"/>
           </router-link>
         </ul>
     </nav>

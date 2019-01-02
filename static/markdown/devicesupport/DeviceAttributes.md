@@ -1,78 +1,75 @@
-` In this section, we will go over the capabilities of the device handlers, available commands`\
-` and attributes, as well as some basic examples.`
+## Custom Attributes and Example Values
 
-### Attributes
+**In this section, this we review device attributes and some basic example values.**
 
-#### Custom Attributes and Example Values
+#### lastUpdated: (String)
 
-**lastUpdated:** (String)
+>Example Value: `Dec 3, 2018 - 12:47:43 PM`
 
--   *Dec 3, 2018 - 12:47:43 PM*
+#### deviceStatus: (String)
 
-**deviceStatus:** (String)
+>Example Value: `playing_echo_spot_gen1`
 
--   *playing\_echo\_spot\_gen1*
+#### deviceType: (String)
 
-**deviceType:** (String)
+>Example Value: `A10A33FOX2NUBK`
 
--   *A10A33FOX2NUBK*
+#### deviceStyle: (String)
 
-**deviceStyle:** (String)
+>Example Value: `Echo Spot`
 
--   *Echo Spot*
+#### doNotDisturb: (String)
 
-**doNotDisturb:** (String)
+>Example Value: `false`
 
--   *false*
+#### firmwareVer: (String)
 
-**firmwareVer:** (String)
+>Example Value: `625533420`
 
--   *625533420*
+#### onlineStatus: (String)
 
-**onlineStatus:** (String)
+>Example Value: `online`
 
--   *online*
+#### currentStation: (String)
 
-**currentStation:** (String)
+>Example Value: `Holiday Favorites Station`
 
--   *Holiday Favorites Station*
+#### currentAlbum: (String)
 
-**currentAlbum:** (String)
+>Example Value: `Dean Martin`
 
--   *Dean Martin*
+#### lastSpeakCmd: (String)
 
-**lastSpeakCmd:** (String)
+>Example Value: `The Front Door Lock is unlocked`
 
--   *The Front Door Lock is unlocked*
+#### lastCmdSentDt: (String)
 
-**lastCmdSentDt:** (String)
+>Example Value: `Mon Dec 03 09:16:09 EST 2018`
 
--   *Mon Dec 03 09:16:09 EST 2018*
+#### trackImage: (String)
 
-**trackImage:** (String)
+>Example Value: `<https://m.media-amazon.com/images/I/71mwv+MFxSL.UL600.jpg>`
 
--   *<https://m.media-amazon.com/images/I/71mwv+MFxSL._UL600_.jpg>*
+#### alarmVolume: (Number)
 
-**alarmVolume:** (Number)
+>Example Value: `47`
 
--   *47*
+#### alexaWakeWord: (String)
 
-**alexaWakeWord:** (String)
+>Example Value: `ALEXA`
 
--   *ALEXA*
+#### wakeWords: (Enum)
 
-**wakeWords:** (Enum)
+>Example Value: `["ALEXA","AMAZON","ECHO","COMPUTER"]`
 
--   *\[\"ALEXA\",\"AMAZON\",\"ECHO\",\"COMPUTER\"\]*
+#### alexaPlaylists: (JSON_Object)
 
-**alexaPlaylists:** (JSON\_Object)
+>Example Value: `[]`
 
--   *\[\]*
+#### alexaNotifications: (JSON_Object)
 
-**alexaNotifications:** (JSON\_Object)
-
--   \'\'{
-
+>Example Value:  
+>`{`\
 `   "Home Audio": [`\
 `      {`\
 `          "title": "Home Audio",`\
@@ -82,28 +79,35 @@
 `          "trackCount": 0`\
 `      }`\
 `   ]`\
-` }''`
+`}`
 
-**alexaMusicProviders:** (JSON\_Object)
+#### alexaMusicProviders: (JSON_Object)
 
--   *\[CLOUDPLAYER:My Library, AMAZON\_MUSIC:Amazon Music, I\_HEART\_RADIO:iHeartRadio, PANDORA:Pandora, TUNEIN:TuneIn\]*
+>Example Value:  
+>`[`\
+`  CLOUDPLAYER: My Library,`\
+`  AMAZON_MUSIC: Amazon Music,`\
+`  I_HEART_RADIO: iHeartRadio,`\
+`  PANDORA: Pandora,`\
+`  TUNEIN: TuneIn`\
+`]`
 
-**volumeSupported:** (Boolean)
+#### volumeSupported: (Boolean)
 
--   *true*
+>Example Value: `true`
 
-**ttsSupported:** (Boolean)
+#### ttsSupported: (Boolean)
 
--   *true*
+>Example Value: `true`
 
-**musicSupported:** (Boolean)
+#### musicSupported: (Boolean)
 
--   *true*
+>Example Value: `true`
 
-**alarmSupported:** (Boolean)
+#### alarmSupported: (Boolean)
 
--   *true*
+>Example Value: `true`
 
-**reminderSupported:** (Boolean)
+#### reminderSupported: (Boolean)
 
--   *true*
+>Example Value: `true`

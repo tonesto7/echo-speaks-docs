@@ -108,7 +108,7 @@ main {
 p,
 .paragraph {
   margin-bottom: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.8rem;
 }
@@ -130,7 +130,7 @@ ul,
 }
 
 li {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.8rem;
 }
@@ -161,7 +161,7 @@ a:focus,
 *[tabindex="0"]:focus {
   z-index: 1000;
   outline-width: 1px;
-  outline-style: dashed;
+  outline-style: none;
   outline-color: $color-core-blue;
 }
 
