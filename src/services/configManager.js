@@ -1,30 +1,31 @@
 import pageConfig from '../pageConfig.json'
+import path from 'path'
 import axios from 'axios'
 
 const DefaultPageRenderer = () =>
-    import('@/views/DefaultPageRenderer')
-var metaMap = {}
+  import('@/views/DefaultPageRenderer')
+let metaMap = {}
 
 /**
  * processElement - recursively walk through a given node and enrich it with some additional
  * properties (to bring vue-tree-navigation and VueRouter in sync)
  */
-function processElement (node, parent, isTreeObj = false) {
+function processElement (node, parent) {
   // add fully qualified path and reference to component
   node.path = node.route
   if (!parent) node.breadCrumb = []
   else node.breadCrumb = JSON.parse(JSON.stringify(parent.breadCrumb))
   let parentPath = parent != null ? parent.path + node.route : '/'
-  // console.log('node path: ' + node.path + ' | node.route: ' + node.route + ' | parent.path: ' + (parent.path || null))
+
   node.breadCrumb.push({
     name: node.name,
     path: parentPath
   })
-
   node.component = DefaultPageRenderer
 
-  if (parent != null) node.path = parent.path + node.route
-  // console.log('node path: ' + node.path)
+  if (parent) {
+    node.path = path.join(parent.path + node.route)
+  }
 
   // process all childs and extracts the tiles (the next level of childs)
   let tiles = []
@@ -34,7 +35,7 @@ function processElement (node, parent, isTreeObj = false) {
       tiles.push({
         name: child.name,
         description: child.description,
-        path: node.path + child.route,
+        path: path.join(node.path + child.route),
         icon: child.icon,
         bgColor: child.bgColor,
         owner: child.owner,
@@ -64,12 +65,12 @@ function processElement (node, parent, isTreeObj = false) {
 /**
  * generateRoutingConfig - generates the routing for VueRouter out of the pageConfig.pages
  */
-function generateRoutingConfig (baseConfig, isTreeObj = false) {
+function generateRoutingConfig (baseConfig) {
   let pages = JSON.parse(JSON.stringify(baseConfig.pages))
 
   for (let i in pages) {
     let element = pages[i]
-    processElement(element, null, isTreeObj)
+    processElement(element, null)
   }
 
   // configure the default landing page
@@ -82,40 +83,40 @@ function generateRoutingConfig (baseConfig, isTreeObj = false) {
 
 export default {
   /**
-     * getMetaById - gets the page metadata by a given id
-     */
+   * getMetaById - gets the page metadata by a given id
+   */
   getMetaById: function (route) {
     return metaMap[route]
   },
 
   /**
-     * generates the routing config based on the tree
-     */
-  getRoutingConfig: function (isTreeObj = false) {
-    let routingConfig = generateRoutingConfig(this.getBaseConfig(), isTreeObj)
+   * generates the routing config based on the tree
+   */
+  getRoutingConfig: function () {
+    let routingConfig = generateRoutingConfig(this.getBaseConfig())
 
     // add more components
-    console.log('routingConfig:', routingConfig)
+    // console.log('routingConfig:', routingConfig)
     return routingConfig
   },
 
   /**
-     * getBaseConfig - returns the full json from pageConfig.json
-     */
+   * getBaseConfig - returns the full json from pageConfig.json
+   */
   getBaseConfig: function () {
     return pageConfig
   },
 
   /**
-     * getPages - returns the pages section from base config (for vue-tree-navigation)
-     */
+   * getPages - returns the pages section from base config (for vue-tree-navigation)
+   */
   getPages: function () {
     return this.getBaseConfig().pages
   },
 
   /**
-     * getStatus
-     */
+   * getStatus
+   */
   getStatus: () => {
     return new Promise((resolve, reject) => {
       const pathName = window.location.pathname

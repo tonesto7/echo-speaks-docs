@@ -28,7 +28,8 @@
             :key="item.path"
             :to="item.path"
             class="nav__item"
-          ><font-awesome-icon :icon="item.icon" v-if="item.icon"/>
+            exact>
+          <font-awesome-icon :icon="item.icon" v-if="item.icon"/>
           </router-link>
         </ul>
     </nav>

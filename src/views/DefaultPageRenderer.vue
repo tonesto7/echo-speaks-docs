@@ -47,7 +47,7 @@ export default {
       markdown: '',
       lastModified: '',
       pageConfig: {},
-      tocItems: ConfigManager.getPages(),
+      tocItems: ConfigManager.getRoutingConfig(),
       isActive: false,
       container: null,
       initialScroll: false,
@@ -69,10 +69,10 @@ export default {
       this.container.addEventListener('scroll', (event) => {
       })
     }
-    console.log('this.container', this.container)
+    // console.log('this.container', this.container)
     setTimeout(() => {
       const iframes = document.querySelectorAll('iframe')
-      console.log('iframes', iframes)
+      // console.log('iframes', iframes)
       for (let iframe of iframes) {
         iframe.addEventListener('load', () => {
           console.log('iframe LOADED')
@@ -120,7 +120,7 @@ export default {
         this.pageConfig = ConfigManager.getMetaById(currentPath)
       }
 
-      console.log('PAGECONFIG: ', this.topics)
+      // console.log('PAGECONFIG: ', this.topics)
 
       // load the markdown ressource from its static ressources
       this.markdown = ''
@@ -131,7 +131,7 @@ export default {
         var config = {headers: {'Cache-Control': 'no-cache'}}
         axios.get(path, config).then(response => {
           this.lastModified = 'Last Modified: ' + response.headers['last-modified']
-          console.log(this.lastModified)
+          // console.log(this.lastModified)
           this.markdown = response.data
         })
       }

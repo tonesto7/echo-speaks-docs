@@ -2,9 +2,16 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueTreeNavigation from 'vue-tree-navigation'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faGithub, faPaypal } from '@fortawesome/free-brands-svg-icons'
+import {
+  library
+} from '@fortawesome/fontawesome-svg-core'
+import {
+  FontAwesomeIcon
+} from '@fortawesome/vue-fontawesome'
+import {
+  faGithub,
+  faPaypal
+} from '@fortawesome/free-brands-svg-icons'
 
 import {
   faBullhorn,
@@ -103,7 +110,6 @@ import {
   faHome
 } from '@fortawesome/free-solid-svg-icons'
 
-Vue.use(VueTreeNavigation)
 library.add(
   faBullhorn,
   faUniversalAccess,
@@ -215,7 +221,7 @@ Vue.filter('truncate', filter)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
-
+Vue.use(VueTreeNavigation)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

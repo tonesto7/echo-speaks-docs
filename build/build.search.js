@@ -7,18 +7,18 @@ const removeMd = require('remove-markdown');
 
 const config = require('../config')
 const pagesConfig = require('../src/pageConfig')
-const pages = pagesConfig.pages;
+const pageItems = pagesConfig.pages;
 
 const countWords = (text) => {
   // exclude start and end white-space
   text = text.replace(/(^\s*)|(\s*$)/gi, '')
-  // 2 or more space to 1
+    // 2 or more space to 1
   text = text.replace(/[ ]{2,}/gi, ' ')
-  // exclude newline with a start spacing
+    // exclude newline with a start spacing
   text = text.replace(/\n /, '\n')
-  return text.split(' ').filter((str) => { 
-    return str !== '' }
-  ).length || 0
+  return text.split(' ').filter((str) => {
+    return str !== ''
+  }).length || 0
 }
 
 const getContent = (page, parent) => {
@@ -52,7 +52,7 @@ const getContent = (page, parent) => {
 const traversTree = (pages, parent) => {
   let PAGES = [];
 
-  return new Promise(async (resolve, reject) => {
+  return new Promise(async(resolve, reject) => {
     for (let i = 0; i < pages.length; i++) {
       let page = pages[i];
 
@@ -69,10 +69,10 @@ const traversTree = (pages, parent) => {
   })
 }
 
-traversTree(pages)
+traversTree(pageItems)
   .then((PAGE_CONTENTS) => {
-    fs.writeFile (
-      path.join(config.build.assetsRoot, '/static/content.json'), 
+    fs.writeFile(
+      path.join(config.build.assetsRoot, '/static/content.json'),
       JSON.stringify(PAGE_CONTENTS),
       (err) => {
         if (err) throw err;
