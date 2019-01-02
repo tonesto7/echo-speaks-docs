@@ -1,28 +1,37 @@
-` There may come a time when you need to reset your Heroku server service. Follow these steps precisely to do it:`
+## Heroku Server Removal
 
-` 1. Logon to the Heroku.com site. You should see this screen that lists your Echo Speaks App, click on the app.`
+**_There may come a time when you need to reset your Heroku server service. Follow these steps precisely to do it:_**
 
-   ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/TS-1.JPG)
+##### Step 1:
+> Logon to the dashboard.heroku.com site. You should see this screen that lists your Echo Speaks App, click on the app.
+  ![](/static/img/TS-1.JPG)
 
-` 2. Click on the 'Settings' button you see in the green box below:`
+##### Step 2:
+> Click on the ***Settings*** button like you see in the green box below:
+  ![](/static/img/TS-2.JPG)
 
-   ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/TS-2.JPG)
+##### Step 3:
+> Scroll to the very bottom of the page and click on ***Delete App***
+  ![](/static/img/TS-3.JPG)
 
-` 3. Scroll to the very bottom of the page and click on 'Delete App'`
+##### Step 4:
+> Copy and paste the name of the app into the block and click on Delete. Now close this screen and go back to your mobile app.
+  ![](/static/img/TS-4.JPG)
 
-   ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/TS-3.JPG)
+##### Step 5:
+> Open the Echo Speaks smartapp and click on the Echo Service Settings.
+  ![](/static/img/TS-5.jpg)
 
-` 4. Copy and paste the name of the app into the block and click on Delete. Now close this screen and go back to`\
-` your mobile app.`
+##### Step 6:
+> At the bottom, you will see the 'Reset Service Data'. Toggle that switch and wait until you see this screen:
+  ![](/static/img/TS-6.jpg)
+  ![](/static/img/TS-7.jpg)
 
-   ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/TS-4.JPG)
+##### Step 7:
+> Open the Echo Speaks smartapp and click on the Echo Service Settings.
+  ![](/static/img/TS-5.jpg)
 
-` 5. Open the 'Echo Speaks' smartapp and click on the 'Echo Service Settings'`
-
-   ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/TS-5.jpg)
-
-` 6. At the bottom, you will see the 'Reset Service Data'. Toggle that switch and wait until you see this screen:`
-
-   ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/TS-6.jpg)
-
-   ![](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/wiki_images/TS-7.jpg)
+##### Step 8:
+> At the bottom, you will see the **+Service Preferences**, Once expanded Toggle the 'Reset Service Data' and wait until you see this screen:
+  ![](/static/img/TS-6.jpg)
+  ![](/static/img/TS-7.jpg)

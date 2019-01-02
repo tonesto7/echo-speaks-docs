@@ -14,9 +14,9 @@
    This will take you to the Amazon Cookie Retrieval and should look like the second picture below. 
 5. Click on Orange ***Clear Login Info*** button to reset login info.
 
-   ![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-8.JPG)
+   ![](/static/img/TS-8.JPG)
 
-   ![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-9.JPG)
+   ![](/static/img/TS-9.JPG)
 
 ### Status Code 404
 
@@ -38,9 +38,9 @@ The Echo Speaks system has a "Heart Beat" that talks to Heroku to k
    This will take you to the Amazon Cookie Retrieval and should look like the second picture below. You should then be good to go. 
    If it wants you to log in again, then just do it and you should then be good.
 
-   ![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-8.JPG)
+   ![](/static/img/TS-8.JPG)
 
-   ![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-9.JPG)
+   ![](/static/img/TS-9.JPG)
 
 --
 
