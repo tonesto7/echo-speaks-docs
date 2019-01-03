@@ -1,6 +1,4 @@
-### Music Commands
----
-#### `searchMusic(searchPhrase, providerId, (optional) volume, (optional) sleepSeconds)`
+## <h3 style="color: #FF6025;">searchMusic(searchPhrase, providerId)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control<br><br>
@@ -20,7 +18,7 @@ Used to play music from the desired music provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchMusic("thriller on the upstairs", "AMAZON_MUSIC", 40, 300)</code></pre>
 
 ---
-#### `searchAmazonMusic(searchPhrase, (optional) volume, (optional) sleepSeconds)`
+## <h3 style="color: #FF6025;">searchAmazonMusic(searchPhrase)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control<br><br>
@@ -39,7 +37,7 @@ Used to play music from Amazon Music provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchAmazonMusic("thriller on the upstairs", 40, 300)</code></pre>
 
 ---
-#### `searchAppleMusic(searchPhrase, (optional) volume, (optional) sleepSeconds)`
+## <h3 style="color: #FF6025;">searchAppleMusic(searchPhrase)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control and Apple Music<br><br>
@@ -58,7 +56,7 @@ Used to play music from Apple Music provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchAppleMusic("thriller on the upstairs", 40, 300)</code></pre>
 
 ---
-#### `searchPandora(searchPhrase, (optional) volume, (optional) sleepSeconds)`
+## <h3 style="color: #FF6025;">searchPandora(searchPhrase)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Requires connection of Pandora skills<br><br>
@@ -77,7 +75,7 @@ Used to play music from Pandora Radio provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchPandora("thriller on the upstairs", 40, 300)</code></pre>
 
 ---
-#### `searchIheart(searchPhrase, (optional) volume, (optional) sleepSeconds)`
+## <h3 style="color: #FF6025;">searchIheart(searchPhrase)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Requires connection of iHeart Radio Skill<br><br>
@@ -96,7 +94,7 @@ Used to play music from iHeartRadio provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchIheart("thriller on the upstairs", 40, 300)</code></pre>
 
 ---
-#### `searchSiriusXm(searchPhrase, (optional) volume, (optional) sleepSeconds)`
+## <h3 style="color: #FF6025;">searchSiriusXm(searchPhrase)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices.  Requires Sirius XM subscription.<br><br>
@@ -115,7 +113,7 @@ Used to play music from Sirius XM provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchSiriusXm("thriller on the upstairs", 40, 300)</code></pre>
 
 ---
-#### `searchSpotify(searchPhrase, (optional) volume, (optional) sleepSeconds)`
+## <h3 style="color: #FF6025;">searchSpotify(searchPhrase)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Requires Spotify subscription.<br><br>
@@ -134,7 +132,7 @@ Used to play music from Spotify provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchSpotify("thriller on the upstairs", 40, 300)</code></pre>
 
 ---
-#### `searchTuneIn(searchPhrase, (optional) volume, (optional) sleepSeconds)`
+## <h3 style="color: #FF6025;">searchTuneIn(searchPhrase)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control and Tune-In Radio<br><br>
