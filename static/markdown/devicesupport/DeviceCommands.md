@@ -1,13 +1,4 @@
-### Commands
-
----
-#### `replayText()`
-
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-Will replay the last text sent to the device.</div></div>
-  
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
-None Accepted</div></div>
+### Generic Commands
 
 ---
 #### `doNotDisturbOn()`
@@ -23,6 +14,31 @@ None Accepted</div></div>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Disables Do Not Disturb for the device</div></div>
+  
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
+None Accepted</div></div>
+
+---
+#### `setWakeWord("ECHO")`
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Used to change the alexa wake word invocation name</div></div>
+  
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>WakeWord (String): <code>You can use one of the following: ["ALEXA", "AMAZON", "ECHO", "COMPUTER"]</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>setWakeWord("ECHO")</code></pre>
+
+<br><br>
+
+### Speech Commands
+
+---
+#### `replayText()`
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Will replay the last text sent to the device.</div></div>
   
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
 None Accepted</div></div>
@@ -216,6 +232,77 @@ Alexa will tell a random joke</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playJoke(30, 50)</code></pre>
 
 ---
+#### `playCalendarToday()`
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br>
+Alexa will read all of the calendar events for the day</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playCalendarToday()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playCalendarToday(30, 50)</code></pre>
+
+---
+#### `playCalendarTomorrow()`
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br>
+Alexa will read all of the calendar events for tomorrow</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playCalendarTomorrow()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playCalendarTomorrow(30, 50)</code></pre>
+
+---
+#### `playCalendarNext()`
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br>
+Alexa will read the next calendar event</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playCalendarNext()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playCalendarNext(30, 50)</code></pre>
+
+---
+#### `playAnnouncement(message)`
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+This will make an announcement with the message on the device executing the command</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Message (String): <code>String between 1-400 characters in length</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playAnnouncement("the garage door has opened")</code></pre>
+---
+#### `playAnnouncementAll(message)`
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+This will make an announcement with the message on all echo devices on your account</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Message (String): <code>String between 1-400 characters in length</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playAnnouncementAll("the garage door has opened")</code></pre>
+
+<br><br>
+
+### Music Commands 
+---
 #### `searchMusic(String searchPhrase, String providerId, volume=null, sleepSeconds=null)`
 
 -   Used to play music from the desired music provider
@@ -305,6 +392,11 @@ Alexa will tell a random joke</div></div>
 
 -   Example Usage: searchPandora(\"WNIC\")
 
+
+<br><br>
+
+### Alarm and Reminder Commands
+
 ---
 #### `createAlarm("Alarm Label", "2018-11-14", "15:10")`
 
@@ -329,13 +421,4 @@ Alexa will tell a random joke</div></div>
 
 -   Example Usage: createReminder(\"Remember to feed the dogs\", \"2018-12-03\", \"15:10\")
 
----
-#### `setWakeWord("ECHO")`
 
--   You can change the Wake Word for the device
--   You can use the attribute \"wakeWords\" to get the list of available words but currently they will only be \[\"ALEXA\",\"AMAZON\",\"ECHO\",\"COMPUTER\"\]
--   Accepted Parameters:
-
-` * wakeword (String): "ECHO"`
-
--   Example Usage: setWakeWord(\"ECHO\")
