@@ -6,8 +6,6 @@
   "private": true,
   "homepage": "https://github.com/tonesto7/echo-speaks-docs",
   "wst": "/dist/",
-  "rootDocPath": "/echo-speaks-docs/",
-  "rootDocUrl": "https://tonesto7.github.io/echo-speaks-docs",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
@@ -22,18 +20,14 @@
     "deploy": "node ./node_modules/vue-gh-pages/index.js -b gh-pages -m \"Updated documents\""
   },
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.8",
-    "@fortawesome/fontawesome-free": "^5.6.3",
-    "@fortawesome/fontawesome-svg-core": "^1.2.12",
-    "@fortawesome/free-brands-svg-icons": "^5.6.3",
-    "@fortawesome/free-solid-svg-icons": "^5.6.3",
-    "@fortawesome/vue-fontawesome": "^0.1.4",
     "axios": "^0.18.0",
     "highlight.js": "9.13.1",
     "liquor-tree": "^0.2.47",
     "vue": "^2.5.21",
+    "vue-awesome": "^3.3.1",
     "vue-markdown": "^2.2.4",
     "vue-router": "^3.0.2",
+    "vue-meta": "^1.5.8",
     "vue-tree-navigation": "^4.0.1"
   },
   "devDependencies": {

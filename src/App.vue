@@ -41,6 +41,15 @@ import Header from './components/Header'
 
 export default {
   name: 'app',
+  metaInfo: {
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: ConfigManager.getBaseConfig().headTitle,
+    // titleTemplate: '%s | My Awesome Webapp',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'description', content: ConfigManager.getBaseConfig().headDescription }
+    ]
+  },
   data () {
     return {
       baseUrl: ConfigManager.getBaseConfig().rootDocUrl,

@@ -6,17 +6,19 @@
     "icon": "home"
   }, {
     "name": "FAQ",
-    "path": "/faq",
+    "path": "/docs/faq",
     "icon": "question-circle"
   }, {
     "name": "Donate",
-    "path": "/donate",
-    "icon": ["fab", "paypal"]
+    "path": "/docs/donate",
+    "icon": "brands/paypal"
   }],
   "landingPage": "/docs",
   "topics": [
     "home"
   ],
+  "headTitle": "Echo Speaks Documentation",
+  "headDescription": "Everything you need to install, configure and troubleshoot Echo Speaks",
   "rootDocPath": "/echo-speaks-docs/",
   "rootDocUrl": "https://tonesto7.github.io/echo-speaks-docs",
   "pages": [{
@@ -26,11 +28,19 @@
     "description": "this is the info page",
     "icon": "address-book",
     "children": [{
+      "route": "/information",
+      "path": "information",
+      "name": "Information",
+      "description": "about Echo Speaks",
+      "topics": ["about", "information"],
+      "icon": "info-circle",
+      "markdown": "/static/markdown/Information.md"
+    }, {
       "route": "/installation",
       "path": "installation",
-      "name": "Get Started",
+      "name": "Instructions",
       "description": "installation and configuration instructions",
-      "icon": "play",
+      "icon": "directions",
       "topics": ["started", "instructions", "setup", "configuration"],
       "children": [{
         "route": "/appRequirements",
@@ -60,7 +70,7 @@
           "path": "githubInstall",
           "name": "IDE (GitHub) Install",
           "description": "use IDE integration",
-          "icon": ["fab", "github"],
+          "icon": "brands/github",
           "topics": ["install", "github"],
           "markdown": "/static/markdown/getstarted/code_install/GithubIDE_Install.md"
         }, {
@@ -70,12 +80,29 @@
           "description": "install the code manually",
           "icon": "sort-numeric-down",
           "topics": ["install", "manual"],
-          "markdown": "/static/markdown/getstarted/code_install/Manual_Install.md"
+          "children": [{
+            "route": "/smartappInstall",
+            "path": "smartappInstall",
+            "name": "SmartApp Install",
+            "description": "smartapp install instructions",
+            "icon": "wrench",
+            "topics": ["smartapp", "app", "install"],
+            "markdown": "/static/markdown/getstarted/code_install/manual_install/SmartApp_Install.md"
+          }, {
+            "route": "/deviceInstall",
+            "path": "deviceInstall",
+            "name": "Device Install",
+            "description": "device install instructions",
+            "icon": "wrench",
+            "topics": ["device", "install"],
+            "markdown": "/static/markdown/getstarted/code_install/manual_install/Device_Install.md"
+          }]
+
         }]
       }, {
         "route": "/configuration",
         "path": "configuration",
-        "name": "Configure Application and Server",
+        "name": "Configure SmartApp/Server",
         "description": "configure the smartapp and server installation",
         "icon": "wrench",
         "topics": ["configuration", "setup"],
@@ -90,7 +117,7 @@
         }, {
           "route": "/serverConfig",
           "path": "serverConfig",
-          "name": "Server Configuration",
+          "name": "Heroku Configuration",
           "description": "Heroku server setup",
           "icon": "wrench",
           "topics": ["server", "heroku", "setup"],
@@ -103,16 +130,8 @@
       "name": "Device Support",
       "description": "models supported and their attributes, commands.",
       "topics": ["attributes", "commands", "devices"],
-      "icon": "thumbs-up",
+      "icon": "terminal",
       "children": [{
-          "route": "/devicesSupported",
-          "path": "devicesSupported",
-          "name": "Supported Devices",
-          "description": "Confirm devices supported",
-          "icon": "thumbs-up",
-          "topics": ["process"],
-          "markdown": "/static/markdown/devicesupport/SupportedDevices.md"
-        }, {
           "route": "/deviceAttributes",
           "path": "deviceAttributes",
           "name": "Device Attributes",
@@ -126,9 +145,52 @@
           "path": "deviceCommands",
           "name": "Device Commands",
           "description": "All of the device commands that are available",
-          "icon": "project-diagram",
+          "icon": "terminal",
           "topics": ["commands"],
-          "markdown": "/static/markdown/devicesupport/DeviceCommands.md"
+          "children": [{
+              "route": "/actionCommands",
+              "path": "actionCommands",
+              "name": "Actions",
+              "description": "action command descriptions",
+              "icon": "dot-circle",
+              "topics": ["action", "commands"],
+              "markdown": "/static/markdown/devicesupport/commands/ActionCommands.md"
+            }, {
+              "route": "/alertsCommands",
+              "path": "alertsCommands",
+              "name": "Alarm & Reminders",
+              "description": "alert command descriptions",
+              "icon": "bell",
+              "topics": ["alerts", "commands"],
+              "markdown": "/static/markdown/devicesupport/commands/AlertsCommands.md"
+            },
+            {
+              "route": "/musicCommands",
+              "path": "musicCommands",
+              "name": "Music",
+              "description": "music command descriptions",
+              "icon": "music",
+              "topics": ["music", "commands"],
+              "markdown": "/static/markdown/devicesupport/commands/MusicCommands.md"
+            },
+            {
+              "route": "/speechCommands",
+              "path": "speechCommands",
+              "name": "Speech",
+              "description": "speech command descriptions",
+              "icon": "volume-up",
+              "topics": ["speech", "commands"],
+              "markdown": "/static/markdown/devicesupport/commands/SpeechCommands.md"
+            }
+          ]
+        }, {
+          "route": "/devicesSupported",
+          "path": "devicesSupported",
+          "name": "Supported Devices",
+          "description": "Confirm devices supported",
+          "icon": "thumbs-up",
+          "topics": ["process"],
+          "markdown": "/static/markdown/devicesupport/SupportedDevices.md"
         }
       ]
     }, {
@@ -179,7 +241,7 @@
       "name": "Donate",
       "description": "want to donate for all of the work involved",
       "topics": [],
-      "icon": ["fab", "paypal"],
+      "icon": "brands/paypal",
       "markdown": "/static/markdown/Donations.md"
     }, {
       "route": "/whatsNew",
