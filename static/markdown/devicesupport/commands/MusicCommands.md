@@ -13,7 +13,7 @@ Used to play music from the desired music provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
-<p>Duration (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
+<p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchMusic("thriller", "AMAZON_MUSIC")</code></pre>
@@ -32,7 +32,7 @@ Used to play music from Amazon Music provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
-<p>Duration (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
+<p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchAmazonMusic("thriller")</code></pre>
@@ -51,7 +51,7 @@ Used to play music from Apple Music provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
-<p>Duration (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
+<p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchAppleMusic("thriller")</code></pre>
@@ -70,7 +70,7 @@ Used to play music from Pandora Radio provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
-<p>Duration (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
+<p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchPandora("thriller")</code></pre>
@@ -89,7 +89,7 @@ Used to play music from iHeartRadio provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
-<p>Duration (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
+<p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchIheart("thriller")</code></pre>
@@ -108,7 +108,7 @@ Used to play music from Sirius XM provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
-<p>Duration (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
+<p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchSiriusXm("thriller")</code></pre>
@@ -127,7 +127,7 @@ Used to play music from Spotify provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
-<p>Duration (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
+<p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchSpotify("thriller")</code></pre>
@@ -146,7 +146,7 @@ Used to play music from Tune-In Radio provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
-<p>Duration (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
+<p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchTuneIn("thriller")</code></pre>
