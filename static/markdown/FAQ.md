@@ -1,13 +1,8 @@
-This content is refreshed as new features and functions are introduced, or existing functions evolve.  Check back often!
+This page contains Frequently asked questions and will be updated from time to time.  
+Check back often!
 
+## Quick Links
 * [What if I have more than one Amazon Account](/#/documentation/faq#multiAmazonAcct)
-* [How to write a document in Markdown?](/#/documentation/faq#markdown)
-
----
-
-## <a id="markdown" name="markdown"></a>Markdown Tutorial?
-
-   Checkout the Markdown Cheat Sheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ---
 
