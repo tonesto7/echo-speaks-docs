@@ -1,4 +1,4 @@
-## Devices tested to work with Echo Speaks TTS
+### Devices tested to work with Echo Speaks TTS
 
 | **Official Echo Devices** |
 |:-------------------------------------|
@@ -28,7 +28,7 @@
 
 ## Is your Device Incorrectly Identified?
 
- + Please submit an issue here: [https://github.com/tonesto7/echo-speaks/issues](https://github.com/tonesto7/echo-speaks/issues)
+ Please submit an issue here: [https://github.com/tonesto7/echo-speaks/issues](https://github.com/tonesto7/echo-speaks/issues)
    > Provide the following info in the issue:
    >* DeviceType id (eg. A38949IHXHRQ5P)
    >* Model Name Description
