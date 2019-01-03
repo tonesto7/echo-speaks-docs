@@ -7,11 +7,12 @@
 | Echo (Gen 1, 2)                      |
 | Echo Plus (Gen 1, 2)                 |
 | Echo Spot                            |
+| Echo Input                            |
 | Echo Tap                             |
-| Fire TV (Gen 1, 2, 3)                |
-| Fire TV Stick (Gen 1, 2, 3)          |
+| Fire TV (Gen 1, 2, 3) (Need more Data)                |
+| Fire TV Stick (Gen 1, 2, 3) (Need more Data)          |
 | Fire TV Cube                         |
-| Kindle Fire Tablets (HD Fire Models) |
+| Kindle Fire Tablets (HD Fire Models) (Need more Data)  |
 
 <br>
 
@@ -21,10 +22,9 @@
 | One-Link Safe and Sound       |
 
 ### <p style="color: red;">Notice</p>
-  * There are a lot of devices out there that have Alexa integrated which may or may not display in the Echo Speaks app.
+  There are a lot of devices out there that have Alexa integrated which may or may not display in the Echo Speaks app.  
   We are attempting to make a way to better identify supported devices.
   In the mean time I will update this list as often as I can.
-
 
 ## Is your Device Incorrectly Identified?
 

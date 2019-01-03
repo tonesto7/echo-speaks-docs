@@ -14,7 +14,9 @@ None Accepted</div></div>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>This command is highly recommend in place of sending an individual command for both volume and speaking.
-When used it is set to Amazon as a single command and executed in a sequence
+When used it is set to Amazon as a single command and executed in a sequence.
+
+Sends volume command first, then plays message.
 </div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -30,9 +32,10 @@ When used it is set to Amazon as a single command and executed in a sequence
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>This command is highly recommended in place of sending individual commands for setVolume(47), speak("The Front door is unlocked"), and setVolume(30).
-When used it is set to Amazon as a single command and executed in a sequence
-<br><br>
+When used it is set to Amazon as a single command and executed in a sequence<br>
 When the command is called it captures the current volume and restores immediately after the message is played.
+
+Sends volume command first, then plays message, and restores original volume
 <br>
 </div></div>
 
@@ -188,7 +191,7 @@ Alexa will tell a random joke</div></div>
 #### `playCalendarToday()`
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br>
+<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
 Alexa will read all of the calendar events for the day</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -203,7 +206,7 @@ Alexa will read all of the calendar events for the day</div></div>
 #### `playCalendarTomorrow()`
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br>
+<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
 Alexa will read all of the calendar events for tomorrow</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -218,7 +221,7 @@ Alexa will read all of the calendar events for tomorrow</div></div>
 #### `playCalendarNext()`
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br>
+<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
 Alexa will read the next calendar event</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">

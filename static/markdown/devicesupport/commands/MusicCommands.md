@@ -3,7 +3,7 @@
 #### `searchMusic(searchPhrase, providerId, (optional) volume, (optional) sleepSeconds)`
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-<code>NOTE:</code>Not available on all devices. Only works on devices that support music playback control<br><br>
+<code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control<br><br>
 Used to play music from the desired music provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -23,7 +23,7 @@ Used to play music from the desired music provider</div></div>
 #### `searchAmazonMusic(searchPhrase, (optional) volume, (optional) sleepSeconds)`
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-<code>NOTE:</code>Not available on all devices. Only works on devices that support music playback control<br><br>
+<code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control<br><br>
 Used to play music from Amazon Music provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -42,7 +42,7 @@ Used to play music from Amazon Music provider</div></div>
 #### `searchAppleMusic(searchPhrase, (optional) volume, (optional) sleepSeconds)`
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-<code>NOTE:</code>Not available on all devices. Only works on devices that support music playback control and Apple Music<br><br>
+<code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control and Apple Music<br><br>
 Used to play music from Apple Music provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -61,7 +61,7 @@ Used to play music from Apple Music provider</div></div>
 #### `searchPandora(searchPhrase, (optional) volume, (optional) sleepSeconds)`
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-<code>NOTE:</code>Not available on all devices. Requires connection of Pandora skills<br><br>
+<code>NOTICE:</code>Not available on all devices. Requires connection of Pandora skills<br><br>
 Used to play music from Pandora Radio provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -80,7 +80,7 @@ Used to play music from Pandora Radio provider</div></div>
 #### `searchIheart(searchPhrase, (optional) volume, (optional) sleepSeconds)`
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-<code>NOTE:</code>Not available on all devices. Requires connection of iHeart Radio Skill<br><br>
+<code>NOTICE:</code>Not available on all devices. Requires connection of iHeart Radio Skill<br><br>
 Used to play music from iHeartRadio provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -99,7 +99,7 @@ Used to play music from iHeartRadio provider</div></div>
 #### `searchSiriusXm(searchPhrase, (optional) volume, (optional) sleepSeconds)`
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-<code>NOTE:</code>Not available on all devices.  Requires Sirius XM subscription.<br><br>
+<code>NOTICE:</code>Not available on all devices.  Requires Sirius XM subscription.<br><br>
 Used to play music from Sirius XM provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -118,7 +118,7 @@ Used to play music from Sirius XM provider</div></div>
 #### `searchSpotify(searchPhrase, (optional) volume, (optional) sleepSeconds)`
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-<code>NOTE:</code>Not available on all devices. Requires Spotify subscription.<br><br>
+<code>NOTICE:</code>Not available on all devices. Requires Spotify subscription.<br><br>
 Used to play music from Spotify provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -137,7 +137,7 @@ Used to play music from Spotify provider</div></div>
 #### `searchTuneIn(searchPhrase, (optional) volume, (optional) sleepSeconds)`
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-<code>NOTE:</code>Not available on all devices. Only works on devices that support music playback control and Tune-In Radio<br><br>
+<code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control and Tune-In Radio<br><br>
 Used to play music from Tune-In Radio provider</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
