@@ -1,37 +1,3 @@
-### Generic Commands
-
----
-#### `doNotDisturbOn()`
-
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-Activates Do Not Disturb for the device</div></div>
-  
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
-None Accepted</div></div>
-
----
-#### `doNotDisturbOff()`
-
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-Disables Do Not Disturb for the device</div></div>
-  
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
-None Accepted</div></div>
-
----
-#### `setWakeWord("ECHO")`
-
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-Used to change the alexa wake word invocation name</div></div>
-  
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>WakeWord (String): <code>You can use one of the following: ["ALEXA", "AMAZON", "ECHO", "COMPUTER"]</code></p>
-</div></div>
-
-<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>setWakeWord("ECHO")</code></pre>
-
-<br><br>
-
 ### Speech Commands
 
 ---
@@ -39,7 +5,7 @@ Used to change the alexa wake word invocation name</div></div>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Will replay the last text sent to the device.</div></div>
-  
+
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
 None Accepted</div></div>
 
@@ -50,9 +16,9 @@ None Accepted</div></div>
 <code>NOTICE:</code>This command is highly recommend in place of sending an individual command for both volume and speaking.
 When used it is set to Amazon as a single command and executed in a sequence
 </div></div>
-  
+
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
 <p>Message (String): <code>String between 1-400 characters in length</code></p>
 </div></div>
 
@@ -71,9 +37,9 @@ When the command is called it captures the current volume and restores immediate
 </div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
 <p>Message (String): <code>String between 1-400 characters in length</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>setVolumeSpeakAndRestore(50, "The Front door is unlocked", 30)</code></pre>
@@ -86,7 +52,7 @@ When the command is called it captures the current volume and restores immediate
 Sets the Echo Devices Alarm and Reminder Notification volume</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>setAlarmVolume(40)</code></pre>
@@ -98,8 +64,8 @@ Sets the Echo Devices Alarm and Reminder Notification volume</div></div>
 Alexa will give the current weather conditions</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playWeather()</code></pre>
@@ -112,8 +78,8 @@ Alexa will give the current weather conditions</div></div>
 Alexa will sing a random song</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playSingASong()</code></pre>
@@ -126,8 +92,8 @@ Alexa will sing a random song</div></div>
 Alexa will play the your flash briefing (If device supports it)</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playFlashBrief()</code></pre>
@@ -140,8 +106,8 @@ Alexa will play the your flash briefing (If device supports it)</div></div>
 Alexa will play the your good morning run down</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playGoodMorning()</code></pre>
@@ -154,8 +120,8 @@ Alexa will play the your good morning run down</div></div>
 Alexa will say a random good night message</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playGoodNight()</code></pre>
@@ -168,8 +134,8 @@ Alexa will say a random good night message</div></div>
 Alexa will say a random welcome home message</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playWelcomeHome()</code></pre>
@@ -182,8 +148,8 @@ Alexa will say a random welcome home message</div></div>
 Alexa will give the current traffic condition on your way to work</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playTraffic()</code></pre>
@@ -196,8 +162,8 @@ Alexa will give the current traffic condition on your way to work</div></div>
 Alexa will tell a random story</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playTellStory()</code></pre>
@@ -210,8 +176,8 @@ Alexa will tell a random story</div></div>
 Alexa will tell a random fun fact</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playFunFact()</code></pre>
@@ -224,8 +190,8 @@ Alexa will tell a random fun fact</div></div>
 Alexa will tell a random joke</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playJoke()</code></pre>
@@ -239,8 +205,8 @@ Alexa will tell a random joke</div></div>
 Alexa will read all of the calendar events for the day</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playCalendarToday()</code></pre>
@@ -254,8 +220,8 @@ Alexa will read all of the calendar events for the day</div></div>
 Alexa will read all of the calendar events for tomorrow</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playCalendarTomorrow()</code></pre>
@@ -269,8 +235,8 @@ Alexa will read all of the calendar events for tomorrow</div></div>
 Alexa will read the next calendar event</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Volume (Integer): <code>Between 0 - 100</code></p>
-<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playCalendarNext()</code></pre>
@@ -287,6 +253,7 @@ This will make an announcement with the message on the device executing the comm
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playAnnouncement("the garage door has opened")</code></pre>
+
 ---
 #### `playAnnouncementAll(message)`
 
@@ -298,127 +265,4 @@ This will make an announcement with the message on all echo devices on your acco
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playAnnouncementAll("the garage door has opened")</code></pre>
-
-<br><br>
-
-### Music Commands 
----
-#### `searchMusic(String searchPhrase, String providerId, volume=null, sleepSeconds=null)`
-
--   Used to play music from the desired music provider
--   The available providerId\'s are \[CLOUDPLAYER, AMAZON\_MUSIC, I\_HEART\_RADIO, PANDORA, SPOTIFY, TUNEIN\]
--   Accepted Parameters:
-
-` * SearchPhrase (String): "thriller"`\
-` * ProviderId (String): "AMAZON_MUSIC"`\
-` * Volume (Integer): 30`
-
--   Example Usage: searchMusic(\"thriller\", \"AMAZON\_MUSIC\", 30)
-
----
-#### `searchAmazonMusic("search_string_here")`
-
--   Used to search and play music from Amazon Music
--   Accepted Parameters:
-
-` * SearchPhrase (String): "thriller"`\
-` * Volume (Integer): 30`
-
--   Example Usage: searchAmazonMusic(\"thriller\", 30)
-
----
-#### `searchAppleMusic("search_string_here")`
-
--   Used to search and play music from Amazon Music
--   Accepted Parameters:
-
-` * SearchPhrase (String): "thriller"`\
-` * Volume (Integer): 30`
-
--   Example Usage: searchAppleMusic(\"thriller\", 30)
-
----
-#### `searchPandora("search_string_here")`
-
--   Used to search and play music from Pandora Music
--   Accepted Parameters:
-
-` * SearchPhrase (String): "thriller"`\
-` * Volume (Integer): 30`
-
--   Example Usage: searchPandora(\"thriller\", 30)
-
----
-#### `searchIheart("search_string_here")`
-
--   Used to search and play music from iHeartRadio
--   Accepted Parameters:
-
-` * SearchPhrase (String): "thriller"`\
-` * Volume (Integer): 30`
-
--   Example Usage: searchIheart(\"thriller\", 30)
-
----
-#### `searchSiriusXm("search_string_here")`
-
--   Used to search and play from Sirius XM Radio
--   Accepted Parameters:
-
-` * SearchPhrase (String): "thriller"`\
-` * Volume (Integer): 30`
-
--   Example Usage: searchSiriusXm(\"thriller\", 30)
-
----
-#### `searchSpotify("search_string_here")`
-
--   Used to search and play music from Spotify Music
--   Accepted Parameters:
-
-` * SearchPhrase (String): "thriller"`\
-` * Volume (Integer): 30`
-
--   Example Usage: searchSpotify(\"thriller\", 30)
-
----
-#### `searchTuneIn("search_string_here")`
-
--   Used to search and play music from TuneIn Radio
--   Accepted Parameters:
-
-` * SearchPhrase (String): "WNIC"`\
-` * Volume (Integer): 30`
-
--   Example Usage: searchPandora(\"WNIC\")
-
-
-<br><br>
-
-### Alarm and Reminder Commands
-
----
-#### `createAlarm("Alarm Label", "2018-11-14", "15:10")`
-
--   This will create audible alarms for a specific device.
--   Required Parameters:
-
-` * 1. Label (String): It's used to visually identify the alarm in the Alexa App`\
-` * 2. Date (String) This must be in this format (Year-Mon-Day)`\
-` * 2. Time (String) This must be in this 24-hour time format (HH:MM)`
-
--   Example Usage: createAlarm("Alarm Label\", \"2018-12-03\", \"15:10\")
-
----
-#### `createReminder("Reminder Message", "2018-11-14", "15:40")`
-
--   This will create audible Reminder and read back the label as the reminder message
--   Required Parameters:
-
-` * 1. Label (String): It's used to visually identify the alarm in the Alexa App`\
-` * 2. Date (String) This must be in this format (Year-Mon-Day)`\
-` * 2. Time (String) This must be in this 24-hour time format (HH:MM)`
-
--   Example Usage: createReminder(\"Remember to feed the dogs\", \"2018-12-03\", \"15:10\")
-
 
