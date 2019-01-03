@@ -120,17 +120,100 @@ Alexa will play the your flash briefing (If device supports it)</div></div>
 ---
 #### `playGoodMorning()`
 
--   *Alexa will play the your good morning run down*
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will play the your good morning run down</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playGoodMorning()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playGoodMorning(30, 50)</code></pre>
+
+---
+#### `playGoodNight()`
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will say a random good night message</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playGoodNight()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playGoodNight(30, 50)</code></pre>
+
+---
+#### `playWelcomeHome()`
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will say a random welcome home message</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playWelcomeHome()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playWelcomeHome(30, 50)</code></pre>
 
 ---
 #### `playTraffic()`
 
--   *Alexa will give the current traffic condition on your way to work*
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will give the current traffic condition on your way to work</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playTraffic()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playTraffic(30, 50)</code></pre>
 
 ---
 #### `playTellStory()`
 
--   *Alexa will tell a random story*
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will tell a random story</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playTellStory()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playTellStory(30, 50)</code></pre>
+
+---
+#### `playFunFact()`
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will tell a random fun fact</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playFunFact()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playFunFact(30, 50)</code></pre>
+
+---
+#### `playJoke()`
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will tell a random joke</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0 - 100</code></p>
+<p>Restore Volume (Integer): <code>Between 0 - 100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playJoke()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playJoke(30, 50)</code></pre>
 
 ---
 #### `searchMusic(String searchPhrase, String providerId, volume=null, sleepSeconds=null)`
