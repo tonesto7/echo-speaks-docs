@@ -1,256 +1,280 @@
 {
-  "appName": "Echo Speaks",
-  "headerNavigation": [{
-    "name": "Home",
-    "path": "/docs",
-    "icon": "home"
-  }, {
-    "name": "FAQ",
-    "path": "/docs/faq",
-    "icon": "question-circle"
-  }, {
-    "name": "Donate",
-    "path": "/docs/donate",
-    "icon": "brands/paypal"
-  }],
-  "landingPage": "/docs",
-  "topics": [
-    "home"
-  ],
-  "headTitle": "Echo Speaks Documentation",
-  "headDescription": "Everything you need to install, configure and troubleshoot Echo Speaks",
-  "rootDocPath": "/echo-speaks-docs/",
-  "rootDocUrl": "https://tonesto7.github.io/echo-speaks-docs",
-  "pages": [{
-    "route": "/docs",
-    "path": "docs",
-    "name": "Documentation",
-    "description": "this is the info page",
-    "icon": "address-book",
-    "children": [{
-      "route": "/information",
-      "path": "information",
-      "name": "Information",
-      "description": "about Echo Speaks",
-      "topics": ["about", "information"],
-      "icon": "info-circle",
-      "markdown": "/static/markdown/Information.md"
+    "appName": "Echo Speaks",
+    "headerNavigation": [{
+        "name": "Home",
+        "path": "/docs",
+        "icon": "home"
     }, {
-      "route": "/installation",
-      "path": "installation",
-      "name": "Instructions",
-      "description": "installation and configuration instructions",
-      "icon": "directions",
-      "topics": ["started", "instructions", "setup", "configuration"],
-      "children": [{
-        "route": "/appRequirements",
-        "path": "appRequirements",
-        "name": "Requirements",
-        "description": "what's needed to make this all work!",
-        "icon": "star",
-        "topics": ["requirements"],
-        "markdown": "/static/markdown/getstarted/Requirements.md"
-      }, {
-        "route": "/appInstall",
-        "path": "appInstall",
-        "name": "Install Methods",
-        "description": "select an install method",
-        "icon": "plus-square",
-        "topics": ["process"],
-        "children": [{
-          "route": "/autoInstall",
-          "path": "autoInstall",
-          "name": "Community Installer",
-          "description": "Automate the install",
-          "icon": "magic",
-          "topics": ["install", "auto"],
-          "markdown": "/static/markdown/getstarted/code_install/Auto_Install.md"
-        }, {
-          "route": "/githubInstall",
-          "path": "githubInstall",
-          "name": "IDE (GitHub) Install",
-          "description": "use IDE integration",
-          "icon": "brands/github",
-          "topics": ["install", "github"],
-          "markdown": "/static/markdown/getstarted/code_install/GithubIDE_Install.md"
-        }, {
-          "route": "/manualInstall",
-          "path": "manualInstall",
-          "name": "Manual Install",
-          "description": "install the code manually",
-          "icon": "sort-numeric-down",
-          "topics": ["install", "manual"],
-          "children": [{
-            "route": "/smartappInstall",
-            "path": "smartappInstall",
-            "name": "SmartApp Install",
-            "description": "smartapp install instructions",
-            "icon": "wrench",
-            "topics": ["smartapp", "app", "install"],
-            "markdown": "/static/markdown/getstarted/code_install/manual_install/SmartApp_Install.md"
-          }, {
-            "route": "/deviceInstall",
-            "path": "deviceInstall",
-            "name": "Device Install",
-            "description": "device install instructions",
-            "icon": "wrench",
-            "topics": ["device", "install"],
-            "markdown": "/static/markdown/getstarted/code_install/manual_install/Device_Install.md"
-          }]
-
-        }]
-      }, {
-        "route": "/configuration",
-        "path": "configuration",
-        "name": "Configure SmartApp/Server",
-        "description": "configure the smartapp and server installation",
-        "icon": "wrench",
-        "topics": ["configuration", "setup"],
-        "children": [{
-          "route": "/appConfig",
-          "path": "appConfig",
-          "name": "SmartApp Configuration",
-          "description": "SmartApp setup",
-          "icon": "wrench",
-          "topics": ["smartapp", "setup"],
-          "markdown": "/static/markdown/getstarted/configuration/AppConfig.md"
-        }, {
-          "route": "/serverConfig",
-          "path": "serverConfig",
-          "name": "Heroku Configuration",
-          "description": "Heroku server setup",
-          "icon": "wrench",
-          "topics": ["server", "heroku", "setup"],
-          "markdown": "/static/markdown/getstarted/configuration/ServerConfig.md"
-        }]
-      }]
+        "name": "FAQ",
+        "path": "/docs/faq",
+        "icon": "question-circle"
     }, {
-      "route": "/devices",
-      "path": "devices",
-      "name": "Device Support",
-      "description": "models supported and their attributes, commands.",
-      "topics": ["attributes", "commands", "devices"],
-      "icon": "terminal",
-      "children": [{
-          "route": "/deviceAttributes",
-          "path": "deviceAttributes",
-          "name": "Device Attributes",
-          "description": "All of the device attributes that are available",
-          "icon": "project-diagram",
-          "topics": ["attributes"],
-          "markdown": "/static/markdown/devicesupport/DeviceAttributes.md"
-        },
-        {
-          "route": "/deviceCommands",
-          "path": "deviceCommands",
-          "name": "Device Commands",
-          "description": "All of the device commands that are available",
-          "icon": "terminal",
-          "topics": ["commands"],
-          "children": [{
-              "route": "/actionCommands",
-              "path": "actionCommands",
-              "name": "Actions",
-              "description": "action command descriptions",
-              "icon": "dot-circle",
-              "topics": ["action", "commands"],
-              "markdown": "/static/markdown/devicesupport/commands/ActionCommands.md"
+        "name": "Donate",
+        "path": "/docs/donate",
+        "icon": "brands/paypal"
+    }],
+    "landingPage": "/docs",
+    "topics": [
+        "home"
+    ],
+    "analyticId": "UA-131811674-1",
+    "headTitle": "Echo Speaks Documentation",
+    "headDescription": "Everything you need to install, configure and troubleshoot Echo Speaks",
+    "rootDocPath": "/echo-speaks-docs/",
+    "rootDocUrl": "https://tonesto7.github.io/echo-speaks-docs",
+    "pages": [{
+        "route": "/docs",
+        "path": "docs",
+        "name": "Documentation",
+        "description": "this is the info page",
+        "icon": "address-book",
+        "children": [{
+            "route": "/information",
+            "path": "information",
+            "name": "Information",
+            "description": "about Echo Speaks",
+            "topics": ["about", "information"],
+            "icon": "info-circle",
+            "markdown": "/static/markdown/Information.md"
+        }, {
+            "route": "/appRequirements",
+            "path": "appRequirements",
+            "name": "Requirements",
+            "description": "what's needed to make this all work!",
+            "icon": "star",
+            "topics": ["requirements"],
+            "markdown": "/static/markdown/instructions/Requirements.md"
+        }, {
+            "route": "/installation",
+            "path": "installation",
+            "name": "Installation",
+            "description": "installation and configuration instructions",
+            "icon": "directions",
+            "topics": ["started", "instructions", "setup", "configuration"],
+            "children": [{
+                "route": "/appInstall",
+                "path": "appInstall",
+                "name": "Install Methods",
+                "description": "select an install method",
+                "icon": "plus-square",
+                "topics": ["process"],
+                "children": [{
+                    "route": "/autoInstall",
+                    "path": "autoInstall",
+                    "name": "Community Installer",
+                    "description": "Automate the install",
+                    "icon": "magic",
+                    "topics": ["install", "auto"],
+                    "markdown": "/static/markdown/instructions/code_install/Auto_Install.md"
+                }, {
+                    "route": "/githubInstall",
+                    "path": "githubInstall",
+                    "name": "IDE (GitHub) Install",
+                    "description": "use IDE integration",
+                    "icon": "brands/github",
+                    "topics": ["install", "github"],
+                    "markdown": "/static/markdown/instructions/code_install/GithubIDE_Install.md"
+                }, {
+                    "route": "/manualInstall",
+                    "path": "manualInstall",
+                    "name": "Manual Install",
+                    "description": "install the code manually",
+                    "icon": "sort-numeric-down",
+                    "topics": ["install", "manual"],
+                    "children": [{
+                        "route": "/smartappInstall",
+                        "path": "smartappInstall",
+                        "name": "SmartApp Install",
+                        "description": "smartapp install instructions",
+                        "icon": "wrench",
+                        "topics": ["smartapp", "app", "install"],
+                        "markdown": "/static/markdown/instructions/code_install/manual_install/SmartApp_Install.md"
+                    }, {
+                        "route": "/deviceInstall",
+                        "path": "deviceInstall",
+                        "name": "Device Install",
+                        "description": "device install instructions",
+                        "icon": "wrench",
+                        "topics": ["device", "install"],
+                        "markdown": "/static/markdown/instructions/code_install/manual_install/Device_Install.md"
+                    }]
+                }]
             }, {
-              "route": "/alertsCommands",
-              "path": "alertsCommands",
-              "name": "Alarm & Reminders",
-              "description": "alert command descriptions",
-              "icon": "bell",
-              "topics": ["alerts", "commands"],
-              "markdown": "/static/markdown/devicesupport/commands/AlertsCommands.md"
-            },
-            {
-              "route": "/musicCommands",
-              "path": "musicCommands",
-              "name": "Music",
-              "description": "music command descriptions",
-              "icon": "music",
-              "topics": ["music", "commands"],
-              "markdown": "/static/markdown/devicesupport/commands/MusicCommands.md"
-            },
-            {
-              "route": "/speechCommands",
-              "path": "speechCommands",
-              "name": "Speech",
-              "description": "speech command descriptions",
-              "icon": "volume-up",
-              "topics": ["speech", "commands"],
-              "markdown": "/static/markdown/devicesupport/commands/SpeechCommands.md"
-            }
-          ]
+                "route": "/configuration",
+                "path": "configuration",
+                "name": "Configuration",
+                "description": "configure the smartapp and server installation",
+                "icon": "wrench",
+                "topics": ["configuration", "setup"],
+                "children": [{
+                    "route": "/appConfig",
+                    "path": "appConfig",
+                    "name": "Smart App",
+                    "description": "SmartApp setup",
+                    "icon": "wrench",
+                    "topics": ["smartapp", "setup"],
+                    "markdown": "/static/markdown/instructions/configuration/AppConfig.md"
+                }, {
+                    "route": "/serverConfig",
+                    "path": "serverConfig",
+                    "name": "Heroku (Server)",
+                    "description": "Heroku server setup",
+                    "icon": "wrench",
+                    "topics": ["server", "heroku", "setup"],
+                    "markdown": "/static/markdown/instructions/configuration/ServerConfig.md"
+                }]
+            }]
         }, {
-          "route": "/devicesSupported",
-          "path": "devicesSupported",
-          "name": "Supported Devices",
-          "description": "Confirm devices supported",
-          "icon": "thumbs-up",
-          "topics": ["process"],
-          "markdown": "/static/markdown/devicesupport/SupportedDevices.md"
-        }
-      ]
-    }, {
-      "route": "/troubleshoot",
-      "path": "troubleshoot",
-      "name": "Troubleshooting",
-      "description": "help with common issues.",
-      "topics": ["issues", "trouble", "errors"],
-      "icon": "stethoscope",
-      "children": [{
-          "route": "/commonErrors",
-          "path": "commonErrors",
-          "name": "Common Errors",
-          "description": "solutions to common issues",
-          "icon": "exclamation-circle",
-          "topics": ["errors", "issues"],
-          "markdown": "/static/markdown/troubleshooting/CommonErrors.md"
+            "route": "/updates",
+            "path": "updates",
+            "name": "Updates",
+            "description": "updating your code and server.",
+            "icon": "arrow-alt-circle-up",
+            "topics": ["update"],
+            "children": [{
+                "route": "/serverUpdate",
+                "path": "serverUpdate",
+                "name": "Server Update",
+                "description": "heroku server update instructions",
+                "icon": "arrow-alt-circle-up",
+                "topics": ["server", "update", "heroku"],
+                "markdown": "/static/markdown/instructions/updates/ServerUpdate.md"
+            }, {
+                "route": "/codeUpdate",
+                "path": "codeUpdate",
+                "name": "SmartThings Code Update",
+                "description": "smartthings code update instructions",
+                "icon": "arrow-alt-circle-up",
+                "topics": ["smartapp", "update", "device"],
+                "markdown": "/static/markdown/instructions/updates/StCodeUpdate.md"
+            }]
         }, {
-          "route": "/removeServer",
-          "path": "removeServer",
-          "name": "Remove Server",
-          "description": "heroku server removal",
-          "icon": "trash-alt",
-          "topics": ["server", "remove", "delete"],
-          "markdown": "/static/markdown/troubleshooting/RemoveServer.md"
-        },
-        {
-          "route": "/redeployServer",
-          "path": "redeployServer",
-          "name": "Redeploy Server",
-          "description": "redeploy heroku server",
-          "icon": "wind",
-          "topics": ["server", "deploy"],
-          "markdown": "/static/markdown/troubleshooting/RedeployServer.md"
-        }
-      ]
-    }, {
-      "route": "/faq",
-      "path": "faq",
-      "name": "FAQs",
-      "description": "frequently asked questions are covered here",
-      "topics": [],
-      "icon": "question-circle",
-      "markdown": "/static/markdown/FAQ.md"
-    }, {
-      "route": "/donate",
-      "path": "donate",
-      "name": "Donate",
-      "description": "want to donate for all of the work involved",
-      "topics": [],
-      "icon": "brands/paypal",
-      "markdown": "/static/markdown/Donations.md"
-    }, {
-      "route": "/whatsNew",
-      "path": "whatsNew",
-      "name": "Whats new?",
-      "description": "recent announcements, news, latest and greatest",
-      "icon": "bullhorn",
-      "topics": ["news"],
-      "markdown": "/static/markdown/whatsnew/Current.md"
+            "route": "/devices",
+            "path": "devices",
+            "name": "Device Support",
+            "description": "models supported and their attributes, commands.",
+            "topics": ["attributes", "commands", "devices"],
+            "icon": "terminal",
+            "children": [{
+                    "route": "/deviceAttributes",
+                    "path": "deviceAttributes",
+                    "name": "Device Attributes",
+                    "description": "All of the device attributes that are available",
+                    "icon": "project-diagram",
+                    "topics": ["attributes"],
+                    "markdown": "/static/markdown/devicesupport/DeviceAttributes.md"
+                },
+                {
+                    "route": "/deviceCommands",
+                    "path": "deviceCommands",
+                    "name": "Device Commands",
+                    "description": "All of the device commands that are available",
+                    "icon": "terminal",
+                    "topics": ["commands"],
+                    "children": [{
+                            "route": "/actionCommands",
+                            "path": "actionCommands",
+                            "name": "Actions",
+                            "description": "action command descriptions",
+                            "icon": "dot-circle",
+                            "topics": ["action", "commands"],
+                            "markdown": "/static/markdown/devicesupport/commands/ActionCommands.md"
+                        }, {
+                            "route": "/alertsCommands",
+                            "path": "alertsCommands",
+                            "name": "Alarm & Reminders",
+                            "description": "alert command descriptions",
+                            "icon": "bell",
+                            "topics": ["alerts", "commands"],
+                            "markdown": "/static/markdown/devicesupport/commands/AlertsCommands.md"
+                        },
+                        {
+                            "route": "/musicCommands",
+                            "path": "musicCommands",
+                            "name": "Music",
+                            "description": "music command descriptions",
+                            "icon": "music",
+                            "topics": ["music", "commands"],
+                            "markdown": "/static/markdown/devicesupport/commands/MusicCommands.md"
+                        },
+                        {
+                            "route": "/speechCommands",
+                            "path": "speechCommands",
+                            "name": "Speech",
+                            "description": "speech command descriptions",
+                            "icon": "volume-up",
+                            "topics": ["speech", "commands"],
+                            "markdown": "/static/markdown/devicesupport/commands/SpeechCommands.md"
+                        }
+                    ]
+                }, {
+                    "route": "/devicesSupported",
+                    "path": "devicesSupported",
+                    "name": "Supported Devices",
+                    "description": "Confirm devices supported",
+                    "icon": "thumbs-up",
+                    "topics": ["process"],
+                    "markdown": "/static/markdown/devicesupport/SupportedDevices.md"
+                }
+            ]
+        }, {
+            "route": "/troubleshoot",
+            "path": "troubleshoot",
+            "name": "Troubleshooting",
+            "description": "help with common issues.",
+            "topics": ["issues", "trouble", "errors"],
+            "icon": "stethoscope",
+            "children": [{
+                    "route": "/commonErrors",
+                    "path": "commonErrors",
+                    "name": "Common Errors",
+                    "description": "solutions to common issues",
+                    "icon": "exclamation-circle",
+                    "topics": ["errors", "issues"],
+                    "markdown": "/static/markdown/troubleshooting/CommonErrors.md"
+                }, {
+                    "route": "/removeServer",
+                    "path": "removeServer",
+                    "name": "Remove Server",
+                    "description": "heroku server removal",
+                    "icon": "trash-alt",
+                    "topics": ["server", "remove", "delete"],
+                    "markdown": "/static/markdown/troubleshooting/RemoveServer.md"
+                },
+                {
+                    "route": "/redeployServer",
+                    "path": "redeployServer",
+                    "name": "Redeploy Server",
+                    "description": "redeploy heroku server",
+                    "icon": "wind",
+                    "topics": ["server", "deploy"],
+                    "markdown": "/static/markdown/troubleshooting/RedeployServer.md"
+                }
+            ]
+        }, {
+            "route": "/faq",
+            "path": "faq",
+            "name": "FAQs",
+            "description": "frequently asked questions are covered here",
+            "topics": [],
+            "icon": "question-circle",
+            "markdown": "/static/markdown/FAQ.md"
+        }, {
+            "route": "/donate",
+            "path": "donate",
+            "name": "Donate",
+            "description": "want to donate for all of the work involved",
+            "topics": [],
+            "icon": "brands/paypal",
+            "markdown": "/static/markdown/Donations.md"
+        }, {
+            "route": "/whatsNew",
+            "path": "whatsNew",
+            "name": "Whats new?",
+            "description": "recent announcements, news, latest and greatest",
+            "icon": "bullhorn",
+            "topics": ["news"],
+            "markdown": "/static/markdown/whatsnew/Current.md"
+        }]
     }]
-  }]
 }
