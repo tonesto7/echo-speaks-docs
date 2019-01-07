@@ -21,14 +21,9 @@ First, click on the **`Settings`** button at the top of SmartThings IDE page (th
 
     ![](https://tonesto7.github.io/echo-speaks-docs/static/img/GI_add_repo_info.png)
 
-    |             |             |
-    |:------------|-------------|
-    | **Owner:**  | tonesto7    |
-    | **Name:**   | echo-speaks |
-    | **Branch:** |  master     |
-    
-    
-
+    | **Owner**  | **Name**   | **Branch** |
+    |:------------:|:-------------:|:------------:|
+    | tonesto7    | echo-speaks | master     |
 
 ---
 ##### <h5 style="color: #FF6025;">Step 4:</h5>
