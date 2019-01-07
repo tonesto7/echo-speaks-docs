@@ -11,7 +11,7 @@ you have all been waiting for has arrived.
 |:----------|---------|
 |**Category:** | My Apps |
 |**Author:** | Anthony Santilli  |
-| **Documentation:** | Jason Headley and Anthony Santilli |
+|**Documentation:** | Jason Headley and Anthony Santilli |
 
 ## <h3 style="color: #FF6025;">Software (Current Release)</h3>
 

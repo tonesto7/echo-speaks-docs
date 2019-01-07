@@ -18,34 +18,77 @@ First, click on the **`Settings`** button at the top of SmartThings IDE page (th
 ##### <h5 style="color: #FF6025;">Step 3:</h5>
 * Click on `Add new repository`.
 ![](https://tonesto7.github.io/echo-speaks-docs/static/img/GI_add_repo_window.png)
-* Enter the information below:
+* Enter the information below:  
 
-    ![](https://tonesto7.github.io/echo-speaks-docs/static/img/GI_add_repo_info.png)
+  ![](https://tonesto7.github.io/echo-speaks-docs/static/img/GI_add_repo_info.png)
 
-    | **Owner**  | **Name**   | **Branch** |
-    |:------------:|:-------------:|:------------:|
-    | tonesto7    | echo-speaks | master     |
+  | **Owner**  | **Name**   | **Branch** |
+  |:------------:|:-------------:|:------------:|
+  | tonesto7 | echo-speaks | master |
 
 ---
 ##### <h5 style="color: #FF6025;">Step 4:</h5>
 * Click on `Save` to close the GitHub Repository Integration page.
 
----
-##### <h5 style="color: #FF6025;">Step 5:</h5>
-* Click the **`Update from Repo`** button at the upper-right corner of the IDE
 
+## SmartApp Install
+
+---
+##### <h5 style="color: #FF6025;">Step 1:</h5>
+* Click the **`My SmartApps`** button at the top of the IDE
+  ![](https://tonesto7.github.io/echo-speaks-docs/static/img/ide_links_smartapps.png)
+
+* Click the **`Update from Repo`** button at the upper-right corner of the IDE
+  
+  ![](https://tonesto7.github.io/echo-speaks-docs/static/img/upd_repo_btn.png)
+  
 * Click on `echo-speaks (master)` from the drop down menu.
-* On the right-hand column labelled New (Only in Github), scroll down to click the apps to install. 
-* This will typically be:</p>
-`echo-speaks.groovy`
+* On the right-hand column labelled New (Only in Github), scroll down to click the app to install. 
+* This will be:  
+  `echo-speaks.groovy`
 
 * Check the Publish box and Click the `Execute Update` in the bottom-right corner of the screen. 
-* When it's completed syncing, the new apps should now appear in the IDE. If they ever change color, that indicates a new version is available.
-
-**REMINDER!!!:** Remember to Enable OAuth under the NST Manager's App Settings (Instructions Below)
+* When it's completed syncing, the new app should now appear in the IDE. If they ever change color, that indicates a new version is available.
 
 ---
-##### <h5 style="color: #FF6025;">Step 6:</h5>
-Continue to SmartApp Configuration
+##### <h5 style="color: #FF6025;">Step 2:</h5>
+You will now enable the SmartApps OAuth configuration. Please click on the **`App Settings`** button and scroll to the bottom of the next screen.
 
-[Server Configuration](https://tonesto7.github.io/echo-speaks-docs/#/docs/installation/configuration/appConfig "wikilink")
+![](https://tonesto7.github.io/echo-speaks-docs/static/img/ES-4.JPG)
+
+---
+##### <h5 style="color: #FF6025;">Step 3:</h5>
+> Click on the **OAuth** tab and then click the **`Enable OAuth in Smart App`** button as seen below:
+>
+>  ![](https://tonesto7.github.io/echo-speaks-docs/static/img/ES-5.JPG)
+
+---
+##### <h5 style="color: #FF6025;">Step 4:</h5>
+Finally, click on **`Update`**.  
+
+![](https://tonesto7.github.io/echo-speaks-docs/static/img/ES-6.JPG)
+
+## Device Handler Install
+
+---
+##### <h5 style="color: #FF6025;">Step 1:</h5>
+* Click the **`My Device Handlers`** button at the top of the IDE
+  ![](https://tonesto7.github.io/echo-speaks-docs/static/img/ide_links_devices.png)
+
+* Click the **`Update from Repo`** button at the upper-right corner of the IDE
+  
+  ![](https://tonesto7.github.io/echo-speaks-docs/static/img/upd_repo_dev_btn.png)
+  
+* Click on `echo-speaks (master)` from the drop down menu.
+* On the right-hand column labelled New (Only in Github), scroll down to click the app to install. 
+* This will be:  
+  `echo-speaks-device.groovy`
+
+* Check the Publish box and Click the `Execute Update` in the bottom-right corner of the screen. 
+* When it's completed syncing, the new device should now appear in the IDE. If they ever change color, that indicates a new version is available.
+
+---
+##### <h5 style="color: #FF6025;">Step 4:</h5>
+Continue SmartApp Configuration Here:
+
+[SmartApp Configuration](https://tonesto7.github.io/echo-speaks-docs/#/docs/installation/configuration/appConfig "wikilink")
