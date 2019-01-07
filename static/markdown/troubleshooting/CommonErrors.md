@@ -19,13 +19,13 @@ Scroll down to the ***Domains and Certificates*** section (pictured belo
 
 ##### <h5 style="color: #FF6025;">Step 4:</h5>
 Click on the link listed next to ***Domain***.  
-![](/static/img/TS-8.JPG)
+![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-8.JPG)
 
 This will take you to the Amazon Cookie Retrieval page which looks similar to the picture below.
 If it shows 'Authentication Good` then you should then be good to go.
 
 If you are directed to log in again, then just do it and you should then be good.  
-![](/static/img/TS-9.JPG)
+![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-9.JPG)
 
 
 ---
@@ -50,13 +50,13 @@ Log into the Heroku.com website and click on your app. Then click on
 
 ##### <h5 style="color: #FF6025;">Step 4:</h5>
 Click on the link listed next to ***Domain***.  
-![](/static/img/TS-8.JPG)
+![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-8.JPG)
 
 This will take you to the Amazon Cookie Retrieval page which looks similar to the picture below.
 If it shows 'Authentication Good` then you should then be good to go.
 
 If you are directed to log in again, then just do it and you should then be good.  
-![](/static/img/TS-9.JPG)
+![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-9.JPG)
 
 ---
 ## <h3 style="color: #FF6025;">/ap/cvf Request Error</h3>
