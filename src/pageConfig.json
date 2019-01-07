@@ -234,45 +234,62 @@
         }
       ]
     }, {
-      "route": "/troubleshoot",
-      "path": "troubleshoot",
-      "name": "Troubleshooting",
-      "description": "help with common issues.",
-      "topics": ["issues", "trouble", "errors"],
-      "icon": "stethoscope",
+      "route": "/support",
+      "path": "support",
+      "name": "Support",
+      "description": "troubleshooting and reporting issues",
+      "topics": ["support"],
+      "icon": "life-ring",
       "children": [{
-          "route": "/commonErrors",
-          "path": "commonErrors",
-          "name": "Common Errors",
-          "description": "solutions to common issues",
-          "icon": "exclamation-circle",
-          "topics": ["errors", "issues"],
-          "markdown": "/static/markdown/troubleshooting/CommonErrors.md"
-        }, {
-          "route": "/removeServer",
-          "path": "removeServer",
-          "name": "Remove Server",
-          "description": "heroku server removal",
-          "icon": "trash-alt",
-          "topics": ["server", "remove", "delete"],
-          "markdown": "/static/markdown/troubleshooting/RemoveServer.md"
-        },
-        {
-          "route": "/redeployServer",
-          "path": "redeployServer",
-          "name": "Redeploy Server",
-          "description": "redeploy heroku server",
-          "icon": "wind",
-          "topics": ["server", "deploy"],
-          "markdown": "/static/markdown/troubleshooting/RedeployServer.md"
-        }
-      ]
+        "route": "/issues",
+        "path": "issues",
+        "name": "Issues",
+        "description": "reporting issues after troubleshooting",
+        "topics": ["issue"],
+        "icon": "exclamation",
+        "markdown": "/static/markdown/support/Issues.md"
+      }, {
+        "route": "/troubleshoot",
+        "path": "troubleshoot",
+        "name": "Troubleshooting",
+        "description": "help with common issues.",
+        "topics": ["issues", "trouble", "errors"],
+        "icon": "stethoscope",
+        "children": [{
+            "route": "/commonErrors",
+            "path": "commonErrors",
+            "name": "Common Errors",
+            "description": "solutions to common issues",
+            "icon": "exclamation-circle",
+            "topics": ["errors", "issues"],
+            "markdown": "/static/markdown/support/troubleshooting/CommonErrors.md"
+          }, {
+            "route": "/removeServer",
+            "path": "removeServer",
+            "name": "Remove Server",
+            "description": "heroku server removal",
+            "icon": "trash-alt",
+            "topics": ["server", "remove", "delete"],
+            "markdown": "/static/markdown/support/troubleshooting/RemoveServer.md"
+          },
+          {
+            "route": "/redeployServer",
+            "path": "redeployServer",
+            "name": "Redeploy Server",
+            "description": "redeploy heroku server",
+            "icon": "wind",
+            "topics": ["server", "deploy"],
+            "markdown": "/static/markdown/support/troubleshooting/RedeployServer.md"
+          }
+        ]
+      }]
+
     }, {
       "route": "/faq",
       "path": "faq",
       "name": "FAQs",
       "description": "frequently asked questions are covered here",
-      "topics": [],
+      "topics": ["faq", "questions"],
       "icon": "question-circle",
       "markdown": "/static/markdown/FAQ.md"
     }, {
@@ -280,16 +297,16 @@
       "path": "donate",
       "name": "Donate",
       "description": "want to donate for all of the work involved",
-      "topics": [],
+      "topics": ["donate"],
       "icon": "brands/paypal",
       "markdown": "/static/markdown/Donations.md"
     }, {
       "route": "/whatsNew",
       "path": "whatsNew",
-      "name": "Whats new?",
-      "description": "recent announcements, news, latest and greatest",
+      "name": "What's New!",
+      "description": "recent announcements, changes, news, latest and greatest",
       "icon": "bullhorn",
-      "topics": ["news"],
+      "topics": ["new"],
       "markdown": "/static/markdown/whatsnew/Current.md"
     }]
   }]
