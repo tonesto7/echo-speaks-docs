@@ -12,7 +12,7 @@ Otherwise Move to Step 2.
 ##### <h5 style="color: #FF6025;">Step 2:</h5>
 First, click on the **`Settings`** button at the top of SmartThings IDE page (this will only appear after completing the one-time integration with GitHub)
 
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/GI_ide_settings.JPG)
+![](https://tonesto7.github.io/echo-speaks-docs/static/img/GI_ide_settings.jpg)
 
 ---
 ##### <h5 style="color: #FF6025;">Step 3:</h5>
@@ -21,11 +21,11 @@ First, click on the **`Settings`** button at the top of SmartThings IDE page (th
 
     | | |
     |:---|---|
-    |'''Owner:''' | tonesto7 |
-    |'''Name:''' | echo-speaks |
-    |'''Branch:'''| master |
-
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/GI_add_repo_info.png)
+    |**Owner:** | tonesto7 |
+    |**Name:** | echo-speaks |
+    |**Branch:** |  master |
+    
+    ![](https://tonesto7.github.io/echo-speaks-docs/static/img/GI_add_repo_info.png)
 
 
 ---
