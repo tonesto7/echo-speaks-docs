@@ -44,14 +44,14 @@ export default {
   metaInfo: {
     // if no subcomponents specify a metaInfo.title, this title will be used
     title: ConfigManager.getBaseConfig().headTitle,
-    // titleTemplate: '%s | My Awesome Webapp',
+    titleTemplate: `%s | ${ConfigManager.getBaseConfig().headTitle}`,
     meta: [
       { charset: 'utf-8' },
-      { name: 'description', content: ConfigManager.getBaseConfig().headDescription },
-      { propery: 'og:title', content: ConfigManager.getBaseConfig().headTitle },
-      { propery: 'og:url', content: ConfigManager.getBaseConfig().rootDocUrl },
-      { propery: 'og:description', content: ConfigManager.getBaseConfig().headDescription },
-      { propery: 'og:image', content: ConfigManager.getBaseConfig().headImage }
+      { name: 'description', content: ConfigManager.getBaseConfig().headDescription }
+      // { propery: 'og:title', content: ConfigManager.getBaseConfig().headTitle },
+      // { propery: 'og:url', content: ConfigManager.getBaseConfig().rootDocUrl },
+      // { propery: 'og:description', content: ConfigManager.getBaseConfig().headDescription },
+      // { propery: 'og:image', content: ConfigManager.getBaseConfig().headImage }
     ]
   },
   data () {
@@ -69,13 +69,13 @@ export default {
     Header
   },
   created () {
-    ConfigManager.getStatus()
-      .then((data) => {
-        if (data !== undefined) this.content = data
-      })
-      .catch((error) => {
-        console.log('error', error)
-      })
+    // ConfigManager.getStatus()
+    //   .then((data) => {
+    //     if (data !== undefined) this.content = data
+    //   })
+    //   .catch((error) => {
+    //     console.log('error', error)
+    //   })
   },
   methods: {
     toggleMenu () {

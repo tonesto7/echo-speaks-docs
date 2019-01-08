@@ -30,12 +30,12 @@ Open the Echo Speaks SmartApp and click on the Echo Service Settings.
 ---
 ##### <h5 style="color: #FF6025;">Step 6:</h5>
 At the bottom, you will see the **+Service Preferences**, Once expanded Toggle the 'Reset Service Data' and wait until you see this screen:
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-6.jpg)  
+![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-6.jpg)
 ![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-7.jpg)
 
 ---
 ##### <h5 style="color: #FF6025;">Step 7:</h5>
 Now that you have deleted the Echo Speaks server and reset the SmartApp, follow this link below to redeploy your service.
 
-[Server Configuration](https://tonesto7.github.io/echo-speaks-docs/#/docs/installation/configuration/serverConfig "wikilink")
+[Server Configuration](https://tonesto7.github.io/echo-speaks-docs/#/docs/installation/configuration/serverConfig)
 

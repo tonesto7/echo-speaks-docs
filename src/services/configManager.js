@@ -3,7 +3,7 @@ import path from 'path'
 import axios from 'axios'
 
 const DefaultPageRenderer = () =>
-    import('@/views/DefaultPageRenderer')
+  import('@/views/DefaultPageRenderer')
 let metaMap = {}
 
 /**
@@ -70,37 +70,7 @@ function generateRoutingConfig (baseConfig) {
 
   for (let i in pages) {
     let element = pages[i]
-    if (!element.meta) {
-      element.meta = {}
-    }
-    element.meta.title = element.name
-    element.meta.metaTags = [{
-      name: 'description',
-      content: element.description
-    },
-    {
-      property: 'og:description',
-      content: element.description
-    }
-    ]
-    if (Object.keys(element.children).length > 0) {
-      for (const e in element.children) {
-        if (!element.children[e].meta) {
-          element.children[e].meta = {}
-        }
-        element.children[e].meta.title = element.children[e].name
-        element.children[e].meta.metaTags = [{
-          name: 'description',
-          content: element.children[e].description
-        },
-        {
-          property: 'og:description',
-          content: element.children[e].description
-        }
-        ]
-      }
-    }
-    console.log('element:', element)
+    // console.log('element:', element)
     processElement(element, null)
   }
 
@@ -114,15 +84,15 @@ function generateRoutingConfig (baseConfig) {
 
 export default {
   /**
-     * getMetaById - gets the page metadata by a given id
-     */
+   * getMetaById - gets the page metadata by a given id
+   */
   getMetaById: function (route) {
     return metaMap[route]
   },
 
   /**
-     * generates the routing config based on the tree
-     */
+   * generates the routing config based on the tree
+   */
   getRoutingConfig: function () {
     let routingConfig = generateRoutingConfig(this.getBaseConfig())
 
@@ -132,22 +102,67 @@ export default {
   },
 
   /**
-     * getBaseConfig - returns the full json from pageConfig.json
-     */
+   * generates the routing config based on the tree
+   */
+  getRoutingMeta: function () {
+    // let pages = JSON.parse(JSON.stringify(this.getPages()))
+    let metaOut = []
+    // for (let i in pages) {
+    //   let elem = pages[i]
+    //   if (!element.meta) {
+    //     element.meta = {}
+    //   }
+    //   element.meta.title = element.name
+    //   element.meta.metaTags = [{
+    //     name: 'description',
+    //     content: element.description
+    //   },
+    //   {
+    //     property: 'og:description',
+    //     content: element.description
+    //   }
+    //   ]
+    //   if (Object.keys(element.children).length > 0) {
+    //     for (const e in element.children) {
+    //       if (!element.children[e].meta) {
+    //         element.children[e].meta = {}
+    //       }
+    //       element.children[e].meta.title = element.children[e].name
+    //       element.children[e].meta.metaTags = [{
+    //         name: 'description',
+    //         content: element.children[e].description
+    //       },
+    //       {
+    //         property: 'og:description',
+    //         content: element.children[e].description
+    //       }
+    //       ]
+    //     }
+    //   }
+    //   console.log('element:', metaOut)
+    // }
+
+    console.log('routingConfig:', metaOut)
+    return metaOut
+  },
+
+  /**
+   * getBaseConfig - returns the full json from pageConfig.json
+   */
   getBaseConfig: function () {
     return pageConfig
   },
 
   /**
-     * getPages - returns the pages section from base config (for vue-tree-navigation)
-     */
+   * getPages - returns the pages section from base config (for vue-tree-navigation)
+   */
   getPages: function () {
     return this.getBaseConfig().pages
   },
 
   /**
-     * getStatus
-     */
+   * getStatus
+   */
   getStatus: () => {
     return new Promise((resolve, reject) => {
       const pathName = window.location.pathname

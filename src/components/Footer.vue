@@ -9,7 +9,7 @@
 <script>
 
 export default {
-  name: 'tools-and-resources',
+  name: 'footer-component',
   data () {
     return {
     }
