@@ -242,49 +242,40 @@
       "topics": ["support"],
       "icon": "life-ring",
       "children": [{
-        "route": "/issues",
-        "path": "issues",
-        "name": "Issues",
-        "description": "reporting issues after troubleshooting",
-        "topics": ["issue"],
-        "icon": "exclamation",
-        "markdown": "/static/markdown/support/Issues.md"
-      }, {
-        "route": "/troubleshoot",
-        "path": "troubleshoot",
-        "name": "Troubleshooting",
-        "description": "help with common issues.",
-        "topics": ["issues", "trouble", "errors"],
-        "icon": "stethoscope",
-        "children": [{
-            "route": "/commonErrors",
-            "path": "commonErrors",
-            "name": "Common Errors",
-            "description": "solutions to common issues",
-            "icon": "exclamation-circle",
-            "topics": ["errors", "issues"],
-            "markdown": "/static/markdown/support/troubleshooting/CommonErrors.md"
-          }, {
-            "route": "/removeServer",
-            "path": "removeServer",
-            "name": "Remove Server",
-            "description": "heroku server removal",
-            "icon": "trash-alt",
-            "topics": ["server", "remove", "delete"],
-            "markdown": "/static/markdown/support/troubleshooting/RemoveServer.md"
-          },
-          {
-            "route": "/redeployServer",
-            "path": "redeployServer",
-            "name": "Redeploy Server",
-            "description": "redeploy heroku server",
-            "icon": "wind",
-            "topics": ["server", "deploy"],
-            "markdown": "/static/markdown/support/troubleshooting/RedeployServer.md"
-          }
-        ]
-      }]
-
+          "route": "/commonErrors",
+          "path": "commonErrors",
+          "name": "Common Errors",
+          "description": "solutions to common issues",
+          "icon": "exclamation-circle",
+          "topics": ["errors", "issues"],
+          "markdown": "/static/markdown/support/CommonErrors.md"
+        }, {
+          "route": "/removeServer",
+          "path": "removeServer",
+          "name": "Remove Server",
+          "description": "heroku server removal",
+          "icon": "trash-alt",
+          "topics": ["server", "remove", "delete"],
+          "markdown": "/static/markdown/support/RemoveServer.md"
+        },
+        {
+          "route": "/redeployServer",
+          "path": "redeployServer",
+          "name": "Redeploy Server",
+          "description": "redeploy heroku server",
+          "icon": "wind",
+          "topics": ["server", "deploy"],
+          "markdown": "/static/markdown/support/RedeployServer.md"
+        }, {
+          "route": "/reportIssues",
+          "path": "reportIssues",
+          "name": "Reporting Issues",
+          "description": "reporting issues after troubleshooting",
+          "topics": ["issue"],
+          "icon": "exclamation",
+          "markdown": "/static/markdown/support/ReportingIssues.md"
+        }
+      ]
     }, {
       "route": "/faq",
       "path": "faq",
