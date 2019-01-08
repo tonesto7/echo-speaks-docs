@@ -32,7 +32,6 @@
         "vue-tree-navigation": "^4.0.1"
     },
     "devDependencies": {
-        "@ibm/plex": "1.2.3",
         "autoprefixer": "^7.1.5",
         "babel-core": "^6.26.3",
         "babel-eslint": "^8.0.1",

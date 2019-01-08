@@ -47,7 +47,11 @@ export default {
     // titleTemplate: '%s | My Awesome Webapp',
     meta: [
       { charset: 'utf-8' },
-      { name: 'description', content: ConfigManager.getBaseConfig().headDescription }
+      { name: 'description', content: ConfigManager.getBaseConfig().headDescription },
+      { propery: 'og:title', content: ConfigManager.getBaseConfig().headTitle },
+      { propery: 'og:url', content: ConfigManager.getBaseConfig().rootDocUrl },
+      { propery: 'og:description', content: ConfigManager.getBaseConfig().headDescription },
+      { propery: 'og:image', content: ConfigManager.getBaseConfig().headImage }
     ]
   },
   data () {
