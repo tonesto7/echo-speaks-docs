@@ -234,8 +234,14 @@ Alexa will read the next calendar event</div></div>
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 This will make an announcement with the message on the device executing the command</div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Message (String): <code>String between 1-400 characters in length</code></p>
+</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Title(String): <code>String between 1-400 characters in length (For Echo Show/Spots Display)</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playAnnouncement("the garage door has opened")</code></pre>
@@ -248,6 +254,10 @@ This will make an announcement with the message on all echo devices on your acco
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Message (String): <code>String between 1-400 characters in length</code></p>
+</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Title(String): <code>String between 1-400 characters in length (For Echo Show/Spots Display)</code></p>
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playAnnouncementAll("the garage door has opened")</code></pre>
