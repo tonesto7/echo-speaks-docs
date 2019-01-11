@@ -17,6 +17,8 @@ Used to play music from the desired music provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchMusic("thriller", "AMAZON_MUSIC")</code></pre>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchMusic("thriller on the upstairs", "AMAZON_MUSIC", 40, 300)</code></pre>
 
+<p style="color: yellow"><b>Info:</b> I have discovered that when trying to play songs I had to add the word song to the search phrase.
+
 ---
 ## <h3 style="color: #FF6025;">searchAmazonMusic(searchPhrase)</h3>
 
@@ -36,6 +38,8 @@ Used to play music from Amazon Music provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchAmazonMusic("thriller")</code></pre>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchAmazonMusic("thriller on the upstairs", 40, 300)</code></pre>
 
+<p style="color: yellow"><b>Info:</b> I have discovered that when trying to play songs I had to add the word song to the search phrase.
+
 ---
 ## <h3 style="color: #FF6025;">searchAppleMusic(searchPhrase)</h3>
 
@@ -54,6 +58,8 @@ Used to play music from Apple Music provider</div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchAppleMusic("thriller")</code></pre>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchAppleMusic("thriller on the upstairs", 40, 300)</code></pre>
+
+<p style="color: yellow"><b>Info:</b> I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
 ---
 ## <h3 style="color: #FF6025;">searchPandora(searchPhrase)</h3>
@@ -131,6 +137,8 @@ Used to play music from Spotify provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchSpotify("thriller")</code></pre>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchSpotify("thriller on the upstairs", 40, 300)</code></pre>
 
+<p style="color: yellow"><b>Info:</b> I have discovered that when trying to play songs I had to add the word song to the search phrase.
+
 ---
 ## <h3 style="color: #FF6025;">searchTuneIn(searchPhrase)</h3>
 
@@ -149,3 +157,8 @@ Used to play music from Tune-In Radio provider</div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>searchTuneIn("thriller")</code></pre>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchTuneIn("thriller on the upstairs", 40, 300)</code></pre>
+
+---
+## <h3 style="color: #FF6025;">Testing</h3>
+
+I've recently added a Music Search Test section to the main page of the SmartThings/Hubitat app.
