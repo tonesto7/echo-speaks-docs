@@ -239,7 +239,7 @@ This will make an announcement with the message on the device executing the comm
 </div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Title(String): <code>String between 1-400 characters in length (For Echo Show/Spots Display)</code></p>
+<p>Title (String): <code>String between 1-40 characters in length (For Echo Show/Spot Display)</code></p>
 <p>Volume (Integer): <code>Between 0-100</code></p>
 <p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
@@ -254,6 +254,7 @@ This will make an announcement with the message on all echo devices on your acco
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Message (String): <code>String between 1-400 characters in length</code></p>
+<p>Title (String): <code>String between 1-40 characters in length (For Echo Show/Spot Display)</code></p>
 </div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">

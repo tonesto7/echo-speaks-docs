@@ -1,4 +1,4 @@
-### Devices tested to work with Echo Speaks TTS
+## <h3 style="color: #FF6025;">Devices tested to work with Echo Speaks TTS</h3>
 
 | **Official Amazon Devices** |
 |:-------------------------------------|
@@ -27,9 +27,9 @@
   We are attempting to make a way to better identify supported devices.
   In the mean time I will update this list as often as I can.
 
-## Is your Device Incorrectly Identified?
+## <h3 style="color: #FF6025;">Was your Alexa Device Incorrectly Identified?</h3>
 
- Please submit an issue here: [https://github.com/tonesto7/echo-speaks/issues](https://github.com/tonesto7/echo-speaks/issues)
+ Please create a new issue here: [https://github.com/tonesto7/echo-speaks/issues](https://github.com/tonesto7/echo-speaks/issues)
    > Provide the following info in the issue:
    >* DeviceType id (eg. A38949IHXHRQ5P)
    >* Model Name Description
