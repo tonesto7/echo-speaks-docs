@@ -176,7 +176,7 @@
           "route": "/deviceAttributes",
           "path": "deviceAttributes",
           "name": "Device Attributes",
-          "description": "All of the device attributes that are available",
+          "description": "All custom device attributes available and example values",
           "icon": "project-diagram",
           "topics": ["attributes"],
           "markdown": "/static/markdown/devicesupport/DeviceAttributes.md"
