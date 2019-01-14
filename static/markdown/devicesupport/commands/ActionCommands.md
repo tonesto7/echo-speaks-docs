@@ -84,7 +84,7 @@ Changes the alexa device name under your amazon account</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>renameDevice("New Device Name")</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">updateDeviceActivity()</h3>
+## <h3 style="color: #FF6025;">getDeviceActivity()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Updates the activity data for the attributes "wasLastSpokenToDevice" and "lastVoiceActivity"</div></div>
@@ -92,10 +92,10 @@ Updates the activity data for the attributes "wasLastSpokenToDevice" and "lastVo
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
 None Accepted</div></div>
 
-<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>updateDeviceActivity()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>getDeviceActivity()</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">updateBluetoothDevices()</h3>
+## <h3 style="color: #FF6025;">getBluetoothDevices()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Refreshes all bluetooth devices for the alexa device</div></div>
@@ -103,7 +103,7 @@ Refreshes all bluetooth devices for the alexa device</div></div>
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Parameters</i></b></small></div><div style="padding: 0.5em;">
 None Accepted</div></div>
 
-<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>updateBluetoothDevices()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>getBluetoothDevices()</code></pre>
 
 ---
 ## <h3 style="color: #FF6025;">connectBluetooth("JBL Pulse 2")</h3>
