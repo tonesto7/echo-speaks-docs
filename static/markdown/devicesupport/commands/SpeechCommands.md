@@ -86,7 +86,49 @@ Alexa will play the your flash briefing (If device supports it)</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playFlashBrief(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playGoodMorning()</h3>
+## <h3 style="color: #FF6025;">sayBirthday()</h3>
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will say a random happy birthday message</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayBirthday()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayBirthday(30, 50)</code></pre>
+
+---
+## <h3 style="color: #FF6025;">sayCompliment()</h3>
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will say a random compliment message</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayCompliment()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayCompliment(30, 50)</code></pre>
+
+---
+## <h3 style="color: #FF6025;">sayGoodbye()</h3>
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will say a random goodbye message</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayGoodbye()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayGoodbye(30, 50)</code></pre>
+
+---
+## <h3 style="color: #FF6025;">sayGoodMorning()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will play the your good morning run down</div></div>
@@ -96,11 +138,11 @@ Alexa will play the your good morning run down</div></div>
 <p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
-<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playGoodMorning()</code></pre>
-<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playGoodMorning(30, 50)</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayGoodMorning()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayGoodMorning(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playGoodNight()</h3>
+## <h3 style="color: #FF6025;">sayGoodNight()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will say a random good night message</div></div>
@@ -110,11 +152,11 @@ Alexa will say a random good night message</div></div>
 <p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
-<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playGoodNight()</code></pre>
-<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playGoodNight(30, 50)</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayGoodNight()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayGoodNight(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playWelcomeHome()</h3>
+## <h3 style="color: #FF6025;">sayWelcomeHome()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will say a random welcome home message</div></div>
@@ -124,8 +166,8 @@ Alexa will say a random welcome home message</div></div>
 <p>Restore Volume (Integer): <code>Between 0-100</code></p>
 </div></div>
 
-<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playWelcomeHome()</code></pre>
-<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playWelcomeHome(30, 50)</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayWelcomeHome()</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayWelcomeHome(30, 50)</code></pre>
 
 ---
 ## <h3 style="color: #FF6025;">playTraffic()</h3>

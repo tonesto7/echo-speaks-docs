@@ -139,3 +139,46 @@ Removes bluetooth device pairing from alexa device by name. (Look at attribute `
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>removeBluetooth("JBL Pulse 2")</code></pre>
+
+---
+## <h3 style="color: #FF6025;">executeSequenceCommand(sequenceString)</h3>
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Allows you to pass a string of sequences to Amazon as a single command that will be executed one at a time</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Sequence String (String): <br><code>Available Options:
+
+* weather
+* traffic
+* flashbriefing
+* goodmorning
+* goodnight
+* cleanup
+* singasong
+* tellstory
+* funfact
+* joke
+* playsearch
+* calendartoday
+* calendartomorrow
+* calendarnext
+* stop
+* stopalldevices
+* cannedtts_random::type (goodbye, confirmations, goodmorning, compliments, birthday, goodnight, iamhome)
+* wait::value (seconds)
+* volume::value (0-100)
+* speak::message
+* announcement::message
+* announcementall::message
+* pushnotification::message</code>
+
+<b>Enter the command in a format exactly like this:</b>
+
+<code>volume::40, speak::this is so silly, wait::60, weather, wait::10, traffic, joke, volume::30</code>
+
+Each command needs to be separated by a comma and the separator between the command and value must be command::value.
+</p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>executeSequenceCommand("volume::50, speak::This is pretty cool, volume::30")</code></pre>

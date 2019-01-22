@@ -5,4 +5,6 @@ You can submit or review existing issues here: [https://github.com/tonesto7/ec
 * Please provide as much details as possible.
   Logs/Screenshots would be great
 
+View Project Issues and Priorities: [Issue Board](https://waffle.io/tonesto7/echo-speaks)
+
 
