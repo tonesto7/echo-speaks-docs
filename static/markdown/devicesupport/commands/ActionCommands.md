@@ -141,7 +141,7 @@ Removes bluetooth device pairing from alexa device by name. (Look at attribute `
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>removeBluetooth("JBL Pulse 2")</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">executeSequenceCommand(sequenceString)</h3>
+## <h3 id="executeSequenceCommand" style="color: #FF6025;">executeSequenceCommand(sequenceString)</h3> 
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Allows you to pass a string of sequences to Amazon as a single command that will be executed one at a time</div></div>
