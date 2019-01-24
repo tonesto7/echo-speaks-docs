@@ -19,6 +19,6 @@ The code for the SmartThings SmartApp & Device is found on the GitHub site:
 
 | ***SmartApps:*** | ***Source Code URL:*** | ***Version*** |
 |:-----------------|------------------------|---------------|
-| Echo Speaks: |[Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks.src/echo-speaks.groovy ) | v2.3.1 |
-| Echo Speaks DTH: |[Device Handler](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) | v2.3.1 |
+| Echo Speaks: |[Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks.src/echo-speaks.groovy ) | v2.3.2 |
+| Echo Speaks DTH: |[Device Handler](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) | v2.3.2 |
 | Echo Speaks DTH: |[Heroku Server](https://github.com/tonesto7/echo-speaks-server) | v2.2.1 |
