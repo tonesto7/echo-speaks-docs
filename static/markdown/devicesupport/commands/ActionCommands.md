@@ -147,8 +147,9 @@ Removes bluetooth device pairing from alexa device by name. (Look at attribute `
 Allows you to pass a string of sequences to Amazon as a single command that will be executed one at a time</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
-<p>Sequence String (String): <br><code>Available Options:
-
+<p>Sequence String (String):
+<br>
+<pre>
 * weather
 * traffic
 * flashbriefing
@@ -165,17 +166,33 @@ Allows you to pass a string of sequences to Amazon as a single command that will
 * calendarnext
 * stop
 * stopalldevices
-* cannedtts_random::type (goodbye, confirmations, goodmorning, compliments, birthday, goodnight, iamhome)
+* cannedtts_random::(accepted values below)
+    * goodbye
+    * confirmations
+    * goodmorning
+    * compliments
+    * birthday 
+    * goodnight
+    * iamhome
+    
 * wait::value (seconds)
 * volume::value (0-100)
 * speak::message
 * announcement::message
 * announcementall::message
-* pushnotification::message</code>
+* pushnotification::message
+* amazonmusic::search term
+* applemusic::search term
+* iheartradio::search term
+* pandora::search term
+* spotify::search term
+* tunein::search term
+* cloudplayer::search term
+</pre>
 
 <b>Enter the command in a format exactly like this:</b>
 
-<code>volume::40, speak::this is so silly, wait::60, weather, wait::10, traffic, joke, volume::30</code>
+<pre>volume::40,, speak::this is so silly,, wait::60, weather,, cannedtts_random::goodbye,, traffic,, amazonmusic::green day,, volume::30</pre>
 
 Each command needs to be separated by a comma and the separator between the command and value must be command::value.
 </p>
