@@ -194,8 +194,8 @@ Allows you to pass a string of sequences to Amazon as a single command that will
 
 <pre>volume::40,, speak::this is so silly,, wait::60, weather,, cannedtts_random::goodbye,, traffic,, amazonmusic::green day,, volume::30</pre>
 
-Each command needs to be separated by a comma and the separator between the command and value must be command::value.
+Each command::value pair needs to be separated by a double comma `,,` and the separator between the command and value must be command`::`value.
 </p>
 </div></div>
 
-<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>executeSequenceCommand("volume::50, speak::This is pretty cool, volume::30")</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>executeSequenceCommand("volume::50,, speak::This is pretty cool,, volume::30")</code></pre>
