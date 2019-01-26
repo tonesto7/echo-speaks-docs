@@ -1,4 +1,4 @@
-## <h3 style="color: #FF6025;">replayText()</h3>
+### <h3 style="color: #FF6025;">replayText()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Will replay the last text sent to the device.</div></div>
@@ -7,7 +7,7 @@ Will replay the last text sent to the device.</div></div>
 None Accepted</div></div>
 
 ---
-## <h3 style="color: #FF6025;">setVolumeAndSpeak(volume, message)</h3>
+### <h3 style="color: #FF6025;">setVolumeAndSpeak(volume, message)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>This command is highly recommend in place of sending an individual command for both volume and speaking.
@@ -24,7 +24,7 @@ Sends volume command first, then plays message.
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>setVolumeAndSpeak(47, "The Front door is unlocked")</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">setVolumeSpeakAndRestore(volume, message)</h3>
+### <h3 style="color: #FF6025;">setVolumeSpeakAndRestore(volume, message)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>This command is highly recommended in place of sending individual commands for setVolume(47), speak("The Front door is unlocked"), and setVolume(30).
@@ -44,7 +44,7 @@ Sends volume command first, then plays message, and restores original volume
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>setVolumeSpeakAndRestore(50, "The Front door is unlocked", 30)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playWeather()</h3>
+### <h3 style="color: #FF6025;">playWeather()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will give the current weather conditions</div></div>
@@ -58,7 +58,7 @@ Alexa will give the current weather conditions</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playWeather(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playSingASong()</h3>
+### <h3 style="color: #FF6025;">playSingASong()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will sing a random song</div></div>
@@ -72,7 +72,7 @@ Alexa will sing a random song</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playSingASong(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playFlashBrief()</h3>
+### <h3 style="color: #FF6025;">playFlashBrief()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will play the your flash briefing (If device supports it)</div></div>
@@ -86,7 +86,7 @@ Alexa will play the your flash briefing (If device supports it)</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playFlashBrief(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">sayBirthday()</h3>
+### <h3 style="color: #FF6025;">sayBirthday()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will say a random happy birthday message</div></div>
@@ -100,7 +100,7 @@ Alexa will say a random happy birthday message</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayBirthday(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">sayCompliment()</h3>
+### <h3 style="color: #FF6025;">sayCompliment()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will say a random compliment message</div></div>
@@ -114,7 +114,7 @@ Alexa will say a random compliment message</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayCompliment(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">sayGoodbye()</h3>
+### <h3 style="color: #FF6025;">sayGoodbye()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will say a random goodbye message</div></div>
@@ -128,7 +128,7 @@ Alexa will say a random goodbye message</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayGoodbye(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">sayGoodMorning()</h3>
+### <h3 style="color: #FF6025;">sayGoodMorning()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will play the your good morning run down</div></div>
@@ -142,7 +142,7 @@ Alexa will play the your good morning run down</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayGoodMorning(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">sayGoodNight()</h3>
+### <h3 style="color: #FF6025;">sayGoodNight()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will say a random good night message</div></div>
@@ -156,7 +156,7 @@ Alexa will say a random good night message</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayGoodNight(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">sayWelcomeHome()</h3>
+### <h3 style="color: #FF6025;">sayWelcomeHome()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will say a random welcome home message</div></div>
@@ -170,7 +170,7 @@ Alexa will say a random welcome home message</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayWelcomeHome(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playTraffic()</h3>
+### <h3 style="color: #FF6025;">playTraffic()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will give the current traffic condition on your way to work</div></div>
@@ -184,7 +184,7 @@ Alexa will give the current traffic condition on your way to work</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playTraffic(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playTellStory()</h3>
+### <h3 style="color: #FF6025;">playTellStory()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will tell a random story</div></div>
@@ -198,7 +198,7 @@ Alexa will tell a random story</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playTellStory(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playFunFact()</h3>
+### <h3 style="color: #FF6025;">playFunFact()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will tell a random fun fact</div></div>
@@ -212,7 +212,7 @@ Alexa will tell a random fun fact</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playFunFact(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playJoke()</h3>
+### <h3 style="color: #FF6025;">playJoke()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 Alexa will tell a random joke</div></div>
@@ -226,7 +226,7 @@ Alexa will tell a random joke</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playJoke(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playCalendarToday()</h3>
+### <h3 style="color: #FF6025;">playCalendarToday()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
@@ -241,7 +241,7 @@ Alexa will read all of the calendar events for the day</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playCalendarToday(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playCalendarTomorrow()</h3>
+### <h3 style="color: #FF6025;">playCalendarTomorrow()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
@@ -256,7 +256,7 @@ Alexa will read all of the calendar events for tomorrow</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playCalendarTomorrow(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playCalendarNext()</h3>
+### <h3 style="color: #FF6025;">playCalendarNext()</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
@@ -271,7 +271,7 @@ Alexa will read the next calendar event</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playCalendarNext(30, 50)</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playAnnouncement(message)</h3>
+### <h3 style="color: #FF6025;">playAnnouncement(message)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 This will make an announcement with the message on the device executing the command</div></div>
@@ -289,7 +289,7 @@ This will make an announcement with the message on the device executing the comm
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playAnnouncement("the garage door has opened")</code></pre>
 
 ---
-## <h3 style="color: #FF6025;">playAnnouncementAll(message)</h3>
+### <h3 style="color: #FF6025;">playAnnouncementAll(message)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 This will make an announcement with the message on all echo devices on your account</div></div>
