@@ -3,39 +3,45 @@
 **FYI** it will take you longer to read these instruction than to actually redeploy the server!**
 
 ---
-##### <h5 style="color: #FF6025;">Step 1:</h5>
+### <h3 style="color: #FF6025;">Step 1:</h3>
 Logon to the dashboard.heroku.com site. You should see this screen that lists your Echo Speaks App, click on the app.
-  ![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-1.JPG)
+  ![screenshot](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-1.JPG)
 
 ---
-##### <h5 style="color: #FF6025;">Step 2:</h5>
+### <h3 style="color: #FF6025;">Step 2:</h3>
 Click on the ***Settings*** button like you see in the green box below:
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-2.JPG)
+![screenshot](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-2.JPG)
 
 ---
-##### <h5 style="color: #FF6025;">Step 3:</h5>
+### <h3 style="color: #FF6025;">Step 3:</h3>
 Scroll to the very bottom of the page and click on ***Delete App***
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-3.JPG)
+![screenshot](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-3.JPG)
 
 ---
-##### <h5 style="color: #FF6025;">Step 4:</h5>
+### <h3 style="color: #FF6025;">Step 4:</h3>
 Copy and paste the name of the app into the block and click on Delete. Now close this screen and go back to your mobile app.
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-4.JPG)
+![screenshot](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-4.JPG)
 
 ---
-##### <h5 style="color: #FF6025;">Step 5:</h5>
-Open the Echo Speaks SmartApp and click on the Echo Service Settings.
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-5.jpg)
+### <h3 style="color: #FF6025;">Step 5:</h3>
+Open the Echo Speaks SmartApp and click on the **Login Service Settings**.
+
+![screenshot](/static/img/TS-5.png)
 
 ---
-##### <h5 style="color: #FF6025;">Step 6:</h5>
-At the bottom, you will see the **+Service Preferences**, Once expanded Toggle the 'Reset Service Data' and wait until you see this screen:
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-6.jpg)
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-7.jpg)
+### <h3 style="color: #FF6025;">Step 6:</h3>
+At the bottom, you will see the **Reset Options** tap to expand the section.
+
+* Once expanded Toggle the **Reset Service Data**
+
+  ![screenshot](/static/img/TS-6.png)
+
+* If the page doesn't refresh to look like below then go back one page and return.
+
+  ![screenshot](/static/img/serverConfigST-1.png)
 
 ---
-##### <h5 style="color: #FF6025;">Step 7:</h5>
-Now that you have deleted the Echo Speaks server and reset the SmartApp, follow this link below to redeploy your service.
+### <h3 style="color: #FF6025;">Step 7:</h3>
+Now that you have deleted the Echo Speaks server and reset the service data from the app, follow this link below to redeploy your service.
 
 [Server Configuration](https://tonesto7.github.io/echo-speaks-docs/#/docs/installation/configuration/serverConfig)
-

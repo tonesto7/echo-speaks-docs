@@ -1,4 +1,4 @@
-**There will be times when you may receive an error message. 
+**There will be times when you may receive an error message!
 Hopefully you will find a fix from one of the items below!**
 
 ---
@@ -8,30 +8,31 @@ Hopefully you will find a fix from one of the items below!**
 
 **Steps to Fix**
 
-##### <h5 style="color: #FF6025;">Step 1:</h5>
+### <h3 style="color: #FF6025;">Step 1:</h3>
 Log into the https://dashboard.heroku.com website and click on your echo-speaks-xxxxxxx app.
 
-##### <h5 style="color: #FF6025;">Step 2:</h5>
+### <h3 style="color: #FF6025;">Step 2:</h3>
 Then click on the **Settings**.
 
-##### <h5 style="color: #FF6025;">Step 3:</h5>
+### <h3 style="color: #FF6025;">Step 3:</h3>
 Scroll down to the ***Domains and Certificates*** section (pictured below).
 
-##### <h5 style="color: #FF6025;">Step 4:</h5>
+### <h3 style="color: #FF6025;">Step 4:</h3>
 Click on the link listed next to ***Domain***.
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-8.JPG)
+
+![screenshot](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-8.JPG)
 
 This will take you to the Amazon Cookie Retrieval page which looks similar to the picture below.
 If it shows 'Authentication Good` then you should then be good to go.
 
 If you are directed to log in again, then just do it and you should then be good.
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-9.JPG)
 
+![screenshot](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-9.JPG)
 
 ---
 ## <h3 style="color: #FF6025;">Status Code 404 (DEPRECATED)</h3>
 
-<p style="color: red;">Failed with status code 404 @line 890 (asyncCommandHandler</p>
+<p style="color: red;">Failed with status code 404 @line 890 (asyncCommandHandler)</p>
 
   The Heroku service will put an app to sleep once it detects no activity for 30 minutes. 
 
@@ -39,24 +40,26 @@ The Echo Speaks system has a "Heart Beat" that talks to Heroku to k
 
 **Steps to Fix**
 
-##### <h5 style="color: #FF6025;">Step 1:</h5>
+### <h3 style="color: #FF6025;">Step 1:</h3>
 To remedy this it is helpful to open the Web Config page. Which normally wakes the service up.  Sometimes this may take a couple of minutes. 
 
-##### <h5 style="color: #FF6025;">Step 2:</h5>
+### <h3 style="color: #FF6025;">Step 2:</h3>
 You can easily navigate to this page by following these steps. We recommend that you create a link to the page in case of any future incidents, then it will be a simple one click fix.
 
-##### <h5 style="color: #FF6025;">Step 3:</h5>
+### <h3 style="color: #FF6025;">Step 3:</h3>
 Log into the Heroku.com website and click on your app. Then click on ***Settings*** and scroll down to the ***Domains and Certificates*** section (pictured below). 
 
-##### <h5 style="color: #FF6025;">Step 4:</h5>
+### <h3 style="color: #FF6025;">Step 4:</h3>
 Click on the link listed next to ***Domain***.
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-8.JPG)
+
+![screenshot](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-8.JPG)
 
 This will take you to the Amazon Cookie Retrieval page which looks similar to the picture below.
 If it shows 'Authentication Good` then you should then be good to go.
 
 If you are directed to log in again, then just do it and you should then be good.
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-9.JPG)
+
+![screenshot](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-9.JPG)
 
 ---
 ## <h3 style="color: #FF6025;">/ap/cvf Request Error</h3>
