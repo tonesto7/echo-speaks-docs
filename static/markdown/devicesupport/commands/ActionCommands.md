@@ -192,7 +192,7 @@ Allows you to pass a string of sequences to Amazon as a single command that will
 
 <b>Enter the command in a format exactly like this:</b>
 
-<pre>volume::40,, speak::this is so silly,, wait::60, weather,, cannedtts_random::goodbye,, traffic,, amazonmusic::green day,, volume::30</pre>
+<pre>volume::40,, speak::this is so silly,, wait::60,, weather,, cannedtts_random::goodbye,, traffic,, amazonmusic::green day,, volume::30</pre>
 
 Each command::value pair needs to be separated by a double comma `,,` and the separator between the command and value must be command`::`value.
 </p>
