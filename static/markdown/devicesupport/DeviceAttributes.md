@@ -174,3 +174,8 @@
 ### <h3 style="color: #FF6025;"><u>lastVoiceActivity</u>: (String)</h3>
 **Description**: Contains the voice command given to the alexa device.\
 **Output**: *`what time is it`*
+
+---
+### <h3 style="color: #FF6025;"><u>wifiNetwork</u>: (String)</h3>
+**Description**: Contains the devices current Wifi Network SSID.\
+**Output**: *`Echo Speaks Wifi`*

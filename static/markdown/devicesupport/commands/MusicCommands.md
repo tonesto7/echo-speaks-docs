@@ -1,3 +1,12 @@
+### <h3 style="color: #FF6025;">togglePlayback()</h3>
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control<br><br>
+Used to toggle between playing and stopped state</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>togglePlayback()</code></pre>
+
+---
 ### <h3 style="color: #FF6025;">searchMusic(searchPhrase, providerId)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
