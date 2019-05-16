@@ -26,7 +26,7 @@ Copy and paste the name of the app into the block and click on Del
 ### <h3 style="color: #FF6025;">Step 5:</h3>
 Open the Echo Speaks SmartApp and click on the **Login Service Settings**.
 
-![screenshot](/static/img/TS-5.png)
+![screenshot](/../../img/TS-5.png)
 
 ---
 ### <h3 style="color: #FF6025;">Step 6:</h3>
