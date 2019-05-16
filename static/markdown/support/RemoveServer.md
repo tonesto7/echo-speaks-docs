@@ -30,7 +30,7 @@ Copy and paste the name of the app into the block and click on **D
 ### <h3 style="color: #FF6025;">Step 5:</h3>
 Open the Echo Speaks SmartApp and click on the **Login Service Settings**.
 
-![screenshot](/static/img/TS-5.png)
+![screenshot](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-5.png)
 
 ---
 ### <h3 style="color: #FF6025;">Step 6:</h3>
@@ -38,11 +38,11 @@ At the bottom, you will see the **Reset Options** tap to expand the sectio
 
 * Once expanded Toggle the **Reset Service Data**
 
-  ![screenshot](/static/img/TS-6.png)
+  ![screenshot](https://tonesto7.github.io/echo-speaks-docs/static/img/TS-6.png)
 
 * If the page doesn't refresh to look like below then go back one page and return.
 
-  ![screenshot](/static/img/serverConfigST-1.png)
+  ![screenshot](https://tonesto7.github.io/echo-speaks-docs/static/img/serverConfigST-1.png)
 
 ---
 ### <h3 style="color: #FF6025;">Step 7:</h3>
