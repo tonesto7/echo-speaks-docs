@@ -292,7 +292,7 @@ This will make an announcement with the message on the device executing the comm
 ### <h3 style="color: #FF6025;">playAnnouncementAll(message)</h3>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-This will make an announcement with the message on all echo devices on your account</div></div>
+This will make an announcement with the message on all echo devices on your account<br><small style="color: red; padding: 0.15em 0;"><b><i>Notice: </i></b>This command is a complicated one.  If you want to announce on all of your echo devices just select one device to send the command to.  Amazon will send it to all devices on it's end.  So a single device can trigger all to speak</small></div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Message (String): <code>String between 1-400 characters in length</code></p>
@@ -304,4 +304,3 @@ This will make an announcement with the message on all echo devices on your acco
 </div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playAnnouncementAll("the garage door has opened")</code></pre>
-
