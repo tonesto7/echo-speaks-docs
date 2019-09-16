@@ -1,2 +1,1 @@
-# echo-speaks-docs
-Echo Speaks Documentation
+echo-speaks-doc

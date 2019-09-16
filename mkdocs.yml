@@ -1,0 +1,89 @@
+site_name: Echo Speaks<br>Documentation
+site_url: https://tonesto7.github.io/echo-speaks-doc
+repo_url: https://github.com/tonesto7/echo-speaks-doc
+edit_uri: ""
+site_description: Echo Speaks Documentation
+# use_directory_urls: False
+remote_branch: gh-pages
+remote_name: origin
+google_analytics: ["UA-131811674-1", "tonesto7.github.io/echo-speaks-docs"]
+
+theme:
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+  palette:
+    primary: "blue"
+    accent: "blue"
+
+nav:
+  - Install:
+      - Hubitat:
+          - Install Options: installation/hubitat/installs.md
+
+        # - App Code: installation/hubitat/app_install.md
+        # - Device Code: installation/hubitat/device_install.md
+      - SmartThings:
+          - Install Options: installation/smartthings/installs.md
+        # - Community Installer: installation/smartthings/auto_install.md
+        # - IDE (GitHub) Install: installation/smartthings/github_ide_install.md
+        # - Manual Install:
+        # - App Code: installation/smartthings/device_install.md
+        # - Device Code: installation/smartthings/app_install.md
+
+  - Configuration:
+      - Hubitat:
+          - App: configuration/hubitat/config_app.md
+          - Server: configuration/hubitat/config_server.md
+      - SmartThings:
+          - App: configuration/smartthings/config_app.md
+          - Server: configuration/smartthings/config_server.md
+
+  - Updates:
+      - Hubitat:
+          - App: updates/hubitat/app_update.md
+          - Device: updates/hubitat/device_update.md
+      - SmartThings:
+          - App: updates/smartthings/app_update.md
+          - Device: updates/smartthings/device_update.md
+      - Server: updates/server_update.md
+
+  - Actions:
+      - Description: actions/actions_desc.md
+      - Configuration: actions/config/actions_config.md
+      - Examples: actions/examples/actions_examples.md
+
+  - Support:
+      - Server Removal: support/server_removal.md
+      - Server Redeployment: support/server_redeploy.md
+      - Device Attributes/Commands:
+          - Attributes: devicesupport/device_attributes.md
+          - Action Commands: devicesupport/commands/action_commands.md
+          - Alarm & Reminders Commands: devicesupport/commands/alerts_commands.md
+          - Music Commands: devicesupport/commands/music_commands.md
+          - Speech Commands: devicesupport/commands/speech_commands.md
+      - Supported Devices: devicesupport/supported_devices.md
+      - Common Errors: support/common_errors.md
+      - Reporting Issues: support/reporting_issues.md
+      - F.A.Q.: faq.md
+  - Donate: donations.md
+
+markdown_extensions:
+  - smarty
+  - meta
+  - sane_lists
+  - toc:
+      permalink: "#"
+      baselevel: 2
+      separator: "_"
+
+extra_css:
+  - "css/extra.css"
+
+extra_javascript:
+  - "js/extra.js"
+
+extra:
+  version: 1.0.0
