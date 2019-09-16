@@ -1,6 +1,6 @@
 site_name: Echo Speaks<br>Documentation
-site_url: https://tonesto7.github.io/echo-speaks-doc
-repo_url: https://github.com/tonesto7/echo-speaks-doc
+site_url: https://tonesto7.github.io/echo-speaks-docs
+repo_url: https://github.com/tonesto7/echo-speaks-docs
 edit_uri: ""
 site_description: Echo Speaks Documentation
 # use_directory_urls: False
@@ -22,7 +22,6 @@ nav:
   - Install:
       - Hubitat:
           - Install Options: installation/hubitat/installs.md
-
         # - App Code: installation/hubitat/app_install.md
         # - Device Code: installation/hubitat/device_install.md
       - SmartThings:
