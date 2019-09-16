@@ -1,133 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/installation/hubitat/installs/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/installation/hubitat/installs/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/installation/smartthings/installs/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/installation/smartthings/installs/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/configuration/hubitat/config_app/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/configuration/hubitat/config_app/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/configuration/hubitat/config_server/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/configuration/hubitat/config_server/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/configuration/smartthings/config_app/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/configuration/smartthings/config_app/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/configuration/smartthings/config_server/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/configuration/smartthings/config_server/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/updates/hubitat/app_update/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/updates/hubitat/app_update/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/updates/hubitat/device_update/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/updates/hubitat/device_update/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/updates/smartthings/app_update/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/updates/smartthings/app_update/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/updates/smartthings/device_update/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/updates/smartthings/device_update/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/updates/server_update/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/updates/server_update/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/actions/actions_desc/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/actions/actions_desc/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/actions/config/actions_config/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/actions/config/actions_config/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/actions/examples/actions_examples/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/actions/examples/actions_examples/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/support/server_removal/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/support/server_removal/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/support/server_redeploy/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/support/server_redeploy/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/devicesupport/device_attributes/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/devicesupport/device_attributes/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/devicesupport/commands/action_commands/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/devicesupport/commands/action_commands/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/devicesupport/commands/alerts_commands/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/devicesupport/commands/alerts_commands/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/devicesupport/commands/music_commands/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/devicesupport/commands/music_commands/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/devicesupport/commands/speech_commands/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/devicesupport/commands/speech_commands/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/devicesupport/supported_devices/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/devicesupport/supported_devices/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/support/common_errors/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/support/common_errors/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/support/reporting_issues/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/support/reporting_issues/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/faq/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/faq/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://tonesto7.github.io/echo-speaks-doc/donations/</loc>
-     <lastmod>2019-09-15</lastmod>
+     <loc>https://tonesto7.github.io/echo-speaks-docs/donations/</loc>
+     <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
