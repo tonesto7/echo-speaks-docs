@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://tonesto7.github.io/echo-speaks-doc/devicesupport/commands/speech_commands/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Speech Commands - Echo Speaks<br>Documentation</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/rust.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-131811674-1', 'tonesto7.github.io/echo-speaks-docs');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../../..">Echo Speaks<br>Documentation</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Install <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Hubitat</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../installation/hubitat/installs/">Install Options</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">SmartThings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../installation/smartthings/installs/">Install Options</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Hubitat</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../configuration/hubitat/config_app/">App</a>
+</li>
+            
+<li >
+    <a href="../../../configuration/hubitat/config_server/">Server</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">SmartThings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../configuration/smartthings/config_app/">App</a>
+</li>
+            
+<li >
+    <a href="../../../configuration/smartthings/config_server/">Server</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Updates <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Hubitat</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../updates/hubitat/app_update/">App</a>
+</li>
+            
+<li >
+    <a href="../../../updates/hubitat/device_update/">Device</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">SmartThings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../updates/smartthings/app_update/">App</a>
+</li>
+            
+<li >
+    <a href="../../../updates/smartthings/device_update/">Device</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li >
+    <a href="../../../updates/server_update/">Server</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Actions <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../actions/actions_desc/">Description</a>
+</li>
+                                    
+<li >
+    <a href="../../../actions/config/actions_config/">Configuration</a>
+</li>
+                                    
+<li >
+    <a href="../../../actions/examples/actions_examples/">Examples</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../support/server_removal/">Server Removal</a>
+</li>
+                                    
+<li >
+    <a href="../../../support/server_redeploy/">Server Redeployment</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Device Attributes/Commands</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../device_attributes/">Attributes</a>
+</li>
+            
+<li >
+    <a href="../action_commands/">Action Commands</a>
+</li>
+            
+<li >
+    <a href="../alerts_commands/">Alarm & Reminders Commands</a>
+</li>
+            
+<li >
+    <a href="../music_commands/">Music Commands</a>
+</li>
+            
+<li class="active">
+    <a href="./">Speech Commands</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li >
+    <a href="../../supported_devices/">Supported Devices</a>
+</li>
+                                    
+<li >
+    <a href="../../../support/common_errors/">Common Errors</a>
+</li>
+                                    
+<li >
+    <a href="../../../support/reporting_issues/">Reporting Issues</a>
+</li>
+                                    
+<li >
+    <a href="../../../faq/">F.A.Q.</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../../donations/">Donate</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../music_commands/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../../supported_devices/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/tonesto7/echo-speaks-doc"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#replaytext">replayText()</a></li>
+        <li class="main "><a href="#setvolumeandspeakvolume_message">setVolumeAndSpeak(volume, message)</a></li>
+        <li class="main "><a href="#setvolumespeakandrestorevolume_message">setVolumeSpeakAndRestore(volume, message)</a></li>
+        <li class="main "><a href="#playweather">playWeather()</a></li>
+        <li class="main "><a href="#playsingasong">playSingASong()</a></li>
+        <li class="main "><a href="#playflashbrief">playFlashBrief()</a></li>
+        <li class="main "><a href="#saybirthday">sayBirthday()</a></li>
+        <li class="main "><a href="#saycompliment">sayCompliment()</a></li>
+        <li class="main "><a href="#saygoodbye">sayGoodbye()</a></li>
+        <li class="main "><a href="#saygoodmorning">sayGoodMorning()</a></li>
+        <li class="main "><a href="#saygoodnight">sayGoodNight()</a></li>
+        <li class="main "><a href="#saywelcomehome">sayWelcomeHome()</a></li>
+        <li class="main "><a href="#playtraffic">playTraffic()</a></li>
+        <li class="main "><a href="#playtellstory">playTellStory()</a></li>
+        <li class="main "><a href="#playfunfact">playFunFact()</a></li>
+        <li class="main "><a href="#playjoke">playJoke()</a></li>
+        <li class="main "><a href="#playcalendartoday">playCalendarToday()</a></li>
+        <li class="main "><a href="#playcalendartomorrow">playCalendarTomorrow()</a></li>
+        <li class="main "><a href="#playcalendarnext">playCalendarNext()</a></li>
+        <li class="main "><a href="#playannouncementmessage">playAnnouncement(message)</a></li>
+        <li class="main "><a href="#playannouncementallmessage">playAnnouncementAll(message)</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h4 id="replaytext"><h4 style="color: #FF6025;">replayText()</h4><a class="headerlink" href="#replaytext" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Will replay the last text sent to the device.</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+None Accepted</div></div>
+
+<hr />
+<h4 id="setvolumeandspeakvolume_message"><h4 style="color: #FF6025;">setVolumeAndSpeak(volume, message)</h4><a class="headerlink" href="#setvolumeandspeakvolume_message" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<code>NOTICE:</code>This command is highly recommend in place of sending an individual command for both volume and speaking.
+When used it is set to Amazon as a single command and executed in a sequence.
+
+Sends volume command first, then plays message.
+</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Message (String): <code>String between 1-400 characters in length</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>setVolumeAndSpeak(47, "The Front door is unlocked")</code></pre>
+
+<hr />
+<h4 id="setvolumespeakandrestorevolume_message"><h4 style="color: #FF6025;">setVolumeSpeakAndRestore(volume, message)</h4><a class="headerlink" href="#setvolumespeakandrestorevolume_message" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<code>NOTICE:</code>This command is highly recommended in place of sending individual commands for setVolume(47), speak("The Front door is unlocked"), and setVolume(30).
+When used it is set to Amazon as a single command and executed in a sequence<br>
+When the command is called it captures the current volume and restores immediately after the message is played.
+
+Sends volume command first, then plays message, and restores original volume
+<br>
+</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Message (String): <code>String between 1-400 characters in length</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example Usage: <code>setVolumeSpeakAndRestore(50, "The Front door is unlocked", 30)</code></pre>
+
+<hr />
+<h4 id="playweather"><h4 style="color: #FF6025;">playWeather()</h4><a class="headerlink" href="#playweather" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will give the current weather conditions</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playWeather()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playWeather(30, 50)</code></pre>
+
+<hr />
+<h4 id="playsingasong"><h4 style="color: #FF6025;">playSingASong()</h4><a class="headerlink" href="#playsingasong" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will sing a random song</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playSingASong()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playSingASong(30, 50)</code></pre>
+
+<hr />
+<h4 id="playflashbrief"><h4 style="color: #FF6025;">playFlashBrief()</h4><a class="headerlink" href="#playflashbrief" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will play the your flash briefing (If device supports it)</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playFlashBrief()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playFlashBrief(30, 50)</code></pre>
+
+<hr />
+<h4 id="saybirthday"><h4 style="color: #FF6025;">sayBirthday()</h4><a class="headerlink" href="#saybirthday" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will say a random happy birthday message</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayBirthday()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayBirthday(30, 50)</code></pre>
+
+<hr />
+<h4 id="saycompliment"><h4 style="color: #FF6025;">sayCompliment()</h4><a class="headerlink" href="#saycompliment" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will say a random compliment message</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayCompliment()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayCompliment(30, 50)</code></pre>
+
+<hr />
+<h4 id="saygoodbye"><h4 style="color: #FF6025;">sayGoodbye()</h4><a class="headerlink" href="#saygoodbye" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will say a random goodbye message</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayGoodbye()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayGoodbye(30, 50)</code></pre>
+
+<hr />
+<h4 id="saygoodmorning"><h4 style="color: #FF6025;">sayGoodMorning()</h4><a class="headerlink" href="#saygoodmorning" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will play the your good morning run down</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayGoodMorning()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayGoodMorning(30, 50)</code></pre>
+
+<hr />
+<h4 id="saygoodnight"><h4 style="color: #FF6025;">sayGoodNight()</h4><a class="headerlink" href="#saygoodnight" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will say a random good night message</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayGoodNight()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayGoodNight(30, 50)</code></pre>
+
+<hr />
+<h4 id="saywelcomehome"><h4 style="color: #FF6025;">sayWelcomeHome()</h4><a class="headerlink" href="#saywelcomehome" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will say a random welcome home message</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>sayWelcomeHome()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>sayWelcomeHome(30, 50)</code></pre>
+
+<hr />
+<h4 id="playtraffic"><h4 style="color: #FF6025;">playTraffic()</h4><a class="headerlink" href="#playtraffic" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will give the current traffic condition on your way to work</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playTraffic()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playTraffic(30, 50)</code></pre>
+
+<hr />
+<h4 id="playtellstory"><h4 style="color: #FF6025;">playTellStory()</h4><a class="headerlink" href="#playtellstory" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will tell a random story</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playTellStory()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playTellStory(30, 50)</code></pre>
+
+<hr />
+<h4 id="playfunfact"><h4 style="color: #FF6025;">playFunFact()</h4><a class="headerlink" href="#playfunfact" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will tell a random fun fact</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playFunFact()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playFunFact(30, 50)</code></pre>
+
+<hr />
+<h4 id="playjoke"><h4 style="color: #FF6025;">playJoke()</h4><a class="headerlink" href="#playjoke" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will tell a random joke</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playJoke()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playJoke(30, 50)</code></pre>
+
+<hr />
+<h4 id="playcalendartoday"><h4 style="color: #FF6025;">playCalendarToday()</h4><a class="headerlink" href="#playcalendartoday" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
+Alexa will read all of the calendar events for the day</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playCalendarToday()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playCalendarToday(30, 50)</code></pre>
+
+<hr />
+<h4 id="playcalendartomorrow"><h4 style="color: #FF6025;">playCalendarTomorrow()</h4><a class="headerlink" href="#playcalendartomorrow" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
+Alexa will read all of the calendar events for tomorrow</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playCalendarTomorrow()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playCalendarTomorrow(30, 50)</code></pre>
+
+<hr />
+<h4 id="playcalendarnext"><h4 style="color: #FF6025;">playCalendarNext()</h4><a class="headerlink" href="#playcalendarnext" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
+Alexa will read the next calendar event</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playCalendarNext()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playCalendarNext(30, 50)</code></pre>
+
+<hr />
+<h4 id="playannouncementmessage"><h4 style="color: #FF6025;">playAnnouncement(message)</h4><a class="headerlink" href="#playannouncementmessage" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+This will make an announcement with the message on the device executing the command</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Message (String): <code>String between 1-400 characters in length</code></p>
+</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Title (String): <code>String between 1-40 characters in length (For Echo Show/Spot Display)</code></p>
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playAnnouncement("the garage door has opened")</code></pre>
+
+<hr />
+<h4 id="playannouncementallmessage"><h4 style="color: #FF6025;">playAnnouncementAll(message)</h4><a class="headerlink" href="#playannouncementallmessage" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+This will make an announcement with the message on all echo devices on your account<br><small style="color: red; padding: 0.15em 0;"><b><i>Notice: </i></b>This command is a complicated one.  If you want to announce on all of your echo devices just select one device to send the command to.  Amazon will send it to all devices on it's end.  So a single device can trigger all to speak</small></div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Message (String): <code>String between 1-400 characters in length</code></p>
+<p>Title (String): <code>String between 1-40 characters in length (For Echo Show/Spot Display)</code></p>
+</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Title(String): <code>String between 1-400 characters in length (For Echo Show/Spots Display)</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playAnnouncementAll("the garage door has opened")</code></pre></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../js/extra.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

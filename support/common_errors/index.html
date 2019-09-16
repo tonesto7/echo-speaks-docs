@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://tonesto7.github.io/echo-speaks-doc/support/common_errors/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Common Errors - Echo Speaks<br>Documentation</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/rust.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-131811674-1', 'tonesto7.github.io/echo-speaks-docs');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">Echo Speaks<br>Documentation</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Install <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Hubitat</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../installation/hubitat/installs/">Install Options</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">SmartThings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../installation/smartthings/installs/">Install Options</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Hubitat</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../configuration/hubitat/config_app/">App</a>
+</li>
+            
+<li >
+    <a href="../../configuration/hubitat/config_server/">Server</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">SmartThings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../configuration/smartthings/config_app/">App</a>
+</li>
+            
+<li >
+    <a href="../../configuration/smartthings/config_server/">Server</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Updates <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Hubitat</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../updates/hubitat/app_update/">App</a>
+</li>
+            
+<li >
+    <a href="../../updates/hubitat/device_update/">Device</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">SmartThings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../updates/smartthings/app_update/">App</a>
+</li>
+            
+<li >
+    <a href="../../updates/smartthings/device_update/">Device</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li >
+    <a href="../../updates/server_update/">Server</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Actions <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../actions/actions_desc/">Description</a>
+</li>
+                                    
+<li >
+    <a href="../../actions/config/actions_config/">Configuration</a>
+</li>
+                                    
+<li >
+    <a href="../../actions/examples/actions_examples/">Examples</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../server_removal/">Server Removal</a>
+</li>
+                                    
+<li >
+    <a href="../server_redeploy/">Server Redeployment</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Device Attributes/Commands</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../devicesupport/device_attributes/">Attributes</a>
+</li>
+            
+<li >
+    <a href="../../devicesupport/commands/action_commands/">Action Commands</a>
+</li>
+            
+<li >
+    <a href="../../devicesupport/commands/alerts_commands/">Alarm & Reminders Commands</a>
+</li>
+            
+<li >
+    <a href="../../devicesupport/commands/music_commands/">Music Commands</a>
+</li>
+            
+<li >
+    <a href="../../devicesupport/commands/speech_commands/">Speech Commands</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li >
+    <a href="../../devicesupport/supported_devices/">Supported Devices</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">Common Errors</a>
+</li>
+                                    
+<li >
+    <a href="../reporting_issues/">Reporting Issues</a>
+</li>
+                                    
+<li >
+    <a href="../../faq/">F.A.Q.</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../donations/">Donate</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../../devicesupport/supported_devices/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../reporting_issues/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/tonesto7/echo-speaks-doc"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#no_speech_output">No Speech Output</a></li>
+        <li class="main "><a href="#status_code_400401">Status Code 400/401</a></li>
+            <li><a href="#step_1">Step 1:</a></li>
+            <li><a href="#step_2">Step 2:</a></li>
+            <li><a href="#step_3">Step 3:</a></li>
+            <li><a href="#step_4">Step 4:</a></li>
+        <li class="main "><a href="#status_code_404_deprecated">Status Code 404 (DEPRECATED)</a></li>
+            <li><a href="#step_5">Step 1:</a></li>
+            <li><a href="#step_6">Step 2:</a></li>
+            <li><a href="#step_7">Step 3:</a></li>
+            <li><a href="#step_8">Step 4:</a></li>
+        <li class="main "><a href="#apcvf_request_error">/ap/cvf Request Error</a></li>
+            <li><a href="#didnt_see_your_issue_here">Didn't See your Issue here?:</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><strong>There will be times when you may receive an error message or encounter an issue<br>
+Hopefully you will find a fix from one of the items below!</strong></p>
+<hr />
+<h3 id="no_speech_output"><h2 style="color: #FF6025;">No Speech Output</h2><a class="headerlink" href="#no_speech_output" title="Permanent link">#</a></h3>
+<p>This is kind of a tricky one because it could be a few things.</p>
+
+<ul>
+<li>Internet/WiFi Issues</li>
+<li>Amazon Server Issues/Outages</li>
+<li>Hubitat/SmartThings Cloud Outages</li>
+</ul>
+<p>For the most part you will get a clear reason in the Hubitat/SmartThings live logs.</p>
+<p>I&rsquo;ve experienced the rare occasion where the internet connection was going up and down. and because it wasn&rsquo;t for extended periods Amazon never reported the device offline.  So commands were being sent successfully but never reached the device.
+  (I have no way to fix this because I have no way to know if Amazon itself could reach the device.  Only that it successfully received the command we sent.)</p>
+<p>When your device is offline (according to Amazon) you will see this entry in the logs for every command received by the device.</p>
+<p><code>[WARN] Commands NOT Allowed! Device is currently (OFFLINE) | Type: (TTS)</code></p>
+<hr />
+<h3 id="status_code_400401"><h2 style="color: #FF6025;">Status Code 400/401</h2><a class="headerlink" href="#status_code_400401" title="Permanent link">#</a></h3>
+<p>This failure is almost always due to the expiration of your cookie.  Simply clear the log in information for the Heroku App and log back in to Amazon. This should fix your issue right away.</p>
+
+<p><strong>Steps to Fix</strong></p>
+<h4 id="step_1"><p style="color: #FF6025;">Step 1:</p><a class="headerlink" href="#step_1" title="Permanent link">#</a></h4>
+<p>Log into the <a href="https://dashboard.heroku.com">https://dashboard.heroku.com</a> website and click on your echo-speaks-xxxxxxx app.</p>
+<h4 id="step_2"><p style="color: #FF6025;">Step 2:</p><a class="headerlink" href="#step_2" title="Permanent link">#</a></h4>
+<p>Then click on the <strong>Settings</strong>.</p>
+<h4 id="step_3"><p style="color: #FF6025;">Step 3:</p><a class="headerlink" href="#step_3" title="Permanent link">#</a></h4>
+<p>Scroll down to the <strong><em>Domains and Certificates</em></strong> section (pictured below).</p>
+<h4 id="step_4"><p style="color: #FF6025;">Step 4:</p><a class="headerlink" href="#step_4" title="Permanent link">#</a></h4>
+<p>Click on the link listed next to <strong><em>Domain</em></strong>.</p>
+<p><img alt="screenshot" src="../img/common_errors_heroku_app.jpg" /></p>
+<p>This will take you to the Amazon Cookie Retrieval page which looks similar to the picture below.
+If it shows &lsquo;Authentication Good` then you should then be good to go.</p>
+<p>If you are directed to log in again, then just do it and you should then be good.</p>
+<p><img alt="screenshot" src="../img/common_errors_auth_good.png" /></p>
+<hr />
+<h3 id="status_code_404_deprecated"><h2 style="color: #FF6025;">Status Code 404 (DEPRECATED)</h2><a class="headerlink" href="#status_code_404_deprecated" title="Permanent link">#</a></h3>
+<p style="color: red;">Failed with status code 404 @line 890 (asyncCommandHandler)</p>
+
+<p>The Heroku service will put an app to sleep once it detects no activity for 30 minutes. </p>
+<p>The Echo Speaks system has a &ldquo;Heart Beat&rdquo; that talks to Heroku to keep the app awake. We are dealing with the cloud here, so sometimes there may be a delay in the Heart Beat, resulting in a nap for your server.</p>
+<p><strong>Steps to Fix</strong></p>
+<h4 id="step_5"><h3 style="color: #FF6025;">Step 1:</h3><a class="headerlink" href="#step_5" title="Permanent link">#</a></h4>
+<p>To remedy this it is helpful to open the Web Config page. Which normally wakes the service up.  Sometimes this may take a couple of minutes. </p>
+<h4 id="step_6"><h3 style="color: #FF6025;">Step 2:</h3><a class="headerlink" href="#step_6" title="Permanent link">#</a></h4>
+<p>You can easily navigate to this page by following these steps. We recommend that you create a link to the page in case of any future incidents, then it will be a simple one click fix.</p>
+<h4 id="step_7"><h3 style="color: #FF6025;">Step 3:</h3><a class="headerlink" href="#step_7" title="Permanent link">#</a></h4>
+<p>Log into the Heroku.com website and click on your app. Then click on <strong><em>Settings</em></strong> and scroll down to the <strong><em>Domains and Certificates</em></strong> section (pictured below). </p>
+<h4 id="step_8"><h3 style="color: #FF6025;">Step 4:</h3><a class="headerlink" href="#step_8" title="Permanent link">#</a></h4>
+<p>Click on the link listed next to <strong><em>Domain</em></strong>.</p>
+<p><img alt="screenshot" src="../img/common_errors_heroku_app.jpg" /></p>
+<p>This will take you to the Amazon Cookie Retrieval page which looks similar to the picture below.
+If it shows &lsquo;Authentication Good` then you should then be good to go.</p>
+<p>If you are directed to log in again, then just do it and you should then be good.</p>
+<p><img alt="screenshot" src="../img/common_errors_auth_good.png" /></p>
+<hr />
+<h3 id="apcvf_request_error"><h2 style="color: #FF6025;">/ap/cvf Request Error</h2><a class="headerlink" href="#apcvf_request_error" title="Permanent link">#</a></h3>
+<p>If you see this error when you are attempting to do the Amazon Login part of the server deployment, We have found this to be due to having had the Amazon 2FA (2 Step Verfication) service activated, and then later turned off.
+Unfortunately, once you have had this service turned on, it will have to be on for Echo Speaks to work properly. You may or may not remember ever having it turned on in the past, but with the presence of this error, it is very possible. To remedy this error you will need to turn the 2FA service back on and redeploy the server.</p>
+<hr />
+<h6 id="didnt_see_your_issue_here"><h2 style="color: #FF6025;">Didn&rsquo;t See your Issue here?:</h2><a class="headerlink" href="#didnt_see_your_issue_here" title="Permanent link">#</a></h6>
+<p>You can view open issues or create a new one by following this guide:</p>
+<p><a href="/echo-speaks-doc/support/reporting-issues">Reporting Issues</a></p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../js/extra.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://tonesto7.github.io/echo-speaks-doc/configuration/smartthings/config_server/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Server - Echo Speaks<br>Documentation</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../../../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/rust.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-131811674-1', 'tonesto7.github.io/echo-speaks-docs');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../../..">Echo Speaks<br>Documentation</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Install <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Hubitat</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../installation/hubitat/installs/">Install Options</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">SmartThings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../installation/smartthings/installs/">Install Options</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Hubitat</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../hubitat/config_app/">App</a>
+</li>
+            
+<li >
+    <a href="../../hubitat/config_server/">Server</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">SmartThings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../config_app/">App</a>
+</li>
+            
+<li class="active">
+    <a href="./">Server</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Updates <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Hubitat</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../updates/hubitat/app_update/">App</a>
+</li>
+            
+<li >
+    <a href="../../../updates/hubitat/device_update/">Device</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">SmartThings</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../updates/smartthings/app_update/">App</a>
+</li>
+            
+<li >
+    <a href="../../../updates/smartthings/device_update/">Device</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li >
+    <a href="../../../updates/server_update/">Server</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Actions <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../actions/actions_desc/">Description</a>
+</li>
+                                    
+<li >
+    <a href="../../../actions/config/actions_config/">Configuration</a>
+</li>
+                                    
+<li >
+    <a href="../../../actions/examples/actions_examples/">Examples</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../../support/server_removal/">Server Removal</a>
+</li>
+                                    
+<li >
+    <a href="../../../support/server_redeploy/">Server Redeployment</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Device Attributes/Commands</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../devicesupport/device_attributes/">Attributes</a>
+</li>
+            
+<li >
+    <a href="../../../devicesupport/commands/action_commands/">Action Commands</a>
+</li>
+            
+<li >
+    <a href="../../../devicesupport/commands/alerts_commands/">Alarm & Reminders Commands</a>
+</li>
+            
+<li >
+    <a href="../../../devicesupport/commands/music_commands/">Music Commands</a>
+</li>
+            
+<li >
+    <a href="../../../devicesupport/commands/speech_commands/">Speech Commands</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li >
+    <a href="../../../devicesupport/supported_devices/">Supported Devices</a>
+</li>
+                                    
+<li >
+    <a href="../../../support/common_errors/">Common Errors</a>
+</li>
+                                    
+<li >
+    <a href="../../../support/reporting_issues/">Reporting Issues</a>
+</li>
+                                    
+<li >
+    <a href="../../../faq/">F.A.Q.</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../../donations/">Donate</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../config_app/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../../../updates/hubitat/app_update/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/tonesto7/echo-speaks-doc"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#step_1">Step 1:</a></li>
+        <li class="main "><a href="#step_2">Step 2:</a></li>
+        <li class="main "><a href="#step_3">Step 3:</a></li>
+        <li class="main "><a href="#step_4">Step 4:</a></li>
+        <li class="main "><a href="#step_5">Step 5:</a></li>
+        <li class="main "><a href="#step_6">Step 6:</a></li>
+        <li class="main "><a href="#step_7">Step 7:</a></li>
+        <li class="main "><a href="#step_8">Step 8:</a></li>
+        <li class="main "><a href="#step_9">Step 9:</a></li>
+        <li class="main "><a href="#step_10">Step 10:</a></li>
+        <li class="main "><a href="#step_11">Step 11:</a></li>
+        <li class="main "><a href="#youre_done">You're Done!</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h4 id="step_1"><h3 style="color: #FF6025;">Step 1:</h3><a class="headerlink" href="#step_1" title="Permanent link">#</a></h4>
+<p>You will be returned to the Server config page.</p>
+<ul>
+<li>Verify Amazon region settings are correct (pink box).</li>
+<li>
+<p>Then tap on the <strong>Begin Heroku Setup</strong> shown in the green box below.</p>
+<p><img alt="screenshot" src="../img/st_config_server_1.png" /></p>
+</li>
+</ul>
+<hr />
+<h4 id="step_2"><h3 style="color: #FF6025;">Step 2:</h3><a class="headerlink" href="#step_2" title="Permanent link">#</a></h4>
+<ul>
+<li>A browser window should open that looks like the one below.</li>
+<li>
+<p>Highlight and copy the information in the gray box for later use.</p>
+<p><img alt="screenshot" src="../img/st_config_server_2_1.jpg" /></p>
+</li>
+</ul>
+<p>Now tap on the <strong>Deploy to Heroku</strong> button.</p>
+<p><img alt="screenshot" src="../img/st_config_server_2_2.jpg" /></p>
+<hr />
+<h4 id="step_3"><h3 style="color: #FF6025;">Step 3:</h3><a class="headerlink" href="#step_3" title="Permanent link">#</a></h4>
+<p>You will paste the information from the previous step into the box named <strong>App Name</strong></p>
+<p><img alt="screenshot" src="../img/st_config_server_3_1.jpg" /></p>
+<p>See the green box below.
+Your information is going to show that the app name is not available.</p>
+<p><img alt="screenshot" src="../img/st_config_server_3_2.jpg" /></p>
+<p><strong><em>YOU MUST FOLLOW THE NEXT STEP EXACTLY AS WRITTEN</em></strong></p>
+<hr />
+<h4 id="step_4"><h3 style="color: #FF6025;">Step 4:</h3><a class="headerlink" href="#step_4" title="Permanent link">#</a></h4>
+<p><strong>THIS MUST BE DONE PRECISELY.  FAILURE TO FOLLOW THIS STEP MAY RESULT IN YOUR APP NOT OPERATING PROPERLY</strong></p>
+<ul>
+<li>Please tap on the app name you pasted to open your keyboard on your screen, and then tap the space bar.</li>
+<li>Now tap the back button to delete that space that you just typed in.</li>
+<li>You <strong>MUST</strong> remove the space.</li>
+<li>
+<p>Once the space is removed it should now turn green as pictured below:</p>
+<p><img alt="screenshot" src="../img/st_config_server_4.jpg" /></p>
+</li>
+</ul>
+<hr />
+<h4 id="step_5"><h3 style="color: #FF6025;">Step 5:</h3><a class="headerlink" href="#step_5" title="Permanent link">#</a></h4>
+<p>Scroll to the bottom of the screen and tap on the <strong>Deploy App</strong> button. You will now see the information below as the app is being deployed.<br>
+<strong><em>Think of the below picture as a movie.... the words will change</em></strong></p>
+<p><img alt="screenshot" src="../img/st_config_server_5.jpg" /></p>
+<hr />
+<h4 id="step_6"><h3 style="color: #FF6025;">Step 6:</h3><a class="headerlink" href="#step_6" title="Permanent link">#</a></h4>
+<p>Once the screen looks like the one below (It generally only takes a minute or two after starting the above).</p>
+<ul>
+<li>
+<p>Tap on the <strong>View</strong> button.</p>
+<p><img alt="screenshot" src="../img/st_config_server_6_1.jpg" /></p>
+</li>
+<li>
+<p>That will open this page shown below.</p>
+<p><img alt="screenshot" src="../img/st_config_server_6_2.png" /></p>
+</li>
+</ul>
+<hr />
+<h4 id="step_7"><h3 style="color: #FF6025;">Step 7:</h3><a class="headerlink" href="#step_7" title="Permanent link">#</a></h4>
+<p>At this point, you need to get your amazon login cookie:</p>
+<ul>
+<li>
+<p>Tap on the <strong>Go to Login Page</strong> button as shown below.</p>
+<p><img alt="screenshot" src="../img/st_config_server_6_2.png" /></p>
+</li>
+</ul>
+<hr />
+<h4 id="step_8"><h3 style="color: #FF6025;">Step 8:</h3><a class="headerlink" href="#step_8" title="Permanent link">#</a></h4>
+<p>Input your CORRECT login information for the Amazon account that your devices are registered with, then tap on &lsquo;Sign In&rsquo;.</p>
+<p><img alt="screenshot" src="../img/st_config_server_8_1.jpg" /></p>
+<p>When the above part is done successfully, you will see the screen below.</p>
+<p><img alt="screenshot" src="../img/st_config_server_8_2.png" /></p>
+<hr />
+<h4 id="step_9"><h3 style="color: #FF6025;">Step 9:</h3><a class="headerlink" href="#step_9" title="Permanent link">#</a></h4>
+<p>At this point, close the browser window and go back into the SmartThings mobile app.</p>
+<ul>
+<li>
+<p>Open the Echo Speaks SmartApp and press <strong>Save</strong> then wait a couple of minutes.</p>
+<p><img alt="screenshot" src="../img/st_config_server_9_1.png" /></p>
+</li>
+<li>
+<p>Your app needs to communicate with Amazon and this can sometimes take about 1 minute.</p>
+<p>So after waiting for about 1 minute you can open the Echo Speaks App and you should see the Installed Devices section populated.</p>
+<p><img alt="screenshot" src="../img/st_config_server_9_2.png" /></p>
+</li>
+</ul>
+<hr />
+<h4 id="step_10"><h3 style="color: #FF6025;">Step 10:</h3><a class="headerlink" href="#step_10" title="Permanent link">#</a></h4>
+<p>Once you see your devices scroll down.</p>
+<ul>
+<li>
+<p>Tap on the <strong>Device Testing</strong></p>
+<p><img alt="screenshot" src="../img/st_config_server_10_1.png" /></p>
+</li>
+<li>
+<p>Tap on the <strong>Speech Test</strong></p>
+<p><img alt="screenshot" src="../img/st_config_server_10_2.png" /></p>
+</li>
+</ul>
+<hr />
+<h4 id="step_11"><h3 style="color: #FF6025;">Step 11:</h3><a class="headerlink" href="#step_11" title="Permanent link">#</a></h4>
+<p>Select the devices to test and activate the <strong>Perform the Speech Test</strong> toggle.</p>
+<p><img alt="screenshot" src="../img/st_config_server_11.png" /></p>
+<ul>
+<li>This will send a test text to speech command to selected devices.</li>
+<li>If you hear the broadcast on your echo devices, then good.</li>
+<li>If not, call Houston cause you have a problem.</li>
+</ul>
+<hr />
+<h4 id="youre_done"><h3 style="color: #FF6025;">You&rsquo;re Done!</h3><a class="headerlink" href="#youre_done" title="Permanent link">#</a></h4>
+<p>Once you have completed these steps you are done.
+You can now use the devices in any of your supported Hubitat/SmartThings automations.</p>
+<p><strong><em>Congratulations!!</em></strong></p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../js/extra.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
