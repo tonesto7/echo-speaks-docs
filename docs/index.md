@@ -3,7 +3,7 @@ title: Echo Speaks Documentation
 summary: A brief description of my document.
 authors:
     - A. Santilli
-date: 2019-09-15
+date: 2019-09-30
 some_url: https://tonesto7.github.io/echo-speaks-docs/#
 ---
 
@@ -23,12 +23,12 @@ The SmartThings | Hubitat Apps/SmartApps & Device code is found on the GitHub si
 
 | ***Apps/SmartApps:***    | ***Source Code URL:***                                                                                                                                | ***Version*** |
 |:--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| Echo Speaks:        | [Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/mast/smartapps/tonesto7/echo-speaks.src/echo-speaks.groovy)                     | v3.0.1.0        |
-| Echo Speaks - Actions: | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-actions.src/echo-speaks-actions.groovy)   | v3.0.1.0        |
+| Echo Speaks:        | [Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks.src/echo-speaks.groovy)                     | v3.1.0.1        |
+| Echo Speaks - Actions: | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-actions.src/echo-speaks-actions.groovy)   | v3.1.0.1        |
 
 | ***Devices:***    | ***Source Code URL:***                                                                                                                               | ***Version*** |
 |:--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| Echo Speaks Driver: | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) | v3.0.1.0        |
+| Echo Speaks Driver: | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) | v3.1.0.2        |
 
 | ***Server:***    | ***Source Code URL:***                                                                                                                                | ***Version*** |
 |:--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
