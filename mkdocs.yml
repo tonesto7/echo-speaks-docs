@@ -55,8 +55,7 @@ nav:
       - Examples: actions/examples/actions_examples.md
 
   - Support:
-      - Server Removal: support/server_removal.md
-      - Server Redeployment: support/server_redeploy.md
+      - Server Removal/Reset: support/server_removal.md
       - Device Attributes/Commands:
           - Attributes: devicesupport/device_attributes.md
           - Action Commands: devicesupport/commands/action_commands.md

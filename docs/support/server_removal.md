@@ -23,22 +23,8 @@ Copy and paste the name of the app into the block and click on Del
 
 ---
 ### <h3 style="color: #FF6025;">Step 5:</h3>
-Open the Echo Speaks SmartApp and click on the **Login Service Settings**.
+Select your platform:
 
-![screenshot](img/server_redeploy_5.png)
+![](img/logos/st_logo_64.png) [SmartThings](/echo-speaks-docs/support/st_server_removal)
 
----
-### <h3 style="color: #FF6025;">Step 6:</h3>
-At the bottom, you will see the **Reset Options** tap to expand the section.
-
-* Once expanded Toggle the **Reset Service Data**
-
-  ![screenshot](img/server_reset_1.png)
-
-* If the page doesn't refresh to look like below then go back one page and return.
-
-  ![screenshot](img/server_redeploy_6.png)
-
----
-### <h3 style="color: #FF6025;">Step 7:</h3>
-Now that you have deleted the Echo Speaks server and reset the service data from the app the removal process is complete.
+![](img/logos/he_logo_64.png) [Hubitat](/echo-speaks-docs/support/he_server_removal)
