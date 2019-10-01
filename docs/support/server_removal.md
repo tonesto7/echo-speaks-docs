@@ -22,8 +22,7 @@ Copy and paste the name of the app into the block and click on Del
 ![screenshot](img/server_removal_4.jpg)
 
 ---
-### <h3 style="color: #FF6025;">Step 5:</h3>
-Select your platform:
+Select your platform to continue the removal/reset process:
 
 ![](img/logos/st_logo_64.png) [SmartThings](/echo-speaks-docs/support/st_server_removal)
 
