@@ -15,7 +15,7 @@ Log into the IDE.
 
 ---
 ### <h3 style="color: #FF6025;">Step 2:</h3>
-Click on this link: [**Device Handler Code**](https://raw.githubusercontent.com/tonesto7/echo-speaks/beta/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) to obtain the Device Handler code.
+Click on this link: [**Device Handler Code**](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) to obtain the Device Handler code.
 
 * Press `CTRL+A` to Select all text and `CTRL+C` to Copy the selected text.
 * Now paste it into the large white box on your screen with `CTRL+V`. 

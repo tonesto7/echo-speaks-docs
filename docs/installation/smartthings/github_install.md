@@ -28,9 +28,9 @@ First, click on the **`Settings`** button at the top of SmartThings IDE page (th
 
     ![screenshot](img/st_github_install_repo_3_2.png)
 
-    | **Owner**  | **Name**   | **Branch** |
-    |:------------|:-------------|:------------|
-    | tonesto7 | echo-speaks | master |
+    | **Owner** | **Name**    | **Branch** |
+    | :-------- | :---------- | :--------- |
+    | tonesto7  | echo-speaks | master     |
 
 ---
 ### <h3 style="color: #FF6025;">Step 4:</h3>
@@ -56,6 +56,7 @@ First, click on the **`Settings`** button at the top of SmartThings IDE page (th
 * This will be:
   `echo-speaks.groovy`
   `echo-speaks-actions.groovy`
+  `echo-speaks-zones.groovy`
 
 * Check the Publish box and Click the `Execute Update` in the bottom-right corner of the screen.
 * When it's completed syncing, the new app should now appear in the IDE. If they ever change color, that indicates a new version is available.

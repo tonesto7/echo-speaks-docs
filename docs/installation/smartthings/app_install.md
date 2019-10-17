@@ -32,7 +32,7 @@ You will now be at this page:
 
 ---
 ### <h3 style="color: #FF6025;">Step 6:</h3>
-Copy the Echo Speaks source code from this link: [SmartApp Code](https://raw.githubusercontent.com/tonesto7/echo-speaks/beta/smartapps/tonesto7/echo-speaks.src/echo-speaks.groovy)
+Copy the Echo Speaks source code from this link: [SmartApp Code](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks.src/echo-speaks.groovy)
 
 * Press `CTRL+A` to Select all text and `CTRL+C` to Copy the selected text.
 * Now paste it into the large white box on your screen with `CTRL+V`.
@@ -71,7 +71,8 @@ Finally, click on **`Update`**.
 
 ---
 ### <h3 style="color: #FF6025;">Step 11:</h3>
-Repeat Steps 3 to 7 for the Actions Child App: [Action Child App Code](https://raw.githubusercontent.com/tonesto7/echo-speaks/beta/smartapps/tonesto7/echo-speaks-actions.src/echo-speaks-actions.groovy)
+Repeat Steps 3 to 7 for the Actions Child App: [Action Child App Code](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-actions.src/echo-speaks-actions.groovy)
+Repeat Steps 3 to 7 for the Zone Child App: [Action Child App Code](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-zones.src/echo-speaks-zones.groovy)
 
 ---
 ### <h3 style="color: #FF6025;">Step 12:</h3>

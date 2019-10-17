@@ -30,6 +30,7 @@ Click on the `Import` button at the top of the page:
 ---
 ### <h3 style="color: #FF6025;">Step 5:</h3>
 Repeat Steps 3 & 4 for the `Echo Speaks Actions` App: [Action Child App Code](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-actions.src/echo-speaks-actions.groovy)
+Repeat Steps 3 & 4 for the `Echo Speaks Zones` App: [Action Child App Code](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-zones.src/echo-speaks-zones.groovy)
 
 ---
 ### <h3 style="color: #FF6025;">Step 6:</h3>

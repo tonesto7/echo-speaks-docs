@@ -17,10 +17,7 @@ To as complex as selecting multiple triggers (contacts, motion, presence, etc.) 
 
   - Modes
   - Routines
-
-***Weather Events:***
-
-  - (Coming Soon)
+  - Scenes (Hubitat)
 
 ***Safety & Security Events:***
 
@@ -31,6 +28,7 @@ To as complex as selecting multiple triggers (contacts, motion, presence, etc.) 
 ***Actionable Device Events:***
 
   - Locks
+  - Buttons
   - Outlets/Switches
   - Dimmers/Level
   - Garage Door Openers
@@ -55,10 +53,13 @@ To as complex as selecting multiple triggers (contacts, motion, presence, etc.) 
 ### <h3 style="color: #FF6025;">Action Types Available</h3>
 
   - Speak (SSML Supported)
-  - Announcements (SSML and Multi-Device Supported)
+  - Announcements/Broadcasts (SSML and Multi-Device Supported)
+  - Speak Tiered | Create a response that plays out in phases with unique delays between each response
+  - Announcements/Broadcasts | Create a response that plays out in phases with unique delays between each response
+  - SSML support for all Speak and Announcements
   - Custom Sequences
   - Weather Reports
-  - Playback Control
+  - Playback/Volume Control
   - Built-In Routine Functions:
     - Sing a Song
     - Flash Briefing
@@ -72,7 +73,7 @@ To as complex as selecting multiple triggers (contacts, motion, presence, etc.) 
     - Welcome Home
     - Sing Happy Birthday
     - Give a Compliment
-  - Play Music (Using alexa music providers only)
+  - Play Music (Using Alexa music providers only)
   - Calendar Events (Non-Pin protected email only)
   - Create Alarms
   - Create Reminder

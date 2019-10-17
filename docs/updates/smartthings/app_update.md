@@ -21,7 +21,7 @@ When you see the app listed and it's colored purple/red that means there may be 
 
     ![screenshot](img/upd_app_repo.png)
 
-* It you see the `echo-speaks.groovy` or `echo-speaks-actions.groovy` listed in either the left-hand column labeled `Obsolete (updated in GitHub)` or the middle column labeled `Conflicted (updated locally and in GitHub)`, scroll down to click the apps to update.
+* It you see the `echo-speaks.groovy`, `echo-speaks-actions.groovy`, or `echo-speaks-zones.groovy` listed in either the left-hand column labeled `Obsolete (updated in GitHub)` or the middle column labeled `Conflicted (updated locally and in GitHub)`, scroll down to click the apps to update.
 
 ---
 ### <h3 style="color: #FF6025;">Step 4:</h3>

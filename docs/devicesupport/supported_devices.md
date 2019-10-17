@@ -4,8 +4,11 @@
 |:-------------------------------------|
 | Echo Show (Gen 1, 2)                 |
 | Echo Show 5                 |
+| Echo Show 8 (Coming Soon)                |
+| Echo Studio (Coming Soon) |
+| Echo Buds (Coming Soon) |
 | Echo Dot (Gen 1, 2, 3)               |
-| Echo (Gen 1, 2)                      |
+| Echo (Gen 1, 2, 3)                      |
 | Echo Plus (Gen 1, 2)                 |
 | Echo Spot                            |
 | Echo Input                           |
@@ -23,6 +26,11 @@
 | Ecobee 4                      |
 | One-Link Safe and Sound       |
 | Alexa App for Windows 10      |
+| Fabriq Chorus and Riff     |
+| Logitech Blase |
+| Vobot Bunny |
+| Lenovo SmartTab |
+
 
 ### <p style="color: red;">Notice</p>
   There are a lot of devices out there that have Alexa integrated which may or may not display in the Echo Speaks app.
