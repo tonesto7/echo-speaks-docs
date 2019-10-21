@@ -30,7 +30,7 @@ The SmartThings | Hubitat Apps/SmartApps & Device code is found on the GitHub si
 | ***Devices:***                        | ***Source Code URL:***                                                                                                                               | ***Version*** |
 | :------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | Echo Speaks Driver:                   | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) | v3.2.0.2      |
-| Echo Speaks Websocket (Hubitat Only): | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-ws.src/echo-speaks-ws.groovy)         | v3.2.0.0      |
+| Echo Speaks Websocket (Hubitat Only): | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-ws.groovy)                                         | v3.2.0.1      |
 
 | ***Server:***       | ***Source Code URL:***                                          | ***Version*** |
 | :------------------ | --------------------------------------------------------------- | ------------- |
