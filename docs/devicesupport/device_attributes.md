@@ -12,21 +12,6 @@
 **Output**: *`true`*
 
 ---
-### <h4 style="color: #FF6025;"><u>alexaMusicProviders</u>: (JSON_Object)</h4>
-**Description**: Contains list of supported music playback services available.<br>
-**Output**:
-<pre>
-[
-    CLOUDPLAYER: My Library,
-    AMAZON_MUSIC: Amazon Music,
-    APPLE_MUSIC: Apple Music,
-    I_HEART_RADIO: iHeartRadio,
-    PANDORA: Pandora,
-    TUNEIN: TuneIn
-]
-</pre>
-
----
 ### <h4 style="color: #FF6025;"><u>alexaNotifications</u>: (JSON_Object)</h4>
 **Description**: Contains list of current device notifications.<br>
 
@@ -143,7 +128,7 @@
 
 ---
 ### <h4 style="color: #FF6025;"><u>permissions</u>: (Boolean)</h4>
-**Description**: Identifies if device supports music player control actions.<br>
+**Description**: Identifies the devices available features.<br>
 **Output**: *`[TTS, alarms, amazonMusic, announce, appleMusic, bluetoothControl, doNotDisturb, flashBriefing, followUpMode, iHeartRadio, isEchoDevice, isMultiroomMember, mediaPlayer, microphone, pandoraRadio, reminders, spotify, tuneInRadio, volumeControl, wakeWord]`*
 
 ---
@@ -153,7 +138,7 @@
 
 ---
 ### <h4 style="color: #FF6025;"><u>supportedMusic</u>: (String)</h4>
-**Description**: Identifies if device supports music player control actions.<br>
+**Description**: Identifies the devices supported music providers.<br>
 **Output**: *`Amazon Music, Apple Music, My Library, Pandora, TuneIn, iHeartRadio`*
 
 ---
