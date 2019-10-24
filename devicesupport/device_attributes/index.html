@@ -253,36 +253,38 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#lastupdated_string">lastUpdated: (String)</a></li>
-        <li class="main "><a href="#devicestatus_string">deviceStatus: (String)</a></li>
-        <li class="main "><a href="#devicetype_string">deviceType: (String)</a></li>
-        <li class="main "><a href="#devicestyle_string">deviceStyle: (String)</a></li>
-        <li class="main "><a href="#devicefamily_string">deviceFamily: (String)</a></li>
-        <li class="main "><a href="#donotdisturb_string">doNotDisturb: (String)</a></li>
-        <li class="main "><a href="#firmwarever_string">firmwareVer: (String)</a></li>
-        <li class="main "><a href="#onlinestatus_string">onlineStatus: (String)</a></li>
-        <li class="main "><a href="#btdeviceconnected_string">btDeviceConnected: (String)</a></li>
-        <li class="main "><a href="#btdevicespaired_string">btDevicesPaired: (String)</a></li>
-        <li class="main "><a href="#currentstation_string">currentStation: (String)</a></li>
-        <li class="main "><a href="#currentalbum_string">currentAlbum: (String)</a></li>
-        <li class="main "><a href="#trackimage_string">trackImage: (String)</a></li>
-        <li class="main "><a href="#trackimagehtml_string">trackImageHtml: (String)</a></li>
-        <li class="main "><a href="#alarmvolume_string">alarmVolume: (String)</a></li>
-        <li class="main "><a href="#alexawakeword_string">alexaWakeWord: (String)</a></li>
-        <li class="main "><a href="#wakewords_enum">wakeWords: (Enum)</a></li>
+        <li class="main active"><a href="#alarmvolume_string">alarmVolume: (String)</a></li>
+        <li class="main "><a href="#alarmsupported_boolean">alarmSupported: (Boolean)</a></li>
+        <li class="main "><a href="#alexamusicproviders_json_object">alexaMusicProviders: (JSON_Object)</a></li>
         <li class="main "><a href="#alexanotifications_json_object">alexaNotifications: (JSON_Object)</a></li>
         <li class="main "><a href="#alexaplaylists_json_object">alexaPlaylists: (JSON_Object)</a></li>
-        <li class="main "><a href="#alexamusicproviders_json_object">alexaMusicProviders: (JSON_Object)</a></li>
-        <li class="main "><a href="#volumesupported_boolean">volumeSupported: (Boolean)</a></li>
-        <li class="main "><a href="#ttssupported_boolean">ttsSupported: (Boolean)</a></li>
-        <li class="main "><a href="#musicsupported_boolean">musicSupported: (Boolean)</a></li>
-        <li class="main "><a href="#alarmsupported_boolean">alarmSupported: (Boolean)</a></li>
-        <li class="main "><a href="#remindersupported_boolean">reminderSupported: (Boolean)</a></li>
-        <li class="main "><a href="#lastspeakcmd_string">lastSpeakCmd: (String)</a></li>
+        <li class="main "><a href="#alexawakeword_string">alexaWakeWord: (String)</a></li>
+        <li class="main "><a href="#btdeviceconnected_string">btDeviceConnected: (String)</a></li>
+        <li class="main "><a href="#btdevicespaired_string">btDevicesPaired: (String)</a></li>
+        <li class="main "><a href="#currentalbum_string">currentAlbum: (String)</a></li>
+        <li class="main "><a href="#currentstation_string">currentStation: (String)</a></li>
+        <li class="main "><a href="#devicefamily_string">deviceFamily: (String)</a></li>
+        <li class="main "><a href="#devicestatus_string">deviceStatus: (String)</a></li>
+        <li class="main "><a href="#devicestyle_string">deviceStyle: (String)</a></li>
+        <li class="main "><a href="#devicetype_string">deviceType: (String)</a></li>
+        <li class="main "><a href="#donotdisturb_string">doNotDisturb: (String)</a></li>
+        <li class="main "><a href="#followupmode_string">followUpMode: (String)</a></li>
+        <li class="main "><a href="#firmwarever_string">firmwareVer: (String)</a></li>
         <li class="main "><a href="#lastcmdsentdt_string">lastCmdSentDt: (String)</a></li>
-        <li class="main "><a href="#waslastspoketodevice_boolean">wasLastSpokeToDevice: (Boolean)</a></li>
+        <li class="main "><a href="#lastspeakcmd_string">lastSpeakCmd: (String)</a></li>
         <li class="main "><a href="#lastspokentotime_timestamp">lastSpokenToTime: (Timestamp)</a></li>
+        <li class="main "><a href="#lastupdated_string">lastUpdated: (String)</a></li>
         <li class="main "><a href="#lastvoiceactivity_string">lastVoiceActivity: (String)</a></li>
+        <li class="main "><a href="#onlinestatus_string">onlineStatus: (String)</a></li>
+        <li class="main "><a href="#permissions_boolean">permissions: (Boolean)</a></li>
+        <li class="main "><a href="#remindersupported_boolean">reminderSupported: (Boolean)</a></li>
+        <li class="main "><a href="#supportedmusic_string">supportedMusic: (String)</a></li>
+        <li class="main "><a href="#trackimage_string">trackImage: (String)</a></li>
+        <li class="main "><a href="#trackimagehtml_string">trackImageHtml: (String)</a></li>
+        <li class="main "><a href="#ttssupported_boolean">ttsSupported: (Boolean)</a></li>
+        <li class="main "><a href="#volumesupported_boolean">volumeSupported: (Boolean)</a></li>
+        <li class="main "><a href="#wakewords_enum">wakeWords: (Enum)</a></li>
+        <li class="main "><a href="#waslastspoketodevice_boolean">wasLastSpokeToDevice: (Boolean)</a></li>
         <li class="main "><a href="#wifinetwork_string">wifiNetwork: (String)</a></li>
     </ul>
 </div></div>
@@ -290,73 +292,27 @@
 
 <p><strong>In this section, this we review device attributes and some basic example values.</strong></p>
 <hr />
-<h4 id="lastupdated_string"><h4 style="color: #FF6025;"><u>lastUpdated</u>: (String)</h4><a class="headerlink" href="#lastupdated_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the date/time of the last device data refresh.<br>
-<strong>Output</strong>: <em><code>Dec 3, 2018 - 12:47:43 PM</code></em></p>
-<hr />
-<h4 id="devicestatus_string"><h4 style="color: #FF6025;"><u>deviceStatus</u>: (String)</h4><a class="headerlink" href="#devicestatus_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the current player status.<br>
-<strong>Output</strong>: <em><code>playing_echo_spot_gen1</code></em></p>
-<hr />
-<h4 id="devicetype_string"><h4 style="color: #FF6025;"><u>deviceType</u>: (String)</h4><a class="headerlink" href="#devicetype_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the device type (model number) identifier used by amazon.<br>
-<strong>Output</strong>: <em><code>A10A33FOX2NUBK</code></em></p>
-<hr />
-<h4 id="devicestyle_string"><h4 style="color: #FF6025;"><u>deviceStyle</u>: (String)</h4><a class="headerlink" href="#devicestyle_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the description from the developer for the current device.<br>
-<strong>Output</strong>: <em><code>Echo Spot</code></em></p>
-<hr />
-<h4 id="devicefamily_string"><h4 style="color: #FF6025;"><u>deviceFamily</u>: (String)</h4><a class="headerlink" href="#devicefamily_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the device family identifier used by amazon.<br>
-<strong>Output</strong>: <em><code>ROOK</code></em></p>
-<hr />
-<h4 id="donotdisturb_string"><h4 style="color: #FF6025;"><u>doNotDisturb</u>: (String)</h4><a class="headerlink" href="#donotdisturb_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the devices current Do not Disturb status.<br>
-<strong>Output</strong>: <em><code>false</code></em></p>
-<hr />
-<h4 id="firmwarever_string"><h4 style="color: #FF6025;"><u>firmwareVer</u>: (String)</h4><a class="headerlink" href="#firmwarever_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the devices current firmware revision.<br>
-<strong>Output</strong>: <em><code>625533420</code></em></p>
-<hr />
-<h4 id="onlinestatus_string"><h4 style="color: #FF6025;"><u>onlineStatus</u>: (String)</h4><a class="headerlink" href="#onlinestatus_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the devices current online status under amazon.<br>
-<strong>Output</strong>: <em><code>online</code></em></p>
-<hr />
-<h4 id="btdeviceconnected_string"><h4 style="color: #FF6025;"><u>btDeviceConnected</u>: (String)</h4><a class="headerlink" href="#btdeviceconnected_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the current bluetooth device connected to the alexa device.<br>
-<strong>Output</strong>: <em><code>JBL Pulse 2</code></em></p>
-<hr />
-<h4 id="btdevicespaired_string"><h4 style="color: #FF6025;"><u>btDevicesPaired</u>: (String)</h4><a class="headerlink" href="#btdevicespaired_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains a list of currently paired (available) bluetooth devices to the alexa device.<br>
-<strong>Output</strong>: <em><code>[AirPods, JBL Pulse 2]</code></em></p>
-<hr />
-<h4 id="currentstation_string"><h4 style="color: #FF6025;"><u>currentStation</u>: (String)</h4><a class="headerlink" href="#currentstation_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains a current music source.<br>
-<strong>Output</strong>: <em><code>Holiday Favorites Station</code></em></p>
-<hr />
-<h4 id="currentalbum_string"><h4 style="color: #FF6025;"><u>currentAlbum</u>: (String)</h4><a class="headerlink" href="#currentalbum_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains a current audio album.<br>
-<strong>Output</strong>: <em><code>Dean Martin</code></em></p>
-<hr />
-<h4 id="trackimage_string"><h4 style="color: #FF6025;"><u>trackImage</u>: (String)</h4><a class="headerlink" href="#trackimage_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the current track image url.<br>
-<strong>Output</strong>: <em><code>https://m.media-amazon.com/images/I/71mwv+MFxSL.UL600.jpg</code></em></p>
-<hr />
-<h4 id="trackimagehtml_string"><h4 style="color: #FF6025;"><u>trackImageHtml</u>: (String)</h4><a class="headerlink" href="#trackimagehtml_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the current track image as an html object for dashboards.<br>
-<strong>Output</strong>: <em><code>&lt;img src="https://m.media-amazon.com/images/I/71mwv+MFxSL.UL600.jpg"/&gt;</code></em></p>
-<hr />
 <h4 id="alarmvolume_string"><h4 style="color: #FF6025;"><u>alarmVolume</u>: (String)</h4><a class="headerlink" href="#alarmvolume_string" title="Permanent link">#</a></h4>
 <p><strong>Description</strong>: Current alarm/reminder alert volume.<br>
 <strong>Output</strong>: <em><code>47</code></em></p>
 <hr />
-<h4 id="alexawakeword_string"><h4 style="color: #FF6025;"><u>alexaWakeWord</u>: (String)</h4><a class="headerlink" href="#alexawakeword_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the devices current wake word.<br>
-<strong>Output</strong>: <em><code>ALEXA</code></em></p>
+<h4 id="alarmsupported_boolean"><h4 style="color: #FF6025;"><u>alarmSupported</u>: (Boolean)</h4><a class="headerlink" href="#alarmsupported_boolean" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Identifies if device supports alarm management control actions.<br>
+<strong>Output</strong>: <em><code>true</code></em></p>
 <hr />
-<h4 id="wakewords_enum"><h4 style="color: #FF6025;"><u>wakeWords</u>: (Enum)</h4><a class="headerlink" href="#wakewords_enum" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains list of available alexa wake words.<br>
-<strong>Output</strong>: <pre>[&ldquo;ALEXA&rdquo;,&rdquo;AMAZON&rdquo;,&rdquo;ECHO&rdquo;,&rdquo;COMPUTER&rdquo;]</pre></p>
+<h4 id="alexamusicproviders_json_object"><h4 style="color: #FF6025;"><u>alexaMusicProviders</u>: (JSON_Object)</h4><a class="headerlink" href="#alexamusicproviders_json_object" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains list of supported music playback services available.<br>
+<strong>Output</strong>:
+<pre>
+[
+    CLOUDPLAYER: My Library,
+    AMAZON_MUSIC: Amazon Music,
+    APPLE_MUSIC: Apple Music,
+    I_HEART_RADIO: iHeartRadio,
+    PANDORA: Pandora,
+    TUNEIN: TuneIn
+]
+</pre></p>
 <hr />
 <h4 id="alexanotifications_json_object"><h4 style="color: #FF6025;"><u>alexaNotifications</u>: (JSON_Object)</h4><a class="headerlink" href="#alexanotifications_json_object" title="Permanent link">#</a></h4>
 <p><strong>Description</strong>: Contains list of current device notifications.<br></p>
@@ -379,59 +335,113 @@
 }
 </pre></p>
 <hr />
-<h4 id="alexamusicproviders_json_object"><h4 style="color: #FF6025;"><u>alexaMusicProviders</u>: (JSON_Object)</h4><a class="headerlink" href="#alexamusicproviders_json_object" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains list of supported music playback services available.<br>
-<strong>Output</strong>:
-<pre>
-[
-    CLOUDPLAYER: My Library,
-    AMAZON_MUSIC: Amazon Music,
-    APPLE_MUSIC: Apple Music,
-    I_HEART_RADIO: iHeartRadio,
-    PANDORA: Pandora,
-    TUNEIN: TuneIn
-]
-</pre></p>
+<h4 id="alexawakeword_string"><h4 style="color: #FF6025;"><u>alexaWakeWord</u>: (String)</h4><a class="headerlink" href="#alexawakeword_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the devices current wake word.<br>
+<strong>Output</strong>: <em><code>ALEXA</code></em></p>
 <hr />
-<h4 id="volumesupported_boolean"><h4 style="color: #FF6025;"><u>volumeSupported</u>: (Boolean)</h4><a class="headerlink" href="#volumesupported_boolean" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Identifies if device supports volume control actions.<br>
+<h4 id="btdeviceconnected_string"><h4 style="color: #FF6025;"><u>btDeviceConnected</u>: (String)</h4><a class="headerlink" href="#btdeviceconnected_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the current bluetooth device connected to the alexa device.<br>
+<strong>Output</strong>: <em><code>JBL Pulse 2</code></em></p>
+<hr />
+<h4 id="btdevicespaired_string"><h4 style="color: #FF6025;"><u>btDevicesPaired</u>: (String)</h4><a class="headerlink" href="#btdevicespaired_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains a list of currently paired (available) bluetooth devices to the alexa device.<br>
+<strong>Output</strong>: <em><code>[AirPods, JBL Pulse 2]</code></em></p>
+<hr />
+<h4 id="currentalbum_string"><h4 style="color: #FF6025;"><u>currentAlbum</u>: (String)</h4><a class="headerlink" href="#currentalbum_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains a current audio album.<br>
+<strong>Output</strong>: <em><code>Dean Martin</code></em></p>
+<hr />
+<h4 id="currentstation_string"><h4 style="color: #FF6025;"><u>currentStation</u>: (String)</h4><a class="headerlink" href="#currentstation_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains a current music source.<br>
+<strong>Output</strong>: <em><code>Holiday Favorites Station</code></em></p>
+<hr />
+<h4 id="devicefamily_string"><h4 style="color: #FF6025;"><u>deviceFamily</u>: (String)</h4><a class="headerlink" href="#devicefamily_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the device family identifier used by amazon.<br>
+<strong>Output</strong>: <em><code>ROOK</code></em></p>
+<hr />
+<h4 id="devicestatus_string"><h4 style="color: #FF6025;"><u>deviceStatus</u>: (String)</h4><a class="headerlink" href="#devicestatus_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the current player status.<br>
+<strong>Output</strong>: <em><code>playing_echo_spot_gen1</code></em></p>
+<hr />
+<h4 id="devicestyle_string"><h4 style="color: #FF6025;"><u>deviceStyle</u>: (String)</h4><a class="headerlink" href="#devicestyle_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the description from the developer for the current device.<br>
+<strong>Output</strong>: <em><code>Echo Spot</code></em></p>
+<hr />
+<h4 id="devicetype_string"><h4 style="color: #FF6025;"><u>deviceType</u>: (String)</h4><a class="headerlink" href="#devicetype_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the device type (model number) identifier used by amazon.<br>
+<strong>Output</strong>: <em><code>A10A33FOX2NUBK</code></em></p>
+<hr />
+<h4 id="donotdisturb_string"><h4 style="color: #FF6025;"><u>doNotDisturb</u>: (String)</h4><a class="headerlink" href="#donotdisturb_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the devices current Do not Disturb status.<br>
+<strong>Output</strong>: <em><code>false</code></em></p>
+<hr />
+<h4 id="followupmode_string"><h4 style="color: #FF6025;"><u>followUpMode</u>: (String)</h4><a class="headerlink" href="#followupmode_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Whether the device immediately waits for another command after executing the first one.<br>
 <strong>Output</strong>: <em><code>true</code></em></p>
 <hr />
-<h4 id="ttssupported_boolean"><h4 style="color: #FF6025;"><u>ttsSupported</u>: (Boolean)</h4><a class="headerlink" href="#ttssupported_boolean" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Identifies if device supports text to speech actions.<br>
-<strong>Output</strong>: <em><code>true</code></em></p>
-<hr />
-<h4 id="musicsupported_boolean"><h4 style="color: #FF6025;"><u>musicSupported</u>: (Boolean)</h4><a class="headerlink" href="#musicsupported_boolean" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Identifies if device supports music player control actions.<br>
-<strong>Output</strong>: <em><code>true</code></em></p>
-<hr />
-<h4 id="alarmsupported_boolean"><h4 style="color: #FF6025;"><u>alarmSupported</u>: (Boolean)</h4><a class="headerlink" href="#alarmsupported_boolean" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Identifies if device supports alarm management control actions.<br>
-<strong>Output</strong>: <em><code>true</code></em></p>
-<hr />
-<h4 id="remindersupported_boolean"><h4 style="color: #FF6025;"><u>reminderSupported</u>: (Boolean)</h4><a class="headerlink" href="#remindersupported_boolean" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Identifies if device supports reminder management control actions.<br>
-<strong>Output</strong>: <em><code>true</code></em></p>
-<hr />
-<h4 id="lastspeakcmd_string"><h4 style="color: #FF6025;"><u>lastSpeakCmd</u>: (String)</h4><a class="headerlink" href="#lastspeakcmd_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the text used by the last Speak() command. Useful for replaying the last message.<br>
-<strong>Output</strong>: <em><code>The Front Door Lock is unlocked</code></em></p>
+<h4 id="firmwarever_string"><h4 style="color: #FF6025;"><u>firmwareVer</u>: (String)</h4><a class="headerlink" href="#firmwarever_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the devices current firmware revision.<br>
+<strong>Output</strong>: <em><code>625533420</code></em></p>
 <hr />
 <h4 id="lastcmdsentdt_string"><h4 style="color: #FF6025;"><u>lastCmdSentDt</u>: (String)</h4><a class="headerlink" href="#lastcmdsentdt_string" title="Permanent link">#</a></h4>
 <p><strong>Description</strong>: Contains the date/time of the last speak command.<br>
 <strong>Output</strong>: <em><code>Mon Dec 03 09:16:09 EST 2018</code></em></p>
 <hr />
-<h4 id="waslastspoketodevice_boolean"><h4 style="color: #FF6025;"><u>wasLastSpokeToDevice</u>: (Boolean)</h4><a class="headerlink" href="#waslastspoketodevice_boolean" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Used to identify if the device was the last device spoken to on your account.<br>
-<strong>Output</strong>: <em><code>true</code></em></p>
+<h4 id="lastspeakcmd_string"><h4 style="color: #FF6025;"><u>lastSpeakCmd</u>: (String)</h4><a class="headerlink" href="#lastspeakcmd_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the text used by the last Speak() command. Useful for replaying the last message.<br>
+<strong>Output</strong>: <em><code>The Front Door Lock is unlocked</code></em></p>
 <hr />
 <h4 id="lastspokentotime_timestamp"><h4 style="color: #FF6025;"><u>lastSpokenToTime</u>: (Timestamp)</h4><a class="headerlink" href="#lastspokentotime_timestamp" title="Permanent link">#</a></h4>
 <p><strong>Description</strong>: Contains the timestamp of the last command given to the alexa device.<br>
 <strong>Output</strong>: <em><code>1548456169854</code></em></p>
 <hr />
+<h4 id="lastupdated_string"><h4 style="color: #FF6025;"><u>lastUpdated</u>: (String)</h4><a class="headerlink" href="#lastupdated_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the date/time of the last device data refresh.<br>
+<strong>Output</strong>: <em><code>Dec 3, 2018 - 12:47:43 PM</code></em></p>
+<hr />
 <h4 id="lastvoiceactivity_string"><h4 style="color: #FF6025;"><u>lastVoiceActivity</u>: (String)</h4><a class="headerlink" href="#lastvoiceactivity_string" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains the voice command given to the alexa device.<br>
+<p><strong>Description</strong>: Contains the last voice command given to the alexa device.<br>
 <strong>Output</strong>: <em><code>what time is it</code></em></p>
+<hr />
+<h4 id="onlinestatus_string"><h4 style="color: #FF6025;"><u>onlineStatus</u>: (String)</h4><a class="headerlink" href="#onlinestatus_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the devices current online status under amazon.<br>
+<strong>Output</strong>: <em><code>online</code></em></p>
+<hr />
+<h4 id="permissions_boolean"><h4 style="color: #FF6025;"><u>permissions</u>: (Boolean)</h4><a class="headerlink" href="#permissions_boolean" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Identifies if device supports music player control actions.<br>
+<strong>Output</strong>: <em><code>[TTS, alarms, amazonMusic, announce, appleMusic, bluetoothControl, doNotDisturb, flashBriefing, followUpMode, iHeartRadio, isEchoDevice, isMultiroomMember, mediaPlayer, microphone, pandoraRadio, reminders, spotify, tuneInRadio, volumeControl, wakeWord]</code></em></p>
+<hr />
+<h4 id="remindersupported_boolean"><h4 style="color: #FF6025;"><u>reminderSupported</u>: (Boolean)</h4><a class="headerlink" href="#remindersupported_boolean" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Identifies if device supports reminder management control actions.<br>
+<strong>Output</strong>: <em><code>true</code></em></p>
+<hr />
+<h4 id="supportedmusic_string"><h4 style="color: #FF6025;"><u>supportedMusic</u>: (String)</h4><a class="headerlink" href="#supportedmusic_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Identifies if device supports music player control actions.<br>
+<strong>Output</strong>: <em><code>Amazon Music, Apple Music, My Library, Pandora, TuneIn, iHeartRadio</code></em></p>
+<hr />
+<h4 id="trackimage_string"><h4 style="color: #FF6025;"><u>trackImage</u>: (String)</h4><a class="headerlink" href="#trackimage_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the current track image url.<br>
+<strong>Output</strong>: <em><code>https://m.media-amazon.com/images/I/71mwv+MFxSL.UL600.jpg</code></em></p>
+<hr />
+<h4 id="trackimagehtml_string"><h4 style="color: #FF6025;"><u>trackImageHtml</u>: (String)</h4><a class="headerlink" href="#trackimagehtml_string" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains the current track image as an html object for dashboards.<br>
+<strong>Output</strong>: <em><code>&lt;img src="https://m.media-amazon.com/images/I/71mwv+MFxSL.UL600.jpg"/&gt;</code></em></p>
+<hr />
+<h4 id="ttssupported_boolean"><h4 style="color: #FF6025;"><u>ttsSupported</u>: (Boolean)</h4><a class="headerlink" href="#ttssupported_boolean" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Identifies if device supports text to speech actions.<br>
+<strong>Output</strong>: <em><code>true</code></em></p>
+<hr />
+<h4 id="volumesupported_boolean"><h4 style="color: #FF6025;"><u>volumeSupported</u>: (Boolean)</h4><a class="headerlink" href="#volumesupported_boolean" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Identifies if device supports volume control actions.<br>
+<strong>Output</strong>: <em><code>true</code></em></p>
+<hr />
+<h4 id="wakewords_enum"><h4 style="color: #FF6025;"><u>wakeWords</u>: (Enum)</h4><a class="headerlink" href="#wakewords_enum" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Contains list of available alexa wake words.<br>
+<strong>Output</strong>: <pre>[&ldquo;ALEXA&rdquo;,&rdquo;AMAZON&rdquo;,&rdquo;ECHO&rdquo;,&rdquo;COMPUTER&rdquo;]</pre></p>
+<hr />
+<h4 id="waslastspoketodevice_boolean"><h4 style="color: #FF6025;"><u>wasLastSpokeToDevice</u>: (Boolean)</h4><a class="headerlink" href="#waslastspoketodevice_boolean" title="Permanent link">#</a></h4>
+<p><strong>Description</strong>: Used to identify if the device was the last device spoken to on your account.<br>
+<strong>Output</strong>: <em><code>true</code></em></p>
 <hr />
 <h4 id="wifinetwork_string"><h4 style="color: #FF6025;"><u>wifiNetwork</u>: (String)</h4><a class="headerlink" href="#wifinetwork_string" title="Permanent link">#</a></h4>
 <p><strong>Description</strong>: Contains the devices current Wifi Network SSID.<br>
