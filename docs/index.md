@@ -27,11 +27,14 @@ The SmartThings | Hubitat Apps/SmartApps & Device code is found on the GitHub si
 | Echo Speaks Actions:  | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-actions.src/echo-speaks-actions.groovy) | v3.2.1.0      |
 | Echo Speaks Zones:    | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-zones.src/echo-speaks-zones.groovy)     | v3.2.1.0      |
 
-| ***Devices:***                         | ***Source Code URL:***                                                                                                                               | ***Version*** |
-| :------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| Echo Speaks Driver (SmartThings Only): | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) | v3.2.1.0      |
-| Echo Speaks Driver (Hubitat Only):     | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy)                                     | v3.2.1.0      |
-| Echo Speaks Websocket (Hubitat Only):  | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-ws.groovy)                                         | v3.2.0.1      |
+| ***Hubitat Devices:***                | ***Source Code URL:***                                                                                           | ***Version*** |
+| :------------------------------------ | ---------------------------------------------------------------------------------------------------------------- | ------------- |
+| Echo Speaks Driver (Hubitat Only):    | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy) | v3.2.1.0      |
+| Echo Speaks Websocket (Hubitat Only): | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-ws.groovy)     | v3.2.0.1      |
+
+| ***SmartThings Devices:***             | ***Source Code URL:***                                                                                                                                | ***Version*** |
+| :------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| Echo Speaks Device (SmartThings Only): | [Device Handler](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) | v3.2.1.0      |
 
 | ***Server:***       | ***Source Code URL:***                                          | ***Version*** |
 | :------------------ | --------------------------------------------------------------- | ------------- |
