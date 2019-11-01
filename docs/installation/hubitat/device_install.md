@@ -20,7 +20,7 @@ Click on the `Import` button at the top of the page:
 ---
 ### <h3 style="color: #FF6025;">Step 4:</h3>:
 
-* Copy this URL into the window: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy`
+* Copy this URL into the window: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy`
 
   ![screenshot](img/he_device_install_4.png)
 

@@ -17,13 +17,13 @@ Click on the `Import` button at the top of the page:
 
 ![screenshot](img/he_device_update_3_2.png)
 
-* Copy this URL into the window: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy`
+* Copy this URL into the window: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy`
 * Click `Import`
 * Click `Save`
 
 ---
 ### <h3 style="color: #FF6025;">Step 4:</h3>
-Repeat Steps 1-3 with the Web Socket Device: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-ws.src/echo-speaks-ws.groovy`
+Repeat Steps 1-3 with the Web Socket Device: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-ws.groovy`
 
 ---
 ### <h3 style="color: #FF6025;">Step 5:</h3>
