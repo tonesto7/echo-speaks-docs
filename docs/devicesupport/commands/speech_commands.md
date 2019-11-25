@@ -58,6 +58,24 @@ Alexa will give the current weather conditions</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playWeather(30, 50)</code></pre>
 
 ---
+### <h4 style="color: #FF6025;">playSoundByName(name)</h4>
+
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Play sounds found in the Alexa Skills Kit Sound Library (Only Sounds who's file name starts with 'amzn_sfx_')</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Sound File Name (String): <code>String (Should support any alexa skills kit sound that starts with 'amzn_sfx_' | https://developer.amazon.com/docs/custom-skills/ask-soundlibrary.html)</code></p>
+</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playSoundByName("amzn_sfx_bear_groan_roar_01")</code></pre>
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playSoundByName("amzn_sfx_bear_groan_roar_01", 50, 30)</code></pre>
+
+---
 ### <h4 style="color: #FF6025;">playSingASong()</h4>
 
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
