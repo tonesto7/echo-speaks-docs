@@ -3,7 +3,7 @@ title: Echo Speaks Documentation
 summary: A brief description of my document.
 authors:
     - A. Santilli
-date: 2019-11-25
+date: 2019-12-23
 some_url: https://tonesto7.github.io/echo-speaks-docs/#
 ---
 
@@ -23,18 +23,18 @@ The SmartThings | Hubitat Apps/SmartApps & Device code is found on the GitHub si
 
 | ***Apps/SmartApps:*** | ***Source Code URL:***                                                                                                                           | ***Version*** |
 | :-------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
-| Echo Speaks:          | [Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks.src/echo-speaks.groovy)                | v3.3.0.0      |
-| Echo Speaks Actions:  | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-actions.src/echo-speaks-actions.groovy) | v3.3.0.0      |
-| Echo Speaks Zones:    | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-zones.src/echo-speaks-zones.groovy)     | v3.3.0.0      |
+| Echo Speaks:          | [Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks.src/echo-speaks.groovy)                | v3.3.1.2      |
+| Echo Speaks Actions:  | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-actions.src/echo-speaks-actions.groovy) | v3.3.1.2      |
+| Echo Speaks Zones:    | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-zones.src/echo-speaks-zones.groovy)     | v3.3.1.1      |
 
 | ***Hubitat Devices:***                | ***Source Code URL:***                                                                                           | ***Version*** |
 | :------------------------------------ | ---------------------------------------------------------------------------------------------------------------- | ------------- |
-| Echo Speaks Driver (Hubitat Only):    | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy) | v3.3.0.0      |
+| Echo Speaks Driver (Hubitat Only):    | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy) | v3.3.0.1      |
 | Echo Speaks Websocket (Hubitat Only): | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-ws.groovy)     | v3.2.0.1      |
 
 | ***SmartThings Devices:***             | ***Source Code URL:***                                                                                                                                | ***Version*** |
 | :------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| Echo Speaks Device (SmartThings Only): | [Device Handler](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) | v3.3.0.0      |
+| Echo Speaks Device (SmartThings Only): | [Device Handler](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) | v3.3.0.1      |
 
 | ***Server:***       | ***Source Code URL:***                                          | ***Version*** |
 | :------------------ | --------------------------------------------------------------- | ------------- |
