@@ -3,7 +3,7 @@ title: Echo Speaks Documentation
 summary: A brief description of my document.
 authors:
   - A. Santilli
-date: 2020-02-10
+date: 2020-03-03
 some_url: https://tonesto7.github.io/echo-speaks-docs/#
 ---
 
@@ -24,22 +24,22 @@ The SmartThings | Hubitat Apps/SmartApps & Device code is found on the GitHub si
 
 | **_Apps/SmartApps:_** | **_Source Code URL:_**                                                                                                                           | **_Version_** |
 | :-------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
-| Echo Speaks:          | [Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks.src/echo-speaks.groovy)                | v3.5.0.0      |
-| Echo Speaks Actions:  | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-actions.src/echo-speaks-actions.groovy) | v3.5.0.0      |
-| Echo Speaks Zones:    | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-zones.src/echo-speaks-zones.groovy)     | v3.5.0.0      |
+| Echo Speaks:          | [Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks.src/echo-speaks.groovy)                | v3.6.0.0      |
+| Echo Speaks Actions:  | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-actions.src/echo-speaks-actions.groovy) | v3.6.0.0      |
+| Echo Speaks Zones:    | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-zones.src/echo-speaks-zones.groovy)     | v3.6.0.0      |
 
 | **_Hubitat Devices:_**                | **_Source Code URL:_**                                                                                           | **_Version_** |
 | :------------------------------------ | ---------------------------------------------------------------------------------------------------------------- | ------------- |
-| Echo Speaks Driver (Hubitat Only):    | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy) | v3.5.0.0      |
-| Echo Speaks Websocket (Hubitat Only): | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-ws.groovy)     | v3.2.0.1      |
+| Echo Speaks Driver (Hubitat Only):    | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy) | v3.6.0.0      |
+| Echo Speaks Websocket (Hubitat Only): | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-ws.groovy)     | v3.3.0.0      |
 
 | **_SmartThings Devices:_**             | **_Source Code URL:_**                                                                                                                                | **_Version_** |
 | :------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| Echo Speaks Device (SmartThings Only): | [Device Handler](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) | v3.5.0.0      |
+| Echo Speaks Device (SmartThings Only): | [Device Handler](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/devicetypes/tonesto7/echo-speaks-device.src/echo-speaks-device.groovy) | v3.6.0.0      |
 
 | **_Server:_**       | **_Source Code URL:_**                                          | **_Version_** |
 | :------------------ | --------------------------------------------------------------- | ------------- |
-| Echo Speaks Server: | [Heroku Server](https://github.com/tonesto7/echo-speaks-server) | v2.3.1        |
+| Echo Speaks Server: | [Heroku Server](https://github.com/tonesto7/echo-speaks-server) | v2.4.0        |
 
 ### <h3 style="color: #FF6025;">Getting Started</h3>
 
