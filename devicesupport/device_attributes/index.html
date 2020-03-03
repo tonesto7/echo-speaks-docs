@@ -255,7 +255,6 @@
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#alarmvolume_string">alarmVolume: (String)</a></li>
         <li class="main "><a href="#alarmsupported_boolean">alarmSupported: (Boolean)</a></li>
-        <li class="main "><a href="#alexanotifications_json_object">alexaNotifications: (JSON_Object)</a></li>
         <li class="main "><a href="#alexaplaylists_json_object">alexaPlaylists: (JSON_Object)</a></li>
         <li class="main "><a href="#alexawakeword_string">alexaWakeWord: (String)</a></li>
         <li class="main "><a href="#btdeviceconnected_string">btDeviceConnected: (String)</a></li>
@@ -298,27 +297,30 @@
 <h4 id="alarmsupported_boolean"><h4 style="color: #FF6025;"><u>alarmSupported</u>: (Boolean)</h4><a class="headerlink" href="#alarmsupported_boolean" title="Permanent link">#</a></h4>
 <p><strong>Description</strong>: Identifies if device supports alarm management control actions.<br>
 <strong>Output</strong>: <em><code>true</code></em></p>
-<hr />
-<h4 id="alexanotifications_json_object"><h4 style="color: #FF6025;"><u>alexaNotifications</u>: (JSON_Object)</h4><a class="headerlink" href="#alexanotifications_json_object" title="Permanent link">#</a></h4>
-<p><strong>Description</strong>: Contains list of current device notifications.<br></p>
-<p><strong>Output</strong>: <pre>[]</pre></p>
+<!-- ---
+### <h4 style="color: #FF6025;"><u>alexaNotifications</u>: (JSON_Object)</h4>
+**Description**: Contains list of current device notifications.<br>
+
+**Output**: <pre>[]</pre> -->
+
 <hr />
 <h4 id="alexaplaylists_json_object"><h4 style="color: #FF6025;"><u>alexaPlaylists</u>: (JSON_Object)</h4><a class="headerlink" href="#alexaplaylists_json_object" title="Permanent link">#</a></h4>
 <p><strong>Description</strong>: Contains current playlist in use by the device.<br>
-<strong>Output</strong>:
+<strong>Output</strong>:</p>
 <pre>
 {
-   &ldquo;Home Audio&rdquo;: [
+   "Home Audio": [
       {
-          &ldquo;title&rdquo;: &ldquo;Home Audio&rdquo;,
-          &ldquo;playlistId&rdquo;: &ldquo;a1553cd7-f732-4f7e-ac3c-995b94860e57&rdquo;,
-          &ldquo;entryList&rdquo;: null,
-          &ldquo;version&rdquo;: &ldquo;1&rdquo;,
-          &ldquo;trackCount&rdquo;: 0
+          "title": "Home Audio",
+          "playlistId": "a1553cd7-f732-4f7e-ac3c-995b94860e57",
+          "entryList": null,
+          "version": "1",
+          "trackCount": 0
       }
    ]
 }
-</pre></p>
+</pre>
+
 <hr />
 <h4 id="alexawakeword_string"><h4 style="color: #FF6025;"><u>alexaWakeWord</u>: (String)</h4><a class="headerlink" href="#alexawakeword_string" title="Permanent link">#</a></h4>
 <p><strong>Description</strong>: Contains the devices current wake word.<br>

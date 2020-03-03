@@ -260,6 +260,7 @@
         <li class="main "><a href="#playsoundbynamename">playSoundByName(name)</a></li>
         <li class="main "><a href="#playsingasong">playSingASong()</a></li>
         <li class="main "><a href="#playflashbrief">playFlashBrief()</a></li>
+        <li class="main "><a href="#playgoodnews">playGoodNews()</a></li>
         <li class="main "><a href="#saybirthday">sayBirthday()</a></li>
         <li class="main "><a href="#saycompliment">sayCompliment()</a></li>
         <li class="main "><a href="#saygoodbye">sayGoodbye()</a></li>
@@ -293,6 +294,7 @@ None Accepted</div></div>
 When used it is set to Amazon as a single command and executed in a sequence.
 
 Sends volume command first, then plays message.
+
 </div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -311,6 +313,7 @@ When the command is called it captures the current volume and restores immediate
 
 Sends volume command first, then plays message, and restores original volume
 <br>
+
 </div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
@@ -370,7 +373,7 @@ Alexa will sing a random song</div></div>
 <hr />
 <h4 id="playflashbrief"><h4 style="color: #FF6025;">playFlashBrief()</h4><a class="headerlink" href="#playflashbrief" title="Permanent link">#</a></h4>
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-Alexa will play the your flash briefing (If device supports it)</div></div>
+Alexa will play the your flash briefing News (If device supports it)</div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
@@ -380,6 +383,20 @@ Alexa will play the your flash briefing (If device supports it)</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playFlashBrief()</code></pre>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playFlashBrief(30, 50)</code></pre>
+
+<hr />
+<h4 id="playgoodnews"><h4 style="color: #FF6025;">playGoodNews()</h4><a class="headerlink" href="#playgoodnews" title="Permanent link">#</a></h4>
+<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+Alexa will play something containing Good News (If device supports it)</div></div>
+
+<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<p>Volume (Integer): <code>Between 0-100</code></p>
+<p>Restore Volume (Integer): <code>Between 0-100</code></p>
+</div></div>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>playGoodNews()</code></pre>
+
+<pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>playGoodNews(30, 50)</code></pre>
 
 <hr />
 <h4 id="saybirthday"><h4 style="color: #FF6025;">sayBirthday()</h4><a class="headerlink" href="#saybirthday" title="Permanent link">#</a></h4>
@@ -586,7 +603,7 @@ This will make an announcement with the message on the device executing the comm
 <hr />
 <h4 id="playannouncementallmessage"><h4 style="color: #FF6025;">playAnnouncementAll(message)</h4><a class="headerlink" href="#playannouncementallmessage" title="Permanent link">#</a></h4>
 <div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
-This will make an announcement with the message on all echo devices on your account<br><small style="color: red; padding: 0.15em 0;"><b><i>Notice: </i></b>This command is a complicated one.  If you want to announce on all of your echo devices just select one device to send the command to.  Amazon will send it to all devices on it's end.  So a single device can trigger all to speak</small></div></div>
+This will make an announcement with the message on all echo devices on your account<br><small style="color: red; padding: 0.15em 0;"><b><i>Notice: </i></b>This command is a complicated one.  If you want to announce on all of your echo devices just select one device to send the command to.  Amazon will send it to all devices on it's end.  So a single device can trigger all to speak. I've seen it to where Amazon will rate-limit so if the devices in the announcement so they will not speak.</small></div></div>
 
 <div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Message (String): <code>String between 1-400 characters in length</code></p>
