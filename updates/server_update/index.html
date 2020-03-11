@@ -253,12 +253,33 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#step_1">Step 1:</a></li>
+        <li class="main active"><a href="#automated_method">Automated Method:</a></li>
+        <li class="main "><a href="#manual_method">Manual Method:</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h4 id="step_1"><h3 style="color: #FF6025;">Step 1:</h3><a class="headerlink" href="#step_1" title="Permanent link">#</a></h4>
+<h4 id="automated_method"><h3 style="color: #FF6025;">Automated Method:</h3><a class="headerlink" href="#automated_method" title="Permanent link">#</a></h4>
+<p>Thanks to @zarthan there is now a new way to enable Auto Server Updates without adding me as a collaborator on Heroku.</p>
+<p>I appologize that this does not have any photos for the steps.</p>
+<ol>
+<li>Under GitHub goto <a href="https://github.com/tonesto7/echo-speaks-server">https://github.com/tonesto7/echo-speaks-server</a></li>
+<li>Sign into your Github account.</li>
+<li>Click on Fork in towards the top right of the page.</li>
+<li>This will create a copy under your github.com account.</li>
+<li>Follow the setup and configuration of the Pull app linked above.</li>
+<li>Once the pull app is configured head over to <a href="https://dashboad.heroku.com">https://dashboad.heroku.com</a>.</li>
+<li>Click on your <strong><code>echo-speaks-xxxxxxxxx</code></strong> instance(s)</li>
+<li>Click on Deploy under Deployment method click GitHub and make sure you sign in to Github.</li>
+<li>Under repo-name text box enter <strong><code>echo-speaks-server</code></strong> and press Search.</li>
+<li>You should see your fork of the echo-speaks-server listed in the results, so click <strong><code>Connect</code></strong> button to the right of it.</li>
+<li>The screen should reload once or twice and then you can see Automatic and Manual deploys.</li>
+<li>Under Automatic deploy section make sure <strong><code>master</code></strong> branch is selected and <strong><code>Wait for CI to pass before deploy</code></strong> is checked.</li>
+<li>Click on <strong><code>Enable Automatic Deploys</code></strong> and if you are already running the latest server you are done.  If not move on to Step 13.</li>
+<li>To upgrade your current server scroll down to the Manual deploy section and make sure <strong><code>master</code></strong> branch is selected and press <strong><code>Deploy Branch</code></strong> and watch the little window below read out the progress of deployment.</li>
+<li>Now your done.</li>
+</ol>
+<h4 id="manual_method"><h3 style="color: #FF6025;">Manual Method:</h3><a class="headerlink" href="#manual_method" title="Permanent link">#</a></h4>
 <p>In order to update your existing server it will actually need to be deleted from Heroku and reployed.
 This process is very simple just follow the removal process to get started.</p>
 <p><a href="/echo-speaks-docs/support/server_removal">Server Redeploy</a></p></div>
