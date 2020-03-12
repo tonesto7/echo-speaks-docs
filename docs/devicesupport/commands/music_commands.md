@@ -1,24 +1,25 @@
 ### <h4 style="color: #FF6025;">togglePlayback()</h4>
 
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<div class="desc-div"><div class="desc-div-title"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control<br><br>
 Used to toggle between playing and stopped state</div></div>
 
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Example: <code>togglePlayback()</code></pre>
 
 ---
+
 ### <h4 style="color: #FF6025;">searchMusic(searchPhrase, providerId)</h4>
 
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<div class="desc-div"><div class="desc-div-title"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control<br><br>
 Used to play music from the desired music provider</div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>SearchPhrase (String): <code>String between 0-100 characters in length.  This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</code></p>
 <p>ProviderId (String): <code>ProviderId's allowed [CLOUDPLAYER, AMAZON_MUSIC, APPLE_MUSIC, I_HEART_RADIO, PANDORA, SPOTIFY, TUNEIN]</code></p>
 </div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
 <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
@@ -29,17 +30,18 @@ Used to play music from the desired music provider</div></div>
 <p style="color: yellow"><b>Info:</b> I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
 ---
+
 ### <h4 style="color: #FF6025;">searchAmazonMusic(searchPhrase)</h4>
 
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<div class="desc-div"><div class="desc-div-title"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control<br><br>
 Used to play music from Amazon Music provider</div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>SearchPhrase (String): <code>String between 0-100 characters in length.  This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</code></p>
 </div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
 <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
@@ -50,17 +52,18 @@ Used to play music from Amazon Music provider</div></div>
 <p style="color: yellow"><b>Info:</b> I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
 ---
+
 ### <h4 style="color: #FF6025;">searchAppleMusic(searchPhrase)</h4>
 
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<div class="desc-div"><div class="desc-div-title"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control and Apple Music<br><br>
 Used to play music from Apple Music provider</div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>SearchPhrase (String): <code>String between 0-100 characters in length.  This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</code></p>
 </div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
 <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
@@ -71,17 +74,18 @@ Used to play music from Apple Music provider</div></div>
 <p style="color: yellow"><b>Info:</b> I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
 ---
+
 ### <h4 style="color: #FF6025;">searchPandora(searchPhrase)</h4>
 
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<div class="desc-div"><div class="desc-div-title"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Requires connection of Pandora skills<br><br>
 Used to play music from Pandora Radio provider</div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>SearchPhrase (String): <code>String between 0-100 characters in length.  This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</code></p>
 </div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
 <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
@@ -90,17 +94,18 @@ Used to play music from Pandora Radio provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchPandora("thriller on the upstairs", 40, 300)</code></pre>
 
 ---
+
 ### <h4 style="color: #FF6025;">searchIheart(searchPhrase)</h4>
 
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<div class="desc-div"><div class="desc-div-title"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Requires connection of iHeart Radio Skill<br><br>
 Used to play music from iHeartRadio provider</div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>SearchPhrase (String): <code>String between 0-100 characters in length.  This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</code></p>
 </div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
 <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
@@ -109,17 +114,18 @@ Used to play music from iHeartRadio provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchIheart("thriller on the upstairs", 40, 300)</code></pre>
 
 ---
+
 ### <h4 style="color: #FF6025;">searchSiriusXm(searchPhrase)</h4>
 
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<div class="desc-div"><div class="desc-div-title"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices.  Requires Sirius XM subscription.<br><br>
 Used to play music from Sirius XM provider</div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>SearchPhrase (String): <code>String between 0-100 characters in length.  This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</code></p>
 </div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
 <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
@@ -128,17 +134,18 @@ Used to play music from Sirius XM provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchSiriusXm("thriller on the upstairs", 40, 300)</code></pre>
 
 ---
+
 ### <h4 style="color: #FF6025;">searchSpotify(searchPhrase)</h4>
 
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<div class="desc-div"><div class="desc-div-title"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Requires Spotify subscription.<br><br>
 Used to play music from Spotify provider</div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>SearchPhrase (String): <code>String between 0-100 characters in length.  This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</code></p>
 </div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
 <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
@@ -149,17 +156,18 @@ Used to play music from Spotify provider</div></div>
 <p style="color: yellow"><b>Info:</b> I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
 ---
+
 ### <h4 style="color: #FF6025;">searchTuneIn(searchPhrase)</h4>
 
-<div style="background-color: #ebecec; margin: 0 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #9b9b9b; padding: 0.15em 0.5em;"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
+<div class="desc-div"><div class="desc-div-title"><small><b><i>Description:</i></b></small></div><div style="padding: 0.5em;">
 <code>NOTICE:</code>Not available on all devices. Only works on devices that support music playback control and Tune-In Radio<br><br>
 Used to play music from Tune-In Radio provider</div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Required Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>SearchPhrase (String): <code>String between 0-100 characters in length.  This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</code></p>
 </div></div>
 
-<div style="background-color: #ebecec; margin: 20px 1em;"><div style="border-radius: 3px 3px 0 0; background-color: #3091d1; padding: 0.15em 0.5em;"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
+<div class="params-div"><div class="params-div-title"><small><b><i>Optional Parameters</i></b></small></div><div style="padding: 0.5em;">
 <p>Volume (Integer): <code>Between 0-100</code></p>
 <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
 </div></div>
@@ -168,6 +176,25 @@ Used to play music from Tune-In Radio provider</div></div>
 <pre style="background-color: #9b9b9b; margin: 0 1em; color: white;">Optional: <code>searchTuneIn("thriller on the upstairs", 40, 300)</code></pre>
 
 ---
+
 ### <h4 style="color: #FF6025;">Testing</h4>
 
 I've recently added a Music Search Test section to the main page of the SmartThings/Hubitat app.
+
+---
+
+### <h3 class="doc-head">stopAllDevices()</h3>
+
+<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
+    <h5 class="note">NOTE: Only send this command to a single device and not all devices</h5>
+    Stops audio playback on all echo devices
+</div></div>
+<div class="params-div"><div class="params-div-title">Parameters</div><div class="offset-0-5">
+  None Accepted
+</div></div>
+
+<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
+  <code>stopAllDevices()</code>
+</div></div>
+
+---

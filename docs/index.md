@@ -45,7 +45,7 @@ The SmartThings | Hubitat Apps/SmartApps & Device code is found on the GitHub si
 
 **The following items will be required for successful installation on each of the 2 platforms below:**<br>
 
-![](img/logos/st_logo_64.png) SmartThings Platform
+![](./img/logos/st_logo_64.png) SmartThings Platform
 
 <p><u>Requirements:</u></p>
 * SmartThings IDE Account access
@@ -53,17 +53,17 @@ The SmartThings | Hubitat Apps/SmartApps & Device code is found on the GitHub si
 * SmartThings Classic mobile app installed on your mobile device
 
 <p><u>Code Install:</u></p>
-* [SmartThings Code Install](/echo-speaks-docs/installation/smartthings/installs)
+* [SmartThings Code Install](./installation/smartthings/installs)
 
 ---
 
-![](img/logos/he_logo_64.png) Hubitat Platform
+![](./img/logos/he_logo_64.png) Hubitat Platform
 
 <p><u>Requirements:</u></p>
 * Hubitat Hub with Web Portal access
 
 <p><u>Code Install:</u></p>
-* [Hubitat Code Install](/echo-speaks-docs/installation/hubitat/installs)
+* [Hubitat Code Install](./installation/hubitat/installs.md)
 
 ---
 

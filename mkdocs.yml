@@ -1,6 +1,6 @@
-site_name: Echo Speaks<br>Documentation
+site_name: Echo Speaks Documentation
 site_url: https://tonesto7.github.io/echo-speaks-docs
-repo_url: https://github.com/tonesto7/echo-speaks-docs
+repo_url: https://github.com/tonesto7/echo-speaks
 edit_uri: ""
 site_description: Echo Speaks Documentation
 # use_directory_urls: False
@@ -9,7 +9,16 @@ remote_name: origin
 google_analytics: ["UA-131811674-1", "tonesto7.github.io/echo-speaks-docs"]
 
 theme:
-  name: mkdocs
+  name: material
+  features:
+    - tabs
+    - instant
+  icon:
+    repo: fontawesome/brands/github
+  extra:
+    social:
+      - icon: fontawesome/brands/github-alt
+        link: https://github.com/tonesto7/echo-speaks
   highlightjs: true
   hljs_languages:
     - yaml
@@ -19,18 +28,11 @@ theme:
     accent: "blue"
 
 nav:
+  - Home: index.md
   - Install:
-      - Hubitat:
-          - Install Options: installation/hubitat/installs.md
-        # - App Code: installation/hubitat/app_install.md
-        # - Device Code: installation/hubitat/device_install.md
-      - SmartThings:
-          - Install Options: installation/smartthings/installs.md
-        # - Community Installer: installation/smartthings/auto_install.md
-        # - IDE (GitHub) Install: installation/smartthings/github_ide_install.md
-        # - Manual Install:
-        # - App Code: installation/smartthings/device_install.md
-        # - Device Code: installation/smartthings/app_install.md
+      - 'Select Platform':
+        - Hubitat: installation/hubitat/installs.md
+        - SmartThings: installation/smartthings/installs.md
 
   - Configuration:
       - Hubitat:
@@ -76,12 +78,23 @@ markdown_extensions:
       permalink: "#"
       baselevel: 2
       separator: "_"
+  - codehilite
+
+plugins:
+  - search:
+      prebuild_index: true
+  - autolinks
+  - awesome-pages
+  - git-revision-date-localized:
+      type: timeago
+  - minify:
+      minify_html: true
+  # - mdoctag
+  # - bootstrap-tables
+
 
 extra_css:
   - "css/extra.css"
 
 extra_javascript:
   - "js/extra.js"
-
-extra:
-  version: 1.0.0
