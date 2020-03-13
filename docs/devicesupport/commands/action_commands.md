@@ -51,7 +51,7 @@
 
 ---
 
-### <h3 class="doc-head">setAlarmVolume(value)</h3>
+### <h3 class="doc-head">setAlarmVolume()</h3>
 
 <div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
     <p>Sets the Echo Devices Alarm and Reminder Notification volume</p>
@@ -70,7 +70,7 @@
 
 ## <h2 class="doc-head">Change Wake Word</h2>
 
-### <h3 class="doc-head">setWakeWord("ECHO")</h3>
+### <h3 class="doc-head">setWakeWord()</h3>
 
 <div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
   <p>Change the alexa wake word used to get Alexa to respond to commands</p>
@@ -89,7 +89,7 @@
 
 ## <h2 class="doc-head">Rename Device</h2>
 
-### <h3 class="doc-head">renameDevice("New Device Name")</h3>
+### <h3 class="doc-head">renameDevice()</h3>
 
 <div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
   <p>Changes the alexa device name under your amazon account</p>
@@ -141,7 +141,7 @@
 
 ---
 
-### <h3 class="doc-head">connectBluetooth("JBL Pulse 2")</h3>
+### <h3 class="doc-head">connectBluetooth()</h3>
 
 <div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
 Will connected a paired bluetooth device by name. (Look at attribute `btDevicesPaired` for a list of paired device names</div></div>
@@ -172,7 +172,7 @@ Will connected a paired bluetooth device by name. (Look at attribute `btDevicesP
 
 ---
 
-### <h3 class="doc-head">removeBluetooth("JBL Pulse 2")</h3>
+### <h3 class="doc-head">removeBluetooth()</h3>
 
 <div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
   Removes bluetooth device pairing from alexa device by name. (Look at attribute `btDevicesPaired` for a list of paired device names
@@ -188,36 +188,46 @@ Will connected a paired bluetooth device by name. (Look at attribute `btDevicesP
 
 ---
 
-### <h3 class="doc-head">executeSequenceCommand(sequenceString)</h3>
+## <h2 class="doc-head">Sequences</h2>
+
+### <h3 class="doc-head">executeSequenceCommand()</h3>
 
 <div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
   <p>Allows you to send a custom sequence of actions to Amazon as a single command that will be executed one at a time by Amazon.</p>
 </div></div>
 
 <div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>Sequence String (String):</p>
+  <p>Available Sequence Items (String):</p>
+  <p>General Items:</p>
+  <pre>
+  - weather
+  - traffic
+  - flashbriefing
+  - goodnews
+  - goodmorning
+  - goodnight
+  - cleanup
+  - singasong
+  - tellstory
+  - funfact
+  - joke
+  - playsearch
+  - calendartoday
+  - calendartomorrow
+  - calendarnext
+  - stop
+  - stopalldevices
+  - wait::value (seconds)
+  - volume::value (0-100)
+  - speak::message
+  - announcement::message
+  - announcementall::message
+  - pushnotification::message
+  </pre>
 
-   | **General Commands** |
-   | : --------- |
-   | weather |
-  | traffic |
-  | flashbriefing |
-  | goodnews |
-  | goodmorning |
-  | goodnight |
-  | cleanup |
-  | singasong |
-  | tellstory |
-  | funfact |
-  | joke |
-  | playsearch |
-  | calendartoday |
-  | calendartomorrow |
-  | calendarnext |
-  | stop |
-  | stopalldevices |
-
-- cannedtts_random::(accepted values below)
+  <p>Canned TTS Speech:</p>
+  <pre>
+  - cannedtts_random::(accepted values below)
     * goodbye
     * confirmations
     * goodmorning
@@ -225,77 +235,62 @@ Will connected a paired bluetooth device by name. (Look at attribute `btDevicesP
     * birthday
     * goodnight
     * iamhome
+  </pre>
 
+  <p>Sounds:</p>
+  <pre>
   - sound::(accepted values below)
 
     Bells and Buzzer Sounds:
-
-    - bells
-    - buzzer
-    - church_bell
-    - doorbell1
-    - doorbell2
-    - doorbell3
+    * bells
+    * buzzer
+    * church_bell
+    * doorbell1
+    * doorbell2
+    * doorbell3
 
     Holiday Sounds:
-
-    - xmas_bells
-    - halloween_door
+    * xmas_bells
+    * halloween_door
 
     Misc Sounds:
-
-    - air_horn
-    - boing1
-    - boing2
-    - camera
-    - squeaky_door
-    - ticking_clock
-    - trumpet
+    * air_horn
+    * boing1
+    * boing2
+    * camera
+    * squeaky_door
+    * ticking_clock
+    * trumpet
 
     Animals Sounds:
-
-    - cat
-    - dog
-    - lion
-    - rooster
-    - wolf
+    * cat
+    * dog
+    * lion
+    * rooster
+    * wolf
 
     Scifi Sounds:
-
-    - aircraft
-    - engines
-    - red_alert
-    - shields
-    - sirens
-    - zap
+    * aircraft
+    * engines
+    * red_alert
+    * shields
+    * sirens
+    * zap
 
     Crowd sounds:
+    * applause
+    * cheer
+  </pre>
 
-    - applause
-    - cheer
+  <p>Music:</p>
+  <pre>
+   - cloudplayer::search term
+  </pre>
 
-  - wait::value (seconds)
-  - volume::value (0-100)
-  - speak::message
-  - announcement::message
-  - announcementall::message
-  - pushnotification::message
-  - amazonmusic::search term
-  - applemusic::search term
-  - iheartradio::search term
-  - pandora::search term
-  - spotify::search term
-  - tunein::search term
-  - cloudplayer::search term
-    </pre>
+  <p><b>Enter the command in a format exactly like this:</b></p>
+  <p><code>volume::40,, speak::this is so silly,, wait::60, weather,, cannedtts_random::goodbye,, traffic,, amazonmusic::green day,, volume::30</code></p>
+  <h5 class="blue">NOTE: Each command::value pair needs to be separated by a double comma `,,` and the separator between the command and value must be command`::`value</h5>
 
-  <b>Enter the command in a format exactly like this:</b>
-
-  <pre>volume::40,, speak::this is so silly,, wait::60, weather,, cannedtts_random::goodbye,, traffic,, amazonmusic::green day,, volume::30</pre>
-
-  Each command::value pair needs to be separated by a double comma `,,` and the separator between the command and value must be command`::`value.
-
-  </p>
 </div></div>
 
 <div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">

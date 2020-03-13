@@ -58,16 +58,19 @@ nav:
 
   - Support:
       - Server Removal/Reset: support/server_removal.md
-      - Device Attributes/Commands:
-          - Attributes: devicesupport/device_attributes.md
-          - Action Commands: devicesupport/commands/action_commands.md
-          - Alarm & Reminders Commands: devicesupport/commands/alerts_commands.md
-          - Music Commands: devicesupport/commands/music_commands.md
-          - Speech Commands: devicesupport/commands/speech_commands.md
       - Supported Devices: devicesupport/supported_devices.md
       - Common Errors: support/common_errors.md
       - Reporting Issues: support/reporting_issues.md
       - F.A.Q.: faq.md
+
+  - Device API:
+    - Device Attributes: devicesupport/device_attributes.md
+    - Device Commands:
+      - General: devicesupport/commands/action_commands.md
+      - Alerts | Notifications: devicesupport/commands/alerts_commands.md
+      - Music: devicesupport/commands/music_commands.md
+      - Speech: devicesupport/commands/speech_commands.md
+
   - Donate: donations.md
 
 markdown_extensions:

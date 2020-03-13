@@ -147,6 +147,27 @@ h4.doc-head {
     padding: 0.5em;
 }
 
+.params-req-div {
+    background-color: #ebecec;
+    margin: 20px 1em;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 1px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.2em;
+}
+
+.params-req-div-title {
+    border-radius: 3px 3px 0 0;
+    background-color: #3091d1;
+    padding: 0.15em 0.5em;
+    font-size: small;
+    font-weight: bold;
+    /* font-style: italic; */
+    color: white;
+}
+
+.params-req-div-content {
+    padding: 0.5em;
+}
+
 .example-div {
     background-color: #ebecec;
     margin: 0 1em;
@@ -163,6 +184,24 @@ h4.doc-head {
     font-weight: bold;
     /* font-style: italic; */
     color: white;
+}
+
+.example-opt-div {
+  background-color: #ebecec;
+  margin: 0 1em;
+  color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 1px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.2em;
+}
+
+.example-opt-div-title {
+  border-radius: 3px 3px 0 0;
+  background-color: #d2a3a3;
+  padding: 0.15em 0.5em;
+  font-size: small;
+  font-weight: bold;
+  /* font-style: italic; */
+  color: white;
 }
 
 .offset-0-5 {
