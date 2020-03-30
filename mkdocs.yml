@@ -29,26 +29,27 @@ theme:
 
 nav:
   - Home: index.md
+
   - Install:
-      - 'Select Platform':
-        - Hubitat: installation/hubitat/installs.md
-        - SmartThings: installation/smartthings/installs.md
+      - "Select Platform":
+          - SmartThings: installation/smartthings/types.md
+          - Hubitat: installation/hubitat/types.md
 
   - Configuration:
-      - Hubitat:
-          - App: configuration/hubitat/config_app.md
-          - Server: configuration/hubitat/config_server.md
       - SmartThings:
           - App: configuration/smartthings/config_app.md
           - Server: configuration/smartthings/config_server.md
+      - Hubitat:
+          - App: configuration/hubitat/config_app.md
+          - Server: configuration/hubitat/config_server.md
 
   - Updates:
-      - Hubitat:
-          - App: updates/hubitat/app_update.md
-          - Device: updates/hubitat/device_update.md
       - SmartThings:
           - App: updates/smartthings/app_update.md
           - Device: updates/smartthings/device_update.md
+      - Hubitat:
+          - App: updates/hubitat/app_update.md
+          - Device: updates/hubitat/device_update.md
       - Server: updates/server_update.md
 
   - Actions:
@@ -64,14 +65,14 @@ nav:
       - F.A.Q.: faq.md
 
   - Device API:
-    - Device Attributes: devicesupport/device_attributes.md
-    - Device Commands:
-      - General: devicesupport/commands/action_commands.md
-      - Alerts | Notifications: devicesupport/commands/alerts_commands.md
-      - Music: devicesupport/commands/music_commands.md
-      - Speech: devicesupport/commands/speech_commands.md
-
-  - Donate: donations.md
+      - Device Attributes: devicesupport/device_attributes.md
+      - Device Commands:
+          - General: devicesupport/commands/action_commands.md
+          - Alerts | Notifications: devicesupport/commands/alerts_commands.md
+          - Music: devicesupport/commands/music_commands.md
+          - Speech: devicesupport/commands/speech_commands.md
+  - Donations:
+      - Paypal: donations.md
 
 markdown_extensions:
   - smarty
@@ -82,6 +83,7 @@ markdown_extensions:
       baselevel: 2
       separator: "_"
   - codehilite
+  - admonition
 
 plugins:
   - search:
@@ -94,7 +96,6 @@ plugins:
       minify_html: true
   # - mdoctag
   # - bootstrap-tables
-
 
 extra_css:
   - "css/extra.css"

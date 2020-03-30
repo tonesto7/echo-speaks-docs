@@ -2,13 +2,13 @@
 
 ### <h3 class="doc-head">replayText()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  Will replay the last text sent to the device.
-</div></div>
+!!! quote "Description"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-  None Accepted
-</div></div>
+    Will replay the last text sent to the device.
+
+!!! summary "Required Paramaters"
+
+    None Accepted
 
 ---
 
@@ -16,71 +16,69 @@
 
 ### <h3 class="doc-head">setVolumeAndSpeak()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <h5 class="blue">NOTE:
-    <br>  This command is highly recommend in place of sending an individual command for both volume and speaking.
-    <br>  When used it is set to Amazon as a single command and executed in a sequence.
-  </h5>
-  <p>Sends volume command first, then plays message.</p>
-</div></div>
+!!! tip "NOTE"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>Message (String): <code>Text between 1-400 characters in length</code></p>
-</div></div>
+    This command is highly recommend in place of sending an individual command for both volume and speaking.<br>When used it is set to Amazon as a single command and executed in a sequence.
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>setVolumeAndSpeak(47, "The Front door is unlocked")</code>
-</div></div>
+!!! quote "Description"
+
+    Sends volume command first, then plays message.
+
+!!! summary "Required Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Message (String): <code>Text between 1-400 characters in length</code>
+
+!!! example "Example Usage"
+
+    <code>setVolumeAndSpeak(47, "The Front door is unlocked")</code>
 
 ---
 
 ### <h3 class="doc-head">setVolumeSpeakAndRestore()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <h5 class="blue">NOTE:
-    <ul>
-      <li>This command is highly recommended in place of sending individual commands for setVolume(47), speak("The Front door is unlocked"), and setVolume(30).</li>
-      <li>When used it is set to Amazon as a single command and executed in a sequence.</li>
-      <li>When the command is called it captures the current volume and restores immediately after the message is played.</li>
-    </ul>
-  </h5>
-  <p>Sends volume command first, then plays message, and restores original volume</p>
-</div></div>
+!!! tip "NOTE"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>Message (String): <code>Text between 1-400 characters in length</code></p>
-  <p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    - This command is highly recommended in place of sending individual commands for setVolume(47), speak("The Front door is unlocked"), and setVolume(30).
+    - When used it is set to Amazon as a single command and executed in a sequence.
+    - When the command is called it captures the current volume and restores immediately after the message is played.
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>setVolumeSpeakAndRestore(50, "The Front door is unlocked", 30)</code>
-</div></div>
+!!! quote "Description"
+
+    Sends volume command first, then plays message, and restores original volume
+
+!!! summary "Required Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Message (String): <code>Text between 1-400 characters in length</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    <code>setVolumeSpeakAndRestore(50, "The Front door is unlocked", 30)</code>
 
 ---
-
 
 ## <h2 class="doc-head">Builin Speech Routines</h2>
 
 ### <h3 class="doc-head">playWeather()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  Alexa will give the current weather conditions
-</div></div>
+!!! quote "Description"
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    Alexa will give the current weather conditions
 
-<div class="example-div"><div class="example-div-title">Example Usage:
-  <code>playWeather()</code>
-</div></div>
+!!! info "Optional Paramaters"
 
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:
-  <code>playWeather(30, 50)</code>
-</div></div>
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    <code>playWeather()</code>
+
+!!! example "Example w/Optional"
+
+    <code>playWeather(30, 50)</code>
 
 ---
 
