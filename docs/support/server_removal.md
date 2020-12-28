@@ -3,7 +3,7 @@
 
 ---
 ### <h3 style="color: #FF6025;">Step 1:</h3>
-Logon to the dashboard.heroku.com site. You should see this screen that lists your Echo Speaks App, click on the app.
+Logon to the https://dashboard.heroku.com site.  You should see this screen that lists your Echo Speaks App,click on the heroku app.
   ![screenshot](img/server_removal_1.jpg)
 
 ---

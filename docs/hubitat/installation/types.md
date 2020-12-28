@@ -2,6 +2,6 @@
 
 ### <h3 class="doc-head">Manual</h3>
 
-- [App Install](./app_install)
+- [App Install](./app_install.md)
 
-- [Device Install](./device_install)
+- [Device Install](./device_install.md)

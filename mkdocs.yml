@@ -13,8 +13,10 @@ theme:
   features:
     - tabs
     - instant
-  icon:
-    repo: fontawesome/brands/github
+  favicon: /img/favicon.png
+  logo: /img/EchoSpeaks.png
+
+
   extra:
     social:
       - icon: fontawesome/brands/github-alt
@@ -29,6 +31,25 @@ theme:
 
 nav:
   - Home: index.md
+
+  - Hubitat:
+    - Install:
+      - Automated:
+        - Hubitat Package Manager: hubitat/installation/app_install.md
+
+      - Manual:
+        - App Install: hubitat/installation/app_install.md
+        - Driver Install: hubitat/installation/device_install.md
+
+    - Configuration:
+      - App Configuration: hubitat/configuration/config_app.md
+      - Server Configuration: hubitat/configuration/config_server.md
+
+    - Updates:
+      - App Updates: hubitat/updates/app_update.md
+      - Device Updates: hubitat/updates/device_update.md
+      - Server Updates: hubitat/updates/server_update.md
+
 
   - Install:
       - "Select Platform":
@@ -74,25 +95,27 @@ nav:
       - Paypal: donations.md
 
 markdown_extensions:
-  - smarty
+  - admonition
+  - smarty:
+      smart_quotes: false
   - meta
   - sane_lists
-
   - toc:
       permalink: "#"
       baselevel: 2
       separator: "_"
   - codehilite
-  - admonition
-
-  # - codehilite:
-  #   linenums: true
-  - superfences:
-    highlight_code: True
-    disable_indented_code_blocks: False
-    preserve_tabs: True
-    linenums: True
+  # - admonition
+  # - superfences
+  #   highlight_code: True
+  #   disable_indented_code_blocks: False
+  #   preserve_tabs: True
+  #   linenums: True
+  - pymdownx.critic
   - pymdownx.highlight
+  - pymdownx.escapeall:
+      hardbreak: True
+      nbsp: True
 
 plugins:
   - search:

@@ -10,4 +10,4 @@ pip3 install mkdocs-minify-plugin
 pip3 install pygments
 
 Themes:
-pip install "mkdocs-material>=5.0.0rc4"
+pip3 install mkdocs-material
