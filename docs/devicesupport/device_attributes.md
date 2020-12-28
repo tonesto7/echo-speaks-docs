@@ -2,14 +2,15 @@
 
 ---
 
-### <h4 class="doc-head"><u>alarmVolume</u>: (String)</h4>
-
-**Description**: Current alarm/reminder alert volume.<br>
-**Output**: _`47`_
+### <h3 class="doc-head"><u>alarmVolume</u>: (String)</h3>
+<div class="attr-div">
+  <p><b>Description</b>: Current alarm/reminder alert volume.</p>
+  <p><b>Output</b>: _`47`_</p>
+</div>
 
 ---
 
-### <h4 class="doc-head"><u>alarmSupported</u>: (Boolean)</h4>
+### <h3 class="doc-head"><u>alarmSupported</u>: (Boolean)</h3>
 
 **Description**: Identifies if device supports alarm management control actions.<br>
 **Output**: _`true`_
@@ -22,7 +23,7 @@
 
 ---
 
-### <h4 class="doc-head"><u>alexaPlaylists</u>: (JSON_Object)</h4>
+### <h3 class="doc-head"><u>alexaPlaylists</u>: (JSON_Object)</h3>
 
 **Description**: Contains current playlist in use by the device.<br>
 **Output**:

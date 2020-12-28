@@ -59,7 +59,6 @@ nav:
 
   - Support:
       - Server Removal/Reset: support/server_removal.md
-      - Supported Devices: devicesupport/supported_devices.md
       - Common Errors: support/common_errors.md
       - Reporting Issues: support/reporting_issues.md
       - F.A.Q.: faq.md
@@ -78,12 +77,22 @@ markdown_extensions:
   - smarty
   - meta
   - sane_lists
+
   - toc:
       permalink: "#"
       baselevel: 2
       separator: "_"
   - codehilite
   - admonition
+
+  # - codehilite:
+  #   linenums: true
+  - superfences:
+    highlight_code: True
+    disable_indented_code_blocks: False
+    preserve_tabs: True
+    linenums: True
+  - pymdownx.highlight
 
 plugins:
   - search:
@@ -99,6 +108,7 @@ plugins:
 
 extra_css:
   - "css/extra.css"
+  - "css/monokai.css"
 
 extra_javascript:
   - "js/extra.js"

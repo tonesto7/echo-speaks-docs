@@ -20,6 +20,12 @@
     margin-left: 10px;
 } */
 
+.codehilite code,
+.codehilite pre {
+    padding: 6px 0px 6px 12px;
+    margin-bottom: 16px;
+}
+
 .red {
     color: red
 }
@@ -187,23 +193,32 @@ h4.doc-head {
 }
 
 .example-opt-div {
-  background-color: #ebecec;
-  margin: 0 1em;
-  color: white;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 1px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 0.2em;
+    background-color: #ebecec;
+    margin: 0 1em;
+    color: white;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 1px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.2em;
 }
 
 .example-opt-div-title {
-  border-radius: 3px 3px 0 0;
-  background-color: #d2a3a3;
-  padding: 0.15em 0.5em;
-  font-size: small;
-  font-weight: bold;
-  /* font-style: italic; */
-  color: white;
+    border-radius: 3px 3px 0 0;
+    background-color: #d2a3a3;
+    padding: 0.15em 0.5em;
+    font-size: small;
+    font-weight: bold;
+    /* font-style: italic; */
+    color: white;
 }
 
 .offset-0-5 {
     margin: 0.5em;
+}
+
+.desc-lbl {
+    font-weight: bold;
+    font-size: small;
+}
+
+.attr-div {
+    margin: 0 1em;
 }
