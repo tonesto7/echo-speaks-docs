@@ -35,7 +35,7 @@ nav:
   - Hubitat:
     - Install:
       - Automated:
-        - Hubitat Package Manager: hubitat/installation/app_install.md
+        - Hubitat Package Manager: hubitat/installation/hpm_install.md
 
       - Manual:
         - App Install: hubitat/installation/app_install.md
