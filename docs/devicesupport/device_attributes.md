@@ -2,238 +2,372 @@
 
 ---
 
-### <h3 class="doc-head"><u>alarmVolume</u>: (String)</h3>
-<div class="attr-div">
-  <p><b>Description</b>: Current alarm/reminder alert volume.</p>
-  <p><b>Output</b>: _`47`_</p>
-</div>
+### <h4 class="doc-head">alarmVolume: (String)</h4>
+
+!!! quote "Description"
+
+    Current alarm/reminder alert volume.
+
+    !!! example "Example Output"
+
+        **47**
 
 ---
 
-### <h3 class="doc-head"><u>alarmSupported</u>: (Boolean)</h3>
+### <h4 class="doc-head">alarmSupported: (Boolean)</h4>
 
-**Description**: Identifies if device supports alarm management control actions.<br>
-**Output**: _`true`_
+!!! quote "Description"
 
-<!-- ---
-### <h4 class="doc-head"><u>alexaNotifications</u>: (JSON_Object)</h4>
-**Description**: Contains list of current device notifications.<br>
+    Identifies if device supports alarm management control actions.
 
-**Output**: <pre>[]</pre> -->
+    !!! example "Example Output"
 
----
+        **true**
 
-### <h3 class="doc-head"><u>alexaPlaylists</u>: (JSON_Object)</h3>
-
-**Description**: Contains current playlist in use by the device.<br>
-**Output**:
-
-<pre>
-{
-   "Home Audio": [
-      {
-          "title": "Home Audio",
-          "playlistId": "a1553cd7-f732-4f7e-ac3c-995b94860e57",
-          "entryList": null,
-          "version": "1",
-          "trackCount": 0
-      }
-   ]
-}
-</pre>
 
 ---
 
-### <h4 class="doc-head"><u>alexaWakeWord</u>: (String)</h4>
+### <h4 class="doc-head">alexaPlaylists: (JSON_Object)</h4>
 
-**Description**: Contains the devices current wake word.<br>
-**Output**: _`ALEXA`_
+!!! quote "Description"
 
----
+    Contains current playlist in use by the device.
 
-### <h4 class="doc-head"><u>btDeviceConnected</u>: (String)</h4>
+    !!! example "Example Output"
 
-**Description**: Contains the current bluetooth device connected to the alexa device.<br>
-**Output**: _`JBL Pulse 2`_
-
----
-
-### <h4 class="doc-head"><u>btDevicesPaired</u>: (String)</h4>
-
-**Description**: Contains a list of currently paired (available) bluetooth devices to the alexa device.<br>
-**Output**: _`[AirPods, JBL Pulse 2]`_
-
----
-
-### <h4 class="doc-head"><u>currentAlbum</u>: (String)</h4>
-
-**Description**: Contains a current audio album.<br>
-**Output**: _`Dean Martin`_
+    ``` json
+        {
+           "Home Audio": [
+              {
+                  "title": "Home Audio",
+                  "playlistId": "a1553cd7-f732-4f7e-ac3c-995b94860e57",
+                  "entryList": null,
+                  "version": "1",
+                  "trackCount": 0
+              }
+           ]
+        }
+    ```
 
 ---
 
-### <h4 class="doc-head"><u>currentStation</u>: (String)</h4>
+### <h4 class="doc-head">alexaWakeWord: (String)</h4>
 
-**Description**: Contains a current music source.<br>
-**Output**: _`Holiday Favorites Station`_
+!!! quote "Description"
 
----
+    Contains the devices current wake word.
 
-### <h4 class="doc-head"><u>deviceFamily</u>: (String)</h4>
+    !!! example "Example Output"
 
-**Description**: Contains the device family identifier used by amazon.<br>
-**Output**: _`ROOK`_
+        **ALEXA**
 
 ---
 
-### <h4 class="doc-head"><u>deviceStatus</u>: (String)</h4>
+### <h4 class="doc-head">audioTrackData: (JSON_Object)</h4>
 
-**Description**: Contains the current player status.<br>
-**Output**: _`playing_echo_spot_gen1`_
+!!! quote "Description"
 
----
+    Contains current music track data as JSON.
 
-### <h4 class="doc-head"><u>deviceStyle</u>: (String)</h4>
+    !!! example "Example Output"
 
-**Description**: Contains the description from the developer for the current device.<br>
-**Output**: _`Echo Spot`_
-
----
-
-### <h4 class="doc-head"><u>deviceType</u>: (String)</h4>
-
-**Description**: Contains the device type (model number) identifier used by amazon.<br>
-**Output**: _`A10A33FOX2NUBK`_
-
----
-
-### <h4 class="doc-head"><u>doNotDisturb</u>: (String)</h4>
-
-**Description**: Contains the devices current Do not Disturb status.<br>
-**Output**: _`false`_
+    ``` json
+        {
+          "title": "Blinding Lights",
+          "artist": "The Weeknd",
+          "album": "After Hours [Explicit]",
+          "albumArtUrl": "https://m.media-amazon.com/images/I/81XiZxda-8L._UL600_.jpg",
+          "mediaSource":"Amazon Music"
+        }
+    ```
 
 ---
 
-### <h4 class="doc-head"><u>followUpMode</u>: (String)</h4>
+### <h4 class="doc-head">btDeviceConnected: (String)</h4>
 
-**Description**: Whether the device immediately waits for another command after executing the first one.<br>
-**Output**: _`true`_
+!!! quote "Description"
 
----
+    Contains the current bluetooth device connected to the alexa device.
 
-### <h4 class="doc-head"><u>firmwareVer</u>: (String)</h4>
+    !!! example "Example Output"
 
-**Description**: Contains the devices current firmware revision.<br>
-**Output**: _`625533420`_
+        **JBL Pulse 2**
 
 ---
 
-### <h4 class="doc-head"><u>lastCmdSentDt</u>: (String)</h4>
+### <h4 class="doc-head">btDevicesPaired: (String)</h4>
 
-**Description**: Contains the date/time of the last speak command.<br>
-**Output**: _`Mon Dec 03 09:16:09 EST 2018`_
+!!! quote "Description"
 
----
+    Contains a list of currently paired (available) bluetooth devices to the alexa device.
 
-### <h4 class="doc-head"><u>lastSpeakCmd</u>: (String)</h4>
+    !!! example "Example Output"
 
-**Description**: Contains the text used by the last Speak() command. Useful for replaying the last message.<br>
-**Output**: _`The Front Door Lock is unlocked`_
+        **[AirPods, JBL Pulse 2]**
 
 ---
 
-### <h4 class="doc-head"><u>lastSpokenToTime</u>: (Timestamp)</h4>
+### <h4 class="doc-head">currentAlbum: (String)</h4>
 
-**Description**: Contains the timestamp of the last command given to the alexa device.<br>
-**Output**: _`1548456169854`_
+!!! quote "Description"
 
----
+    Contains a current audio album.
 
-### <h4 class="doc-head"><u>lastUpdated</u>: (String)</h4>
+    !!! example "Example Output"
 
-**Description**: Contains the date/time of the last device data refresh.<br>
-**Output**: _`Dec 3, 2018 - 12:47:43 PM`_
+        **Dean Martin**
 
 ---
 
-### <h4 class="doc-head"><u>lastVoiceActivity</u>: (String)</h4>
+### <h4 class="doc-head">currentStation: (String)</h4>
 
-**Description**: Contains the last voice command given to the alexa device.<br>
-**Output**: _`what time is it`_
+!!! quote "Description"
 
----
+    Contains a current music source.
 
-### <h4 class="doc-head"><u>onlineStatus</u>: (String)</h4>
+    !!! example "Example Output"
 
-**Description**: Contains the devices current online status under amazon.<br>
-**Output**: _`online`_
+        **Holiday Favorites Station**
 
 ---
 
-### <h4 class="doc-head"><u>permissions</u>: (Boolean)</h4>
+### <h4 class="doc-head">deviceFamily: (String)</h4>
 
-**Description**: Identifies the devices available features.<br>
-**Output**: _`[TTS, alarms, amazonMusic, announce, appleMusic, bluetoothControl, doNotDisturb, flashBriefing, followUpMode, iHeartRadio, isEchoDevice, isMultiroomMember, mediaPlayer, microphone, pandoraRadio, reminders, spotify, tuneInRadio, volumeControl, wakeWord]`_
+!!! quote "Description"
 
----
+    Contains the device family identifier used by amazon.
 
-### <h4 class="doc-head"><u>reminderSupported</u>: (Boolean)</h4>
+    !!! example "Example Output"
 
-**Description**: Identifies if device supports reminder management control actions.<br>
-**Output**: _`true`_
+        **ROOK**
 
 ---
 
-### <h4 class="doc-head"><u>supportedMusic</u>: (String)</h4>
+### <h4 class="doc-head">deviceStatus: (String)</h4>
 
-**Description**: Identifies the devices supported music providers.<br>
-**Output**: _`Amazon Music, Apple Music, My Library, Pandora, TuneIn, iHeartRadio`_
+!!! quote "Description"
 
----
+    Contains the current player status.
 
-### <h4 class="doc-head"><u>trackImage</u>: (String)</h4>
+    !!! example "Example Output"
 
-**Description**: Contains the current track image url.<br>
-**Output**: _`https://m.media-amazon.com/images/I/71mwv+MFxSL.UL600.jpg`_
+        **playing_echo_spot_gen1**
 
 ---
 
-### <h4 class="doc-head"><u>trackImageHtml</u>: (String)</h4>
+### <h4 class="doc-head">deviceStyle: (String)</h4>
 
-**Description**: Contains the current track image as an html object for dashboards.<br>
-**Output**: _`<img src="https://m.media-amazon.com/images/I/71mwv+MFxSL.UL600.jpg"/>`_
+!!! quote "Description"
 
----
+    Contains the description from the developer for the current device.
 
-### <h4 class="doc-head"><u>ttsSupported</u>: (Boolean)</h4>
+    !!! example "Example Output"
 
-**Description**: Identifies if device supports text to speech actions.<br>
-**Output**: _`true`_
+        **Echo Spot**
 
 ---
 
-### <h4 class="doc-head"><u>volumeSupported</u>: (Boolean)</h4>
+### <h4 class="doc-head">deviceType: (String)</h4>
 
-**Description**: Identifies if device supports volume control actions.<br>
-**Output**: _`true`_
+!!! quote "Description"
 
----
+    Contains the device type (model number) identifier used by amazon.
 
-### <h4 class="doc-head"><u>wakeWords</u>: (Enum)</h4>
+    !!! example "Example Output"
 
-**Description**: Contains list of available alexa wake words.<br>
-**Output**: _`["ALEXA","AMAZON","ECHO","COMPUTER"]`_
+        **A10A33FOX2NUBK**
 
 ---
 
-### <h4 class="doc-head"><u>wasLastSpokeToDevice</u>: (Boolean)</h4>
+### <h4 class="doc-head">doNotDisturb: (String)</h4>
 
-**Description**: Used to identify if the device was the last device spoken to on your account.<br>
-**Output**: _`true`_
+!!! quote "Description"
+
+    Contains the devices current Do not Disturb status.
+
+    !!! example "Example Output"
+
+        _`false`_
 
 ---
 
-### <h4 class="doc-head"><u>wifiNetwork</u>: (String)</h4>
+### <h4 class="doc-head">followUpMode: (String)</h4>
 
-**Description**: Contains the devices current Wifi Network SSID.<br>
-**Output**: _`Echo Speaks Wifi`_
+!!! quote "Description"
+
+    Whether the device immediately waits for another command after executing the first one.
+
+    !!! example "Example Output"
+
+        **true**
+
+---
+
+### <h4 class="doc-head">firmwareVer: (String)</h4>
+
+!!! quote "Description"
+
+    Contains the devices current firmware revision.
+
+    !!! example "Example Output"
+
+        **625533420**
+
+---
+
+### <h4 class="doc-head">lastAnnouncement: (String)</h4>
+
+!!! quote "Description"
+
+    Contains the text used by the last playAnnouncement() command. Useful for replaying the last announcement message.
+
+    !!! example "Example Output"
+
+        **The Front Door Lock is unlocked**
+
+---
+
+### <h4 class="doc-head">lastCmdSentDt: (String)</h4>
+
+!!! quote "Description"
+
+    Contains the date/time of the last speak command.
+
+    !!! example "Example Output"
+
+        **Mon Dec 03 09:16:09 EST 2018**
+
+---
+
+### <h4 class="doc-head">lastSpeakCmd: (String)</h4>
+
+!!! quote "Description"
+
+    Contains the text used by the last Speak() command. Useful for replaying the last message.
+
+    !!! example "Example Output"
+
+        **The Front Door Lock is unlocked**
+
+---
+
+### <h4 class="doc-head">lastSpokenToTime: (Timestamp)</h4>
+
+!!! quote "Description"
+
+    Contains the timestamp of the last command given to the alexa device.
+
+    !!! example "Example Output"
+
+        **1548456169854**
+
+---
+
+### <h4 class="doc-head">lastUpdated: (String)</h4>
+
+!!! quote "Description"
+
+    Contains the date/time of the last device data refresh.
+
+    !!! example "Example Output"
+
+        **Dec 3, 2018 - 12:47:43 PM**
+
+---
+
+### <h4 class="doc-head">lastVoiceActivity: (String)</h4>
+
+!!! quote "Description"
+
+    Contains the last voice command given to the alexa device.
+
+    !!! example "Example Output"
+
+        **what time is it**
+
+---
+
+### <h4 class="doc-head">onlineStatus: (String)</h4>
+
+!!! quote "Description"
+
+    Contains the devices current online status under amazon.
+
+    !!! example "Example Output"
+
+        **online**
+
+---
+
+### <h4 class="doc-head">permissions: (Boolean)</h4>
+
+!!! quote "Description"
+
+    Identifies the devices available features.
+
+    !!! example "Example Output"
+
+    **[TTS, alarms, amazonMusic, announce, appleMusic, bluetoothControl, doNotDisturb, flashBriefing, followUpMode, iHeartRadio, isEchoDevice, isMultiroomMember, mediaPlayer, microphone, pandoraRadio, reminders, spotify, tuneInRadio, volumeControl, wakeWord]**
+
+---
+
+
+### <h4 class="doc-head">supportedMusic: (String)</h4>
+
+!!! quote "Description"
+
+    Identifies the devices supported music providers.
+
+    !!! example "Example Output"
+
+        **Amazon Music, Apple Music, My Library, Pandora, TuneIn, iHeartRadio**
+
+---
+
+### <h4 class="doc-head">trackImage: (String)</h4>
+
+!!! quote "Description"
+
+    Contains the current track image url.
+
+    !!! example "Example Output"
+
+        **https://m.media-amazon.com/images/I/71mwv+MFxSL.UL600.jpg**
+
+---
+
+### <h4 class="doc-head">trackImageHtml: (String)</h4>
+
+!!! quote "Description"
+
+    Contains the current track image as an html object for dashboards.
+
+    !!! example "Example Output"
+
+        **<img src="https://m.media-amazon.com/images/I/71mwv+MFxSL.UL600.jpg"/>**
+
+---
+
+### <h4 class="doc-head">wakeWords: (Enum)</h4>
+
+!!! quote "Description"
+
+    Contains list of available alexa wake words.
+
+    !!! example "Example Output"
+
+        **["ALEXA","AMAZON","ECHO","COMPUTER"]**
+
+---
+
+### <h4 class="doc-head">wasLastSpokeToDevice: (Boolean)</h4>
+
+!!! quote "Description"
+
+    Used to identify if the device was the last device spoken to on your account.
+
+    !!! example "Example Output"
+
+        **true**
+
+---

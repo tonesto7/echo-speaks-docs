@@ -4,11 +4,11 @@
 | :---------------------------------------------------- |
 | Echo Show (Gen 1, 2)                                  |
 | Echo Show 5                                           |
-| Echo Show 8 (Coming Soon)                             |
+| Echo Show 8                                           |
 | Echo Studio (Coming Soon)                             |
 | Echo Buds (Coming Soon)                               |
-| Echo Dot (Gen 1, 2, 3)                                |
-| Echo (Gen 1, 2, 3)                                    |
+| Echo Dot (Gen 1, 2, 3, 4)                             |
+| Echo (Gen 1, 2, 3, 4)                                 |
 | Echo Plus (Gen 1, 2)                                  |
 | Echo Spot                                             |
 | Echo Input                                            |

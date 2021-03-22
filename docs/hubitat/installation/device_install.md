@@ -47,4 +47,4 @@ Click on the `Import` button at the top of the page:
 ### <h3 style="color: #FF6025;">Step 7:</h3>
 Continue App Configuration Here:
 
-[SmartApp Configuration](/hubitat/configuration/config_app)
+[SmartApp Configuration](./hubitat/configuration/config_app)

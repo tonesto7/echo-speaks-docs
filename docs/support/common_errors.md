@@ -1,8 +1,9 @@
-**There will be times when you may receive an error message or encounter an issue<br>
+**There will be times when you may receive an error message or encounter an issue
+<br>
 Hopefully you will find a fix from one of the items below!**
 
 ---
-## <h2 style="color: #FF6025;">No Speech Output</h2>
+## <h3 style="color: #FF6025;">No Speech Output</h3>
 
 <p>This is kind of a tricky one because it could be a few things.</p>
   * Internet/WiFi Issues
@@ -20,22 +21,22 @@ Hopefully you will find a fix from one of the items below!**
 
 
 ---
-## <h2 style="color: #FF6025;">Status Code 400/401</h2>
+## <h3 style="color: #FF6025;">Status Code 400/401</h3>
 
 <p>This failure is almost always due to the expiration of your cookie.  Simply clear the log in information for the Heroku App and log back in to Amazon. This should fix your issue right away.</p>
 
-**Steps to Fix**
+###<h3>Steps to Fix</h3>
 
-### <p style="color: #FF6025;">Step 1:</p>
+#### <h4 style="color: #FF6025;">Step 1:</h4>
 Log into the [https://dashboard.heroku.com](https://dashboard.heroku.com) website and click on your echo-speaks-xxxxxxx app.
 
-### <p style="color: #FF6025;">Step 2:</p>
+#### <h4 style="color: #FF6025;">Step 2:</h4>
 Then click on the **Settings**.
 
-### <p style="color: #FF6025;">Step 3:</p>
+#### <h4 style="color: #FF6025;">Step 3:</h4>
 Scroll down to the ***Domains and Certificates*** section (pictured below).
 
-### <p style="color: #FF6025;">Step 4:</p>
+#### <h4 style="color: #FF6025;">Step 4:</h4>
 Click on the link listed next to ***Domain***.
 
 ![screenshot](img/common_errors_heroku_app.jpg)
@@ -56,18 +57,18 @@ If you are directed to log in again, then just do it and you should�
 
 The Echo Speaks system has a "Heart Beat" that talks to Heroku to keep the app awake. We are dealing with the cloud here, so sometimes there may be a delay in the Heart Beat, resulting in a nap for your server.
 
-**Steps to Fix**
+###<h3>Steps to Fix</h3>
 
-### <h3 style="color: #FF6025;">Step 1:</h3>
+#### <h4 style="color: #FF6025;">Step 1:</h4>
 To remedy this it is helpful to open the Web Config page. Which normally wakes the service up.  Sometimes this may take a couple of minutes. 
 
-### <h3 style="color: #FF6025;">Step 2:</h3>
+#### <h4 style="color: #FF6025;">Step 2:</h4>
 You can easily navigate to this page by following these steps. We recommend that you create a link to the page in case of any future incidents, then it will be a simple one click fix.
 
-### <h3 style="color: #FF6025;">Step 3:</h3>
+#### <h4 style="color: #FF6025;">Step 3:</h4>
 Log into the Heroku.com website and click on your app. Then click on ***Settings*** and scroll down to the ***Domains and Certificates*** section (pictured below). 
 
-### <h3 style="color: #FF6025;">Step 4:</h3>
+#### <h4 style="color: #FF6025;">Step 4:</h4>
 Click on the link listed next to ***Domain***.
 
 ![screenshot](img/common_errors_heroku_app.jpg)
@@ -89,4 +90,4 @@ Unfortunately, once you have had this service turned on, it will have
 ##### <h2 style="color: #FF6025;">Didn't See your Issue here?:</h2>
 You can view open issues or create a new one by following this guide:
 
-[Reporting Issues](/echo-speaks-docs/support/reporting-issues)
+[Reporting Issues](./support/reporting-issues)

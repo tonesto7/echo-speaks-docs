@@ -1,6 +1,6 @@
 ## <h2 class="doc-head">General Speech</h2>
 
-### <h3 class="doc-head">replayText()</h3>
+### <h4 class="doc-head">replayText()</h4>
 
 !!! quote "Description"
 
@@ -8,15 +8,15 @@
 
 !!! summary "Required Paramaters"
 
-    None Accepted
+    - None Accepted
 
 ---
 
 ## <h2 class="doc-head">Custom Speech</h2>
 
-### <h3 class="doc-head">setVolumeAndSpeak()</h3>
+### <h4 class="doc-head">setVolumeAndSpeak()</h4>
 
-!!! tip "NOTE"
+!!! tip "NOTICE"
 
     This command is highly recommend in place of sending an individual command for both volume and speaking.<br>When used it is set to Amazon as a single command and executed in a sequence.
 
@@ -31,13 +31,48 @@
 
 !!! example "Example Usage"
 
-    <code>setVolumeAndSpeak(47, "The Front door is unlocked")</code>
+    - <code>setVolumeAndSpeak(47, "The Front door is unlocked")</code>
 
 ---
 
-### <h3 class="doc-head">setVolumeSpeakAndRestore()</h3>
+### <h4 class="doc-head">voiceCmdAsText()</h4>
 
-!!! tip "NOTE"
+
+!!! quote "Description"
+
+    Simulates a voice initiated command.
+    Can be used to do anything you can prompt by saying 'alexa'
+
+!!! summary "Required Paramaters"
+
+    - Command Message (String): <code>Text between 1-400 characters in length</code>
+
+!!! example "Example Usage"
+
+    - <code>voiceCmdAsText("Tell FordPass to lock my truck")</code>
+
+---
+
+### <h4 class="doc-head">parallelSpeak()</h4>
+
+
+!!! quote "Description"
+
+    Used by the main app to indentify simultaenous speech commands and merging them to into a single command to be sent to amazon
+
+!!! summary "Required Paramaters"
+
+    - Message (String): <code>Text between 1-400 characters in length</code>
+
+!!! example "Example Usage"
+
+    - <code>parallelSpeak("The Front door is unlocked")</code>
+
+---
+
+### <h4 class="doc-head">setVolumeSpeakAndRestore()</h4>
+
+!!! tip "NOTICE"
 
     - This command is highly recommended in place of sending individual commands for setVolume(47), speak("The Front door is unlocked"), and setVolume(30).
     - When used it is set to Amazon as a single command and executed in a sequence.
@@ -55,13 +90,13 @@
 
 !!! example "Example Usage"
 
-    <code>setVolumeSpeakAndRestore(50, "The Front door is unlocked", 30)</code>
+    - <code>setVolumeSpeakAndRestore(50, "The Front door is unlocked", 30)</code>
 
 ---
 
 ## <h2 class="doc-head">Builin Speech Routines</h2>
 
-### <h3 class="doc-head">playWeather()</h3>
+### <h4 class="doc-head">playWeather()</h4>
 
 !!! quote "Description"
 
@@ -74,336 +109,397 @@
 
 !!! example "Example Usage"
 
-    <code>playWeather()</code>
-
-!!! example "Example w/Optional"
-
-    <code>playWeather(30, 50)</code>
+    - <code>playWeather()</code>
+    - <code>playWeather(30)</code>
+    - <code>playWeather(30, 50)</code>
 
 ---
 
-### <h3 class="doc-head">playSingASong()</h3>
+### <h4 class="doc-head">playSingASong()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  Alexa will sing a random song
-</div></div>
+!!! quote "Description"
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    Alexa will sing a random song
 
-<div class="example-div"><div class="example-div-title">Example Usage:
-  <code>playSingASong()</code>
-</div></div>
+!!! info "Optional Paramaters"
 
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:
-  <code>playSingASong(30, 50)</code>
-</div></div>
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>playSingASong()</code>
+    - <code>playSingASong(30)</code>
+    - <code>playSingASong(30, 50)</code>
 
 ---
 
-### <h3 class="doc-head">playFlashBrief()</h3>
+### <h4 class="doc-head">playFlashBrief()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  Alexa will play the your flash briefing News (If device supports it)
-</div></div>
+!!! quote "Description"
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    Alexa will play the your flash briefing News (If device supports it)
 
-<div class="example-div"><div class="example-div-title">Example Usage:
-  <code>playFlashBrief()</code>
-</div></div>
+!!! info "Optional Paramaters"
 
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:
-  <code>playFlashBrief(30, 50)</code>
-</div></div>
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>playFlashBrief()</code>
+    - <code>playFlashBrief(30)</code>
+    - <code>playFlashBrief(30, 50)</code>
 
 ---
 
-### <h3 class="doc-head">playGoodNews()</h3>
+### <h4 class="doc-head">playGoodNews()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  Alexa will play something containing Good News (If device supports it)
-</div></div>
+!!! quote "Description"
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    Alexa will play something containing Good News (If device supports it)
 
-<div class="example-div"><div class="example-div-title">Example Usage:
-  <code>playGoodNews()</code>
-</div></div>
+!!! info "Optional Paramaters"
 
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:
-  <code>playGoodNews(30, 50)</code>
-</div></div>
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>playGoodNews()</code>
+    - <code>playGoodNews(30)</code>
+    - <code>playGoodNews(30, 50)</code>
 
 ---
 
-### <h3 class="doc-head">sayBirthday()</h3>
+### <h4 class="doc-head">sayBirthday()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-Alexa will say a random happy birthday message</div></div>
+!!! quote "Description"
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    Alexa will say a random happy birthday message
 
-<div class="example-div"><div class="example-div-title">Example Usage:<code>sayBirthday()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>sayBirthday(30, 50)</code></div></div>
+!!! info "Optional Paramaters"
 
----
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
 
-### <h3 class="doc-head">sayCompliment()</h3>
+!!! example "Example Usage"
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-Alexa will say a random compliment message</div></div>
-
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
-
-<div class="example-div"><div class="example-div-title">Example Usage: <code>sayCompliment()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:
-  <code>sayCompliment(30, 50)</code>
-</div></div>
+    - <code>sayBirthday()</code>
+    - <code>sayBirthday(30)</code>
+    - <code>sayBirthday(30, 50)</code>
 
 ---
 
-### <h3 class="doc-head">sayGoodbye()</h3>
+### <h4 class="doc-head">sayCompliment()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-Alexa will say a random goodbye message</div></div>
+!!! quote "Description"
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    Alexa will say a random compliment message
 
-<div class="example-div"><div class="example-div-title">Example Usage:<code>sayGoodbye()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>sayGoodbye(30, 50)</code></div></div>
+!!! info "Optional Paramaters"
 
----
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
 
-### <h3 class="doc-head">sayGoodMorning()</h3>
+!!! example "Example Usage"
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-Alexa will play the your good morning run down</div></div>
-
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
-
-<div class="example-div"><div class="example-div-title">Example Usage:<code>sayGoodMorning()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>sayGoodMorning(30, 50)</code></div></div>
+    - <code>sayCompliment()</code>
+    - <code>sayCompliment(30)</code>
+    - <code>sayCompliment(30, 50)</code>
 
 ---
 
-### <h3 class="doc-head">sayGoodNight()</h3>
+### <h4 class="doc-head">sayGoodbye()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-Alexa will say a random good night message</div></div>
+!!! quote "Description"
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    Alexa will say a random goodbye message
 
-<div class="example-div"><div class="example-div-title">Example Usage:<code>sayGoodNight()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>sayGoodNight(30, 50)</code></div></div>
+!!! info "Optional Paramaters"
 
----
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
 
-### <h3 class="doc-head">sayWelcomeHome()</h3>
+!!! example "Example Usage"
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-Alexa will say a random welcome home message</div></div>
-
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
-
-<div class="example-div"><div class="example-div-title">Example Usage:<code>sayWelcomeHome()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>sayWelcomeHome(30, 50)</code></div></div>
+    - <code>sayGoodbye()</code>
+    - <code>sayGoodbye(30)</code>
+    - <code>sayGoodbye(30, 50)</code>
 
 ---
 
-### <h3 class="doc-head">playTraffic()</h3>
+### <h4 class="doc-head">sayGoodMorning()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-Alexa will give the current traffic condition on your way to work</div></div>
+!!! quote "Description"
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    Alexa will play the your good morning run down
 
-<div class="example-div"><div class="example-div-title">Example Usage:<code>playTraffic()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>playTraffic(30, 50)</code></div></div>
+!!! info "Optional Paramaters"
 
----
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
 
-### <h3 class="doc-head">playTellStory()</h3>
+!!! example "Example Usage"
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-Alexa will tell a random story</div></div>
-
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
-
-<div class="example-div"><div class="example-div-title">Example Usage:<code>playTellStory()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>playTellStory(30, 50)</code></div></div>
+    - <code>sayGoodMorning()</code>
+    - <code>sayGoodMorning(30)</code>
+    - <code>sayGoodMorning(30, 50)</code>
 
 ---
 
-### <h3 class="doc-head">playFunFact()</h3>
+### <h4 class="doc-head">sayGoodNight()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-Alexa will tell a random fun fact</div></div>
+!!! quote "Description"
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    Alexa will say a random good night message
 
-<div class="example-div"><div class="example-div-title">Example Usage:<code>playFunFact()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>playFunFact(30, 50)</code></div></div>
+!!! info "Optional Paramaters"
 
----
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
 
-### <h3 class="doc-head">playJoke()</h3>
+!!! example "Example Usage"
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-Alexa will tell a random joke</div></div>
-
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
-
-<div class="example-div"><div class="example-div-title">Example Usage:<code>playJoke()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>playJoke(30, 50)</code></div></div>
+    - <code>sayGoodNight()</code>
+    - <code>sayGoodNight(30)</code>
+    - <code>sayGoodNight(30, 50)</code>
 
 ---
 
-### <h3 class="doc-head">playCalendarToday()</h3>
+### <h4 class="doc-head">sayWelcomeHome()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
-Alexa will read all of the calendar events for the day</div></div>
+!!! quote "Description"
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    Alexa will say a random welcome home message
 
-<div class="example-div"><div class="example-div-title">Example Usage:<code>playCalendarToday()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>playCalendarToday(30, 50)</code></div></div>
+!!! info "Optional Paramaters"
 
----
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
 
-### <h3 class="doc-head">playCalendarTomorrow()</h3>
+!!! example "Example Usage"
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
-Alexa will read all of the calendar events for tomorrow</div></div>
-
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
-
-<div class="example-div"><div class="example-div-title">Example Usage:<code>playCalendarTomorrow()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>playCalendarTomorrow(30, 50)</code></div></div>
+    - <code>sayWelcomeHome()</code>
+    - <code>sayWelcomeHome(30)</code>
+    - <code>sayWelcomeHome(30, 50)</code>
 
 ---
 
-### <h3 class="doc-head">playCalendarNext()</h3>
+### <h4 class="doc-head">playTraffic()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-<code>NOTE:</code>Only available when you connected calendar accounts to your amazon alexa account<br><br>
-Alexa will read the next calendar event</div></div>
+!!! quote "Description"
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+    Alexa will give the current traffic condition on your way to work
 
-<div class="example-div"><div class="example-div-title">Example Usage:<code>playCalendarNext()</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:<code>playCalendarNext(30, 50)</code></div></div>
+!!! info "Optional Paramaters"
 
----
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
 
-### <h3 class="doc-head">playAnnouncement(message)</h3>
+!!! example "Example Usage"
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-This will make an announcement with the message on the device executing the command</div></div>
-
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-<p>Message (String): <code>Text between 1-400 characters in length</code></p>
-</div></div>
-
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Title (String): <code>String between 1-40 characters in length (For Echo Show/Spot Display)</code></p>
-<p>Volume (Integer): <code>Number between 0-100</code></p>
-<p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
-
-<div class="example-div"><div class="example-div-title">Example Usage:<code>playAnnouncement("the garage door has opened", "Door Alert", 40, 30)</code></div></div>
+    - <code>playTraffic()</code>
+    - <code>playTraffic(30)</code>
+    - <code>playTraffic(30, 50)</code>
 
 ---
 
-### <h3 class="doc-head">playAnnouncementAll(message)</h3>
+### <h4 class="doc-head">playTellStory()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-This will make an announcement with the message on all echo devices on your account<br><small style="color: red; padding: 0.15em 0;"><b><i>Notice: </i></b>This command is a complicated one.  If you want to announce on all of your echo devices just select one device to send the command to.  Amazon will send it to all devices on it's end.  So a single device can trigger all to speak. I've seen it to where Amazon will rate-limit so if the devices in the announcement so they will not speak.</small></div></div>
+!!! quote "Description"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-<p>Message (String): <code>Text between 1-400 characters in length</code></p>
-</div></div>
+    Alexa will tell a random story
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-<p>Title(String): <code>String between 1-400 characters in length (For Echo Show/Spots Display)</code></p>
-</div></div>
+!!! info "Optional Paramaters"
 
-<div class="example-div"><div class="example-div-title">Example Usage:<code>playAnnouncementAll("the garage door has opened", "Door Alert")</code></div></div>
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>playTellStory()</code>
+    - <code>playTellStory(30)</code>
+    - <code>playTellStory(30, 50)</code>
+
+---
+
+### <h4 class="doc-head">playFunFact()</h4>
+
+!!! quote "Description"
+
+    Alexa will tell a random fun fact
+
+!!! info "Optional Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>playFunFact()</code>
+    - <code>playFunFact(30)</code>
+    - <code>playFunFact(30, 50)</code>
+
+---
+
+### <h4 class="doc-head">playJoke()</h4>
+
+!!! quote "Description"
+
+    Alexa will tell a random joke
+
+!!! info "Optional Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>playJoke()</code>
+    - <code>playJoke(30)</code>
+    - <code>playJoke(30, 50)</code>
+
+---
+
+### <h4 class="doc-head">playCalendarToday()</h4>
+
+!!! tip "NOTICE"
+
+    Only available when you connected calendar accounts to your amazon alexa account
+
+!!! quote "Description"
+
+    Alexa will read all of the calendar events for the day
+
+!!! info "Optional Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>playCalendarToday()</code>
+    - <code>playCalendarToday(30)</code>
+    - <code>playCalendarToday(30, 50)</code>
+
+---
+
+### <h4 class="doc-head">playCalendarTomorrow()</h4>
+
+!!! tip "NOTICE"
+
+    Only available when you connected calendar accounts to your amazon alexa account
+
+!!! quote "Description"
+
+    Alexa will read all of the calendar events for tomorrow
+
+!!! info "Optional Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>playCalendarTomorrow()</code>
+    - <code>playCalendarTomorrow(30)</code>
+    - <code>playCalendarTomorrow(30, 50)</code>
+
+---
+
+### <h4 class="doc-head">playCalendarNext()</h4>
+
+!!! tip "NOTICE"
+
+    Only available when you connected calendar accounts to your amazon alexa account
+
+!!! quote "Description"
+
+    Alexa will read the next calendar event
+
+!!! info "Optional Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>playCalendarNext()</code>
+    - <code>playCalendarNext(30)</code>
+    - <code>playCalendarNext(30, 50)</code>
+
+---
+
+### <h4 class="doc-head">playAnnouncement(message)</h4>
+
+!!! quote "Description"
+
+    This will make an announcement with the message on the device executing the command
+
+!!! summary "Required Paramaters"
+
+    - Message (String): <code>Text between 1-400 characters in length</code>
+
+!!! info "Optional Paramaters"
+
+    - Title (String): <code>String between 1-40 characters in length (For Echo Show/Spot Display)</code>
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>playAnnouncement("the garage door has opened")</code>
+    - <code>playAnnouncement("the garage door has opened", "Door Alert")</code>
+    - <code>playAnnouncement("the garage door has opened", "Door Alert", 40)</code>
+    - <code>playAnnouncement("the garage door has opened", "Door Alert", 40, 30)</code>
+
+---
+
+### <h4 class="doc-head">playAnnouncementAll(message)</h4>
+
+!!! quote "Description"
+
+    This will make an announcement with the message on all echo devices on your account
+    <br>
+    <small style="color: red; padding: 0.15em 0;"><b><i>Notice: </i></b>This command is a complicated one.  If you want to announce on all of your echo devices just select one device to send the command to.  Amazon will send it to all devices on it's end.  So a single device can trigger all to speak. I've seen it to where Amazon will rate-limit so if the devices in the announcement so they will not speak.</small>
+
+!!! summary "Required Paramaters"
+
+    - Message (String): <code>Text between 1-400 characters in length</code>
+
+!!! info "Optional Paramaters"
+
+    - Title(String): <code>String between 1-400 characters in length (For Echo Show/Spots Display)</code>
+
+!!! example "Example Usage"
+
+    - <code>playAnnouncementAll("the garage door has opened")</code>
+    - <code>playAnnouncementAll("the garage door has opened", "Door Alert")</code>
 
 ---
 
 ## <h2 class="doc-head">Sounds</h2>
 
-### <h3 class="doc-head">playSoundByName()</h3>
+### <h4 class="doc-head">playSoundByName()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  Play sounds found in the Alexa Skills Kit Sound Library (Only Sounds who's file name starts with 'amzn_sfx_')
-</div></div>
+!!! quote "Description"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-<p>Sound File Name (String): <code>String (Should support any alexa skills kit sound that starts with 'amzn_sfx_' | https://developer.amazon.com/docs/custom-skills/ask-soundlibrary.html)</code></p>
-</div></div>
+    Play sounds found in the Alexa Skills Kit Sound Library (Only Sounds who's file name starts with 'amzn_sfx_')
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>Restore Volume (Integer): <code>Number between 0-100</code></p>
-</div></div>
+!!! summary "Required Paramaters"
 
-<div class="example-div"><div class="example-div-title">Example Usage:
-  <code>playSoundByName("amzn_sfx_bear_groan_roar_01")</code>
-</div></div>
+    - Sound File Name (String): <code>String (Should support any alexa skills kit sound that starts with 'amzn_sfx_' | https://developer.amazon.com/docs/custom-skills/ask-soundlibrary.html)</code>
 
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:
-  <code>playSoundByName("amzn_sfx_bear_groan_roar_01", 50, 30)</code>
-</div></div>
+!!! info "Optional Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - Restore Volume (Integer): <code>Number between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>playSoundByName("amzn_sfx_bear_groan_roar_01")</code>
+    - <code>playSoundByName("amzn_sfx_bear_groan_roar_01", 50)</code>
+    - <code>playSoundByName("amzn_sfx_bear_groan_roar_01", 50, 30)</code>
 
 ---

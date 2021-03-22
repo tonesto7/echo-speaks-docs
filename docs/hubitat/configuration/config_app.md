@@ -51,4 +51,4 @@ You will be returned to the Server config page
 ---
 ### <h3 class="doc-head">Step 7:</h3>
 
-Continue Server Config Here: <u>[Server Configuration](/hubitat/configuration/config_server)</u>
+Continue Server Config Here: <u>[Server Configuration](./hubitat/configuration/config_server)</u>

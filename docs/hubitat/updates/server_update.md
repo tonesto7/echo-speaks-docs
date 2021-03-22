@@ -23,4 +23,4 @@ I appologize that this does not have any photos for the steps.
 In order to update your existing server it will actually need to be deleted from Heroku and reployed.
 This process is very simple just follow the removal process to get started.
 
-[Server Redeploy](/echo-speaks-docs/support/server_removal)
+[Server Redeploy](./support/server_removal)

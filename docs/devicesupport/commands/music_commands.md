@@ -1,223 +1,326 @@
 
 ## <h2 class="doc-head">Playback</h2>
 
-### <h3 class="doc-head">stopAllDevices()</h3>
+### <h4 class="doc-head">stopAllDevices()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-    <p>Stops audio playback on all echo devices</p>
-    <h5 class="blue">NOTE: Only send this command to a single device and not all devices</h5>
-</div></div>
-<div class="params-div"><div class="params-div-title">Parameters</div><div class="offset-0-5">
-  None Accepted
-</div></div>
+!!! tip "NOTICE"
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>stopAllDevices()</code>
-</div></div>
+    Only send this command to a single device and not all devices
+
+!!! quote "Description"
+
+    Stops audio playback on all echo devices
+
+!!! summary "Required Paramaters"
+
+    - None Accepted
+
+
+!!! example "Example Usage"
+
+    - <code>stopAllDevices()</code>
 
 ---
 
-### <h3 class="doc-head">togglePlayback()</h3>
+### <h4 class="doc-head">togglePlayback()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Used to toggle between playing and stopped state</p>
-  <h5 class="blue">NOTE: Not available on all devices. Only works on devices that support music playback control</h5>
-</div></div>
+!!! tip "NOTICE"
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>togglePlayback()</code>
-</div></div>
+    Not available on all devices. Only works on devices that support music playback control
 
+!!! quote "Description"
+
+  Used to toggle between playing and stopped state
+
+!!! example "Example Usage"
+
+    - <code>togglePlayback()</code>
 
 ---
 
 ## <h2 class="doc-head">Music Search</h2>
 
-### <h3 class="doc-head">searchMusic()</h3>
+### <h4 class="doc-head">searchMusic()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Used to play music from the desired music provider by using a specific search phrase</p>
-  <h5 class="blue">NOTE: Not available on all devices. Only works on devices that support music playback control</h5>
-  <h5 style="darkgray">NOTE: I have discovered that when trying to play songs I had to add the word song to the search phrase</h5>
-</div></div>
+!!! tip "NOTICE"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-  <h5 class="blue">This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</h5>
-  <p>SearchPhrase (String): <code>Text between 0-100 characters in length</code>
-  <p>ProviderId (String): <code>[CLOUDPLAYER, AMAZON_MUSIC, APPLE_MUSIC, I_HEART_RADIO, PANDORA, SPOTIFY, TUNEIN]</code></p>
-</div></div>
+    Not available on all devices. Only works on devices that support music playback control amd has access to a valid music streaming service.
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
-</div></div>
+!!! quote "Description"
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>searchMusic("thriller", "AMAZON_MUSIC")</code>
-</div></div>
+    Used to play music from the desired music provider by using a specific search phrase.
 
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:</div><div class="offset-0-5">
-  <code>searchMusic("thriller on the upstairs", "AMAZON_MUSIC", 40, 300)</code>
-</div></div>
+!!! summary "Required Paramaters"
 
+    - SearchPhrase (String): <code>Text between 0-100 characters in length</code>
 
+        !!! tip "Tips"
 
----
+            This can be song name, playlist, artist.
+            <br>
+            You can also add an audio group in the search to have it played under a group of alexa devices.
+            <br>
+            I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
-### <h3 class="doc-head">searchAmazonMusic()</h3>
+    - ProviderId (String): <code>[CLOUDPLAYER, AMAZON_MUSIC, APPLE_MUSIC, I_HEART_RADIO, PANDORA, SPOTIFY, TUNEIN]</code>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  Used to play music from Amazon Music provider
-  <h5 class="note">NOTE: Not available on all devices. Only works on devices that support music playback control</h5>
-</div></div>
+!!! info "Optional Paramaters"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>SearchPhrase (String): <code>String between 0-100 characters in length</code></p>
-  <h5 class="note">NOTE: This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</h5>
-  <h5 class="darkgray">NOTE: I have discovered that when trying to play songs I had to add the word song to the search phrase</h5>
-</div></div>
+    - Volume (Integer): <code>Number between 0-100</code>
+    - sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Between 0-100</code></p>
-  <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
-</div></div>
+!!! example "Example Usage"
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5"><code>searchAmazonMusic("thriller")</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:</div><div class="offset-0-5"><code>searchAmazonMusic("thriller on the upstairs", 40, 300)</code></div></div>
+    - <code>searchMusic("thriller", "AMAZON_MUSIC")</code>
+    - <code>searchMusic("thriller on the upstairs", "AMAZON_MUSIC", 40)</code>
+    - <code>searchMusic("thriller on the upstairs", "AMAZON_MUSIC", 40, 300)</code>
 
 ---
 
-### <h3 class="doc-head">searchAppleMusic()</h3>
+### <h4 class="doc-head">searchAmazonMusic()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Used to play music from Apple Music provider</p>
-  <h5 class="blue">NOTE: Not available on all devices. Only works on devices that support music playback control and Apple Music</h5>
-  <h5 style="darkgray">NOTE: I have discovered that when trying to play songs I had to add the word song to the search phrase</h5>
-</div></div>
+!!! tip "NOTICE"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-  <h5 class="note">NOTE: This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</h5>
-  <p>SearchPhrase (String): <code>String between 0-100 characters in length.</code></p>
-</div></div>
+    Not available on all devices. Only works on devices that support music playback control
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Between 0-100</code></p>
-  <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
-</div></div>
+!!! quote "Description"
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5"><code>searchAppleMusic("thriller")</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:</div><div class="offset-0-5"><code>searchAppleMusic("thriller on the upstairs", 40, 300)</code></div></div>
+    Used to play music from Amazon Music provider
 
----
+!!! summary "Required Paramaters"
 
-### <h3 class="doc-head">searchPandora()</h3>
+    - SearchPhrase (String): <code>String between 0-100 characters in length</code>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Used to play music from Pandora Radio provider</p>
-  <h5 class="blue">NOTE: Not available on all devices. Requires connection of Pandora skills</h5>
-</div></div>
+        !!! tip "Tips"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-  <h5 class="note">This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</h5>
-  <p>SearchPhrase (String): <code>Text between 0-100 characters in length.</code></p>
-</div></div>
+            This can be song name, playlist, artist.
+            <br>
+            You can also add an audio group in the search to have it played under a group of alexa devices.
+            <br>
+            I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>SleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
-</div></div>
+!!! info "Optional Paramaters"
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5"><code>searchPandora("thriller")</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:</div><div class="offset-0-5"><code>searchPandora("thriller on the upstairs", 40, 300)</code></div></div>
+    - Volume (Integer): <code>Between 0-100</code>
+    - sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
+
+!!! example "Example Usage"
+
+    - <code>searchAmazonMusic("thriller")</code>
+    - <code>searchAmazonMusic("thriller on the upstairs", 40)</code>
+    - <code>searchAmazonMusic("thriller on the upstairs", 40, 300)</code>
 
 ---
 
-### <h3 class="doc-head">searchIheart()</h3>
+### <h4 class="doc-head">searchAppleMusic()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Used to play music from iHeartRadio provider</p>
-  <h5 class="blue">NOTE: Not available on all devices. Requires connection of iHeart Radio Skill</h5>
-</div></div>
+!!! tip "NOTICE"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-  <h5 class="note">This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</h5>
-  <p>SearchPhrase (String): <code>Text between 0-100 characters in length</code>
-</div></div>
+    Not available on all devices. Only works on devices that support music playback control and connected to Apple Music Skill.
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>SleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
-</div></div>
+!!! quote "Description"
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5"><code>searchIheart("thriller")</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:</div><div class="offset-0-5"><code>searchIheart("thriller on the upstairs", 40, 300)</code></div></div>
+    Used to play music from Apple Music provider.
+    <br>
+    I have alse discovered that when trying to play songs I had to add the word song to the search phrase.
 
----
+!!! summary "Required Paramaters"
 
-### <h3 class="doc-head">searchSiriusXm()</h3>
+    - SearchPhrase (String): <code>String between 0-100 characters in length.</code>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Used to play music from Sirius XM provider</p>
-  <h5 class="blue">NOTE: Not available on all devices.  Requires Sirius XM subscription.</h5>
-</div></div>
+        !!! tip "Tips"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-  <h5 class="note">This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</h5>
-  <p>SearchPhrase (String): <code>Text between 0-100 characters in length.</code></p>
-</div></div>
+            This can be song name, playlist, artist.
+            <br>
+            You can also add an audio group in the search to have it played under a group of alexa devices.
+            <br>
+            I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>SleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
-</div></div>
+!!! info "Optional Paramaters"
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5"><code>searchSiriusXm("thriller")</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:</div><div class="offset-0-5"><code>searchSiriusXm("thriller on the upstairs", 40, 300)</code></div></div>
+    - Volume (Integer): <code>Between 0-100</code>
+    - sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
+
+!!! example "Example Usage"
+
+    - <code>searchAppleMusic("thriller")</code>
+    - <code>searchAppleMusic("thriller on the upstairs", 40)</code>
+    - <code>searchAppleMusic("thriller on the upstairs", 40, 300)</code>
 
 ---
 
-### <h3 class="doc-head">searchSpotify()</h3>
+### <h4 class="doc-head">searchPandora()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Used to play music from Spotify provider</p>
-  <h5 class="blue">NOTE: Not available on all devices. Requires Spotify subscription.</h5>
-  <h5 style="darkgray">NOTE: I have discovered that when trying to play songs I had to add the word song to the search phrase.</h5>
-</div></div>
+!!! tip "NOTICE"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-  <h5 class="note">This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</h5>
-  <p>SearchPhrase (String): <code>Text between 0-100 characters in length.</code></p>
-</div></div>
+    Not available on all devices. Requires connection of Pandora skill.
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
-</div></div>
+!!! quote "Description"
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5"><code>searchSpotify("thriller")</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:</div><div class="offset-0-5"><code>searchSpotify("thriller on the upstairs", 40, 300)</code></div></div>
+    Used to play music from Pandora Radio provider
+
+!!! summary "Required Paramaters"
+
+    - SearchPhrase (String): <code>Text between 0-100 characters in length.</code>
+
+        !!! tip "Tips"
+
+            This can be song name, playlist, artist.
+            <br>
+            You can also add an audio group in the search to have it played under a group of alexa devices.
+            <br>
+            I have discovered that when trying to play songs I had to add the word song to the search phrase.
+
+!!! info "Optional Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - SleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
+
+!!! example "Example Usage"
+
+    - <code>searchPandora("thriller")</code>
+    - <code>searchPandora("thriller on the upstairs", 40)</code>
+    - <code>searchPandora("thriller on the upstairs", 40, 300)</code>
 
 ---
 
-### <h3 class="doc-head">searchTuneIn()</h3>
+### <h4 class="doc-head">searchIheart()</h4>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Used to play music from Tune-In Radio provider</p>
-  <h5 class="blue">NOTE: Not available on all devices. Only works on devices that support music playback control and Tune-In Radio</h5>
-</div></div>
+!!! tip "NOTICE"
 
-<div class="params-req-div"><div class="params-req-div-title">Required Parameters</div><div class="offset-0-5">
-  <h5 class="note">This can be song name, playlist, artist.<br>You can also add an audio group in the search to have it played under a group of alexa devices.</h5>
-  <p>SearchPhrase (String): <code>Text between 0-100 characters in length.</code></p>
-</div></div>
+    Not available on all devices. Requires connection of iHeart Radio skill.
 
-<div class="params-opt-div"><div class="params-opt-div-title">Optional Parameters</div><div class="offset-0-5">
-  <p>Volume (Integer): <code>Number between 0-100</code></p>
-  <p>sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code></p>
-</div></div>
+!!! quote "Description"
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5"><code>searchTuneIn("thriller")</code></div></div>
-<div class="example-opt-div"><div class="example-opt-div-title">Example w/Optional:</div><div class="offset-0-5"><code>searchTuneIn("thriller on the upstairs", 40, 300)</code></div></div>
+    Used to play music from iHeartRadio provider
+
+!!! summary "Required Paramaters"
+
+    - SearchPhrase (String): <code>Text between 0-100 characters in length</code>
+
+        !!! tip "Tips"
+
+            This can be song name, playlist, artist.
+            <br>
+            You can also add an audio group in the search to have it played under a group of alexa devices.
+            <br>
+            I have discovered that when trying to play songs I had to add the word song to the search phrase.
+
+!!! info "Optional Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - SleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
+
+!!! example "Example Usage"
+
+    - <code>searchIheart("thriller")</code>
+    - <code>searchIheart("thriller on the upstairs", 40)</code>
+    - <code>searchIheart("thriller on the upstairs", 40, 300)</code>
+
+---
+
+### <h4 class="doc-head">searchSiriusXm()</h4>
+
+!!! tip "NOTICE"
+
+    Not available on all devices. Only works on devices that support music playback control and Requires Sirius XM subscription.
+
+!!! quote "Description"
+
+    - Used to play music from Sirius XM provider
+
+!!! summary "Required Paramaters"
+
+    - SearchPhrase (String): <code>Text between 0-100 characters in length.</code>
+
+        !!! tip "Tips"
+
+            This can be song name, playlist, artist.
+            <br>
+            You can also add an audio group in the search to have it played under a group of alexa devices.
+            <br>
+            I have discovered that when trying to play songs I had to add the word song to the search phrase.
+
+!!! info "Optional Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - SleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
+
+!!! example "Example Usage"
+
+    - <code>searchSiriusXm("thriller")</code>
+    - <code>searchSiriusXm("thriller on the upstairs", 40)</code>
+    - <code>searchSiriusXm("thriller on the upstairs", 40, 300)</code>
+
+---
+
+### <h4 class="doc-head">searchSpotify()</h4>
+
+!!! tip "NOTICE"
+
+    Not available on all devices. Only works on devices that support music playback control and Requires Spotify subscription.
+
+!!! quote "Description"
+
+    - Used to play music from Spotify provider
+
+!!! summary "Required Paramaters"
+
+    - SearchPhrase (String): <code>Text between 0-100 characters in length.</code>
+
+        !!! tip "Tips"
+
+            This can be song name, playlist, artist.
+            <br>
+            You can also add an audio group in the search to have it played under a group of alexa devices.
+            <br>
+            I have discovered that when trying to play songs I had to add the word song to the search phrase.
+
+!!! info "Optional Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
+
+!!! example "Example Usage"
+
+    - <code>searchSpotify("thriller")</code>
+    - <code>searchSpotify("thriller on the upstairs", 40)</code>
+    - <code>searchSpotify("thriller on the upstairs", 40, 300)</code>
+
+---
+
+### <h4 class="doc-head">searchTuneIn()</h4>
+
+!!! tip "NOTICE"
+
+    Not available on all devices. Only works on devices that support music playback control and connected to Tune-In Radio Skill.
+
+!!! quote "Description"
+
+    - Used to play music from Tune-In Radio provider
+
+!!! summary "Required Paramaters"
+
+    - SearchPhrase (String): <code>Text between 0-100 characters in length.</code>
+
+        !!! tip "Tips"
+
+            This can be song name, playlist, artist.
+            <br>
+            You can also add an audio group in the search to have it played under a group of alexa devices.
+            <br>
+            I have discovered that when trying to play songs I had to add the word song to the search phrase.
+
+!!! info "Optional Paramaters"
+
+    - Volume (Integer): <code>Number between 0-100</code>
+    - sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
+
+!!! example "Example Usage"
+
+    - <code>searchTuneIn("thriller")</code>
+    - <code>searchTuneIn("thriller on the upstairs", 40)</code>
+    - <code>searchTuneIn("thriller on the upstairs", 40, 300)</code>
 
 ---
 
@@ -226,5 +329,3 @@
   <p>I've recently added a Music Search Test section to the main page of the SmartThings/Hubitat app.</p>
 
 ---
-
-

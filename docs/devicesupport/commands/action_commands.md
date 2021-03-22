@@ -2,25 +2,26 @@
 
 ### <h3 class="doc-head">doNotDisturbOn()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  Activates Do Not Disturb for the device
-</div></div>
+!!! quote "Description"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  None Accepted
-</div></div>
+    Activates Do Not Disturb for the device
+
+
+!!! summary "Required Paramaters"
+
+    None Accepted
 
 ---
 
 ### <h3 class="doc-head">doNotDisturbOff()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  Disables Do Not Disturb for the device
-</div></div>
+!!! quote "Description"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  None Accepted
-</div></div>
+    Disables Do Not Disturb for the device
+
+!!! summary "Required Paramaters"
+
+    None Accepted
 
 ---
 
@@ -28,43 +29,49 @@
 
 ### <h3 class="doc-head">storeCurrentVolume()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Captures current device volume</p>
-  <p class="note">NOTE: This is not always accurate. Aquiring the volume level requires media to have been playing or you send a volume change using SmartThings at least once.</p>
-</div></div>
+!!! tip "NOTICE"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  None Accepted
-</div></div>
+    This is not always accurate. Aquiring the volume level requires media to have been playing or you send a volume change using SmartThings at least once.
+
+!!! quote "Description"
+
+    - Captures current device volume
+
+!!! summary "Required Paramaters"
+
+    - None Accepted
 
 ---
 
 ### <h3 class="doc-head">restoreLastVolume()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Restores volume to captured volume using storeCurrentVolume()</p>
-</div></div>
+!!! quote "Description"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>None Accepted</p>
-</div></div>
+    - Restores volume to captured volume using storeCurrentVolume()
+
+!!! summary "Required Paramaters"
+
+    - None Accepted
 
 ---
 
 ### <h3 class="doc-head">setAlarmVolume()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-    <p>Sets the Echo Devices Alarm and Reminder Notification volume</p>
-    <p class="note">NOTE: Only available on devices that support alarms and/or reminders</p>
-</div></div>
+!!! tip "NOTICE"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-    <p>Volume (Integer): <code>Number value between 0-100</code></p>
-</div></div>
+    Only available on devices that support alarms and/or reminders
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>setAlarmVolume(40)</code>
-</div></div>
+!!! quote "Description"
+
+    - Sets the Echo Devices Alarm and Reminder Notification volume
+
+!!! summary "Required Paramaters"
+
+    - Volume (Integer): <code>Number value between 0-100</code>
+
+!!! example "Example Usage"
+
+    - <code>setAlarmVolume(40)</code>
 
 ---
 
@@ -72,18 +79,21 @@
 
 ### <h3 class="doc-head">setWakeWord()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Change the alexa wake word used to get Alexa to respond to commands</p>
-</div></div>
+!!! quote "Description"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  <h5 class="blue">NOTE: At this time you can only use 5 names below</h5>
-  <p>WakeWord (String): <code>["ALEXA", "AMAZON", "ECHO", "COMPUTER"]</code></p>
-</div></div>
+    - Change the alexa wake word used to get Alexa to respond to commands
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>setWakeWord("ECHO")</code>
-</div></div>
+!!! summary "Required Paramaters"
+
+    - WakeWord (String): <code>["ALEXA", "AMAZON", "ECHO", "COMPUTER"]</code>
+
+        !!! tip "Tips"
+
+            At this time you can only use 5 names below
+
+!!! example "Example Usage"
+
+    - <code>setWakeWord("ECHO")</code>
 
 ---
 
@@ -91,17 +101,17 @@
 
 ### <h3 class="doc-head">renameDevice()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Changes the alexa device name under your amazon account</p>
-</div></div>
+!!! quote "Description"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>Device Name (String): <code>Any alphanumeric text accepted</code></p>
-</div></div>
+    - Changes the alexa device name under your amazon account
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>renameDevice("New Device Name")</code>
-</div></div>
+!!! summary "Required Paramaters"
+
+    - Device Name (String): <code>Any alphanumeric text accepted</code>
+
+!!! example "Example Usage"
+
+    - <code>renameDevice("New Device Name")</code>
 
 ---
 
@@ -109,17 +119,17 @@
 
 ### <h3 class="doc-head">getDeviceActivity()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Updates the activity data for the attributes "wasLastSpokenToDevice" and "lastVoiceActivity" (There can be a minor delay because of Amazon Rate-Limiting)</p>
-</div></div>
+!!! quote "Description"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>None Accepted</p>
-</div></div>
+    Updates the activity data for the attributes "wasLastSpokenToDevice" and "lastVoiceActivity" (There can be a minor delay because of Amazon Rate-Limiting)
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>getDeviceActivity()</code>
-</div></div>
+!!! summary "Required Paramaters"
+
+    - None Accepted
+
+!!! example "Example Usage"
+
+    - <code>getDeviceActivity()</code>
 
 ---
 
@@ -127,64 +137,65 @@
 
 ### <h3 class="doc-head">getBluetoothDevices()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Refreshes all bluetooth devices for the alexa device</p>
-</div></div>
+!!! quote "Description"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>None Accepted</p>
-</div></div>
+    - Refreshes all bluetooth devices for the alexa device
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>getBluetoothDevices()</code>
-</div></div>
+!!! summary "Required Paramaters"
+
+    - None Accepted
+
+!!! example "Example Usage"
+
+    - <code>getBluetoothDevices()</code>
 
 ---
 
 ### <h3 class="doc-head">connectBluetooth()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-Will connected a paired bluetooth device by name. (Look at attribute `btDevicesPaired` for a list of paired device names</div></div>
+!!! quote "Description"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>Device Name (String): <code>Look at attribute `btDevicesPaired` for a list of paired device names</code></p>
-</div></div>
+    Will connected a paired bluetooth device by name. (Look at attribute `btDevicesPaired` for a list of paired device names
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>connectBluetooth("JBL Pulse 2")</code>
-</div></div>
+!!! summary "Required Paramaters"
+
+    - Device Name (String): <code>Look at attribute `btDevicesPaired` for a list of paired device names</code>
+
+!!! example "Example Usage"
+
+    - <code>connectBluetooth("JBL Pulse 2")</code>
 
 ---
 
 ### <h3 class="doc-head">disconnectBluetooth()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Disconnects the bluetooth device currently connected to the Alexa device</p>
-</div></div>
+!!! quote "Description"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>None Accepted</p>
-</div></div>
+    - Disconnects the bluetooth device currently connected to the Alexa device
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>disconnectBluetooth()</code>
-</div></div>
+!!! summary "Required Paramaters"
+
+    - None Accepted
+
+!!! example "Example Usage"
+
+    - <code>disconnectBluetooth()</code>
 
 ---
 
 ### <h3 class="doc-head">removeBluetooth()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  Removes bluetooth device pairing from alexa device by name. (Look at attribute `btDevicesPaired` for a list of paired device names
-</div></div>
+!!! quote "Description"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>Device Name (String): <code>Look at attribute `btDevicesPaired` for a list of paired device names</code></p>
-</div></div>
+    Removes bluetooth device pairing from alexa device by name. (Look at attribute `btDevicesPaired` for a list of paired device names
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>removeBluetooth("JBL Pulse 2")</code>
-</div></div>
+!!! summary "Required Paramaters"
+
+    - Device Name (String): <code>Look at attribute `btDevicesPaired` for a list of paired device names</code>
+
+!!! example "Example Usage"
+
+    - <code>removeBluetooth("JBL Pulse 2")</code>
 
 ---
 
@@ -192,107 +203,109 @@ Will connected a paired bluetooth device by name. (Look at attribute `btDevicesP
 
 ### <h3 class="doc-head">executeSequenceCommand()</h3>
 
-<div class="desc-div"><div class="desc-div-title">Description:</div><div class="offset-0-5">
-  <p>Allows you to send a custom sequence of actions to Amazon as a single command that will be executed one at a time by Amazon.</p>
-</div></div>
+!!! quote "Description"
 
-<div class="params-div"><div class="params-div-title">Required Parameters</div><div class="offset-0-5">
-  <p>Available Sequence Items (String):</p>
-  <p>General Items:</p>
-  <pre>
-  - weather
-  - traffic
-  - flashbriefing
-  - goodnews
-  - goodmorning
-  - goodnight
-  - cleanup
-  - singasong
-  - tellstory
-  - funfact
-  - joke
-  - playsearch
-  - calendartoday
-  - calendartomorrow
-  - calendarnext
-  - stop
-  - stopalldevices
-  - wait::value (seconds)
-  - volume::value (0-100)
-  - speak::message
-  - announcement::message
-  - announcementall::message
-  - pushnotification::message
-  </pre>
+    Allows you to send a custom sequence of actions to Amazon as a single command that will be executed one at a time by Amazon.
 
-  <p>Canned TTS Speech:</p>
-  <pre>
-  - cannedtts_random::(accepted values below)
-    * goodbye
-    * confirmations
-    * goodmorning
-    * compliments
-    * birthday
-    * goodnight
-    * iamhome
-  </pre>
+!!! summary "Required Paramaters"
 
-  <p>Sounds:</p>
-  <pre>
-  - sound::(accepted values below)
+    <p>Available Sequence Items (String):</p>
+    <h5>General Items:</h5>
+    ```
+      - weather
+      - traffic
+      - flashbriefing
+      - goodnews
+      - goodmorning
+      - goodnight
+      - cleanup
+      - singasong
+      - tellstory
+      - funfact
+      - joke
+      - playsearch
+      - calendartoday
+      - calendartomorrow
+      - calendarnext
+      - stop
+      - stopalldevices
+      - wait::value (seconds)
+      - volume::value (0-100)
+      - speak::message
+      - announcement::message
+      - announcementall::message
+      - pushnotification::message
+    ```
 
-    Bells and Buzzer Sounds:
-    * bells
-    * buzzer
-    * church_bell
-    * doorbell1
-    * doorbell2
-    * doorbell3
+    <h5>Canned TTS Speech:</h5>
+    ```
+      - cannedtts_random::(accepted values below)
+        * goodbye
+        * confirmations
+        * goodmorning
+        * compliments
+        * birthday
+        * goodnight
+        * iamhome
+    ```
 
-    Holiday Sounds:
-    * xmas_bells
-    * halloween_door
+    <h5>Sounds:</h5>
+    ```
+      - sound::(accepted values below)
 
-    Misc Sounds:
-    * air_horn
-    * boing1
-    * boing2
-    * camera
-    * squeaky_door
-    * ticking_clock
-    * trumpet
+        Bells and Buzzer Sounds:
+        * bells
+        * buzzer
+        * church_bell
+        * doorbell1
+        * doorbell2
+        * doorbell3
 
-    Animals Sounds:
-    * cat
-    * dog
-    * lion
-    * rooster
-    * wolf
+        Holiday Sounds:
+        * xmas_bells
+        * halloween_door
 
-    Scifi Sounds:
-    * aircraft
-    * engines
-    * red_alert
-    * shields
-    * sirens
-    * zap
+        Misc Sounds:
+        * air_horn
+        * boing1
+        * boing2
+        * camera
+        * squeaky_door
+        * ticking_clock
+        * trumpet
 
-    Crowd sounds:
-    * applause
-    * cheer
-  </pre>
+        Animals Sounds:
+        * cat
+        * dog
+        * lion
+        * rooster
+        * wolf
 
-  <p>Music:</p>
-  <pre>
-   - cloudplayer::search term
-  </pre>
+        Scifi Sounds:
+        * aircraft
+        * engines
+        * red_alert
+        * shields
+        * sirens
+        * zap
 
-  <p><b>Enter the command in a format exactly like this:</b></p>
-  <p><code>volume::40,, speak::this is so silly,, wait::60, weather,, cannedtts_random::goodbye,, traffic,, amazonmusic::green day,, volume::30</code></p>
-  <h5 class="blue">NOTE: Each command::value pair needs to be separated by a double comma `,,` and the separator between the command and value must be command`::`value</h5>
+        Crowd sounds:
+        * applause
+        * cheer
+    ```
 
-</div></div>
+    <h5>Music:</h5>
+    ```
+      - cloudplayer::search term
+    ```
 
-<div class="example-div"><div class="example-div-title">Example Usage:</div><div class="offset-0-5">
-  <code>executeSequenceCommand("volume::50,, speak::This is pretty cool,, volume::30")</code>
-</div></div>
+    <h4>Enter the command in a format exactly like this:</h4>
+    ```volume::40,, speak::this is so silly,, wait::60, weather,, cannedtts_random::goodbye,, traffic,, amazonmusic::green day,, volume::30```
+
+    !!! tip "NOTE"
+
+        Each command::value pair needs to be separated by a double comma `,,` and the separator between the command and value must be command`::`value
+
+!!! example "Example Usage"
+
+    - <code>executeSequenceCommand("volume::50,, speak::This is pretty cool,, volume::30")</code>

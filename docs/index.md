@@ -53,7 +53,7 @@ some_url: https://tonesto7.github.io/echo-speaks-docs/#
 
 #### <h4 class="doc-head">Begin Installation</h4>
 
-- [Hubitat Code Install](/hubitat/installation/types)
+- [Hubitat Code Install](./hubitat/installation/types)
 
 ---
 
@@ -61,4 +61,4 @@ some_url: https://tonesto7.github.io/echo-speaks-docs/#
 
 ### <h3 class="doc-head">ChangeLog</h3>
 
-- [View Change Log](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/changelog.txt)
+- [View Change Log](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/resources/changelog.md)
