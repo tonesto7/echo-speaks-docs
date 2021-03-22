@@ -1,11 +1,6 @@
-/* .md-sidebar--secondary {
-    display: none;
+/* body {
+    padding-top: 70px;
 } */
-
-body {
-    /* padding-top: 70px; */
-    font-size: small;
-}
 
 p {
     font-size: small;
@@ -14,19 +9,6 @@ p {
 li {
     font-size: small;
 }
-
-
-/* .navbar {
-    margin-bottom: 0;
-} */
-
-
-/* .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 10px;
-    margin-left: 10px;
-} */
 
 .codehilite code,
 .codehilite pre {
