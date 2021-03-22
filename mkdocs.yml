@@ -19,10 +19,10 @@ theme:
     - toc.integrate
   hide:
     - toc
-  favicon: /img/favicon.png
-  logo: /img/EchoSpeaks.png
-
-
+  font:
+    text: Roboto
+  favicon: img/favicon.png
+  logo: img/EchoSpeaks.png
   extra:
     social:
       - icon: fontawesome/brands/github-alt

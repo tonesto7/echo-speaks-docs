@@ -13,7 +13,7 @@ some_url: https://tonesto7.github.io/echo-speaks-docs/#
 
 ### <h3 class="doc-head">Description</h3>
 
- **Echo Speaks** is a utilitarian smartapp and device handler that allows you to discover, select, and use the Amazon Alexa Devices directly in your Smart Home Environment. It will give you the ability to wake your Alexa devices remotely to speak any text that you wish for almost any given scenario. There are now many different built-in automations that allow actions based on events in your home. Gone are the days of using expensive speakers connected to your hub. The day that you have all been waiting for has arrived.
+ **Echo Speaks** is a utilitarian smartapp and device handler that allows you to discover, select, and use the Amazon Alexa Devices directly in your Hubitat Smart Home Environment. It will give you the ability to wake your Alexa devices remotely to speak any text that you wish for almost any given scenario. There are now many different built-in automations that allow actions based on events in your home. Gone are the days of using expensive speakers connected to your hub. The day that you have all been waiting for has arrived.
 
 ### <h3 class="doc-head">Attributions</h3>
 
@@ -32,7 +32,7 @@ some_url: https://tonesto7.github.io/echo-speaks-docs/#
 
 #### <h4 class="doc-head">Code Links</h4>
 
-| **_Code Type:_**                      | **_Source Code URL:_**                                                                                                                           | **_Version_** |
+| **_Code Type:_**                      | **_Source Code URL:_**                                                                                                                           | **_Version:_** |
 | :------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
 | Echo Speaks:                          | [Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks.groovy)                                              | v4.1.0.0      |
 | Echo Speaks Actions:                  | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks-actions.groovy)                                       | v4.1.0.0      |
