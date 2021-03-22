@@ -1,4 +1,4 @@
-### <h3 style="color: #FF6025;">Step 1:</h3>
+### <h3 class="doc-head">Step 1:</h3>
 You will be returned to the Server config page.
 
 * Verify Amazon region settings are correct (pink box).
@@ -7,7 +7,7 @@ You will be returned to the Server config page.
     ![screenshot](img/he_config_server_1.png)
 
 ---
-### <h3 style="color: #FF6025;">Step 2:</h3>
+### <h3 class="doc-head">Step 2:</h3>
 
 * A browser window should open that looks like the one below.
 * Highlight and copy the information in the gray box for later use.
@@ -19,7 +19,7 @@ Now tap on the **Deploy to Heroku** button.
   ![screenshot](img/he_config_server_2_2.jpg)
 
 ---
-### <h3 style="color: #FF6025;">Step 3:</h3>
+### <h3 class="doc-head">Step 3:</h3>
 
 You will paste the information from the previous step into the box named **App Name**
 
@@ -33,7 +33,7 @@ Your information is going to show that the app name is not available
 ***YOU MUST FOLLOW THE NEXT STEP EXACTLY AS WRITTEN***
 
 ---
-### <h3 style="color: #FF6025;">Step 4:</h3>
+### <h3 class="doc-head">Step 4:</h3>
 
  **THIS MUST BE DONE PRECISELY.  FAILURE TO FOLLOW THIS STEP MAY RESULT IN YOUR APP NOT OPERATING PROPERLY**
 
@@ -45,14 +45,14 @@ Your information is going to show that the app name is not available
     ![screenshot](img/he_config_server_4.jpg)
 
 ---
-### <h3 style="color: #FF6025;">Step 5:</h3>
+### <h3 class="doc-head">Step 5:</h3>
 Scroll to the bottom of the screen and tap on the **Deploy App** button. You will now see the information below as the app is being deployed.<br>
 ***Think of the below picture as a movie.... the words will change***
 
 ![screenshot](img/he_config_server_5.jpg)
 
 ---
-### <h3 style="color: #FF6025;">Step 6:</h3>
+### <h3 class="doc-head">Step 6:</h3>
 Once the screen looks like the one below (It generally only takes a minute or two after starting the above).
 
 * Tap on the **View** button.
@@ -64,7 +64,7 @@ Once the screen looks like the one below (It generally only takes a minu
     ![screenshot](img/he_config_server_6_2.png)
 
 ---
-### <h3 style="color: #FF6025;">Step 7:</h3>
+### <h3 class="doc-head">Step 7:</h3>
 At this point, you need to get your amazon login cookie:
 
 * Tap on the **Go to Login Page** button as shown below.
@@ -72,7 +72,7 @@ At this point, you need to get your amazon login cookie:
     ![screenshot](img/he_config_server_6_2.png)
 
 ---
-### <h3 style="color: #FF6025;">Step 8:</h3>
+### <h3 class="doc-head">Step 8:</h3>
 Input your CORRECT login information for the Amazon account that your devices are registered with, then tap on 'Sign In'.
 
 ![screenshot](img/he_config_server_8_1.jpg)
@@ -82,7 +82,7 @@ When the above part is done successfully, you will see the screen be
 ![screenshot](img/he_config_server_8_2.png)
 
 ---
-### <h3 style="color: #FF6025;">Step 9:</h3>
+### <h3 class="doc-head">Step 9:</h3>
 At this point, close the browser window and go back into the Hubitat web interface.
 
 * Open the Echo Speaks App and press **Save** then wait a couple of minutes.
@@ -96,7 +96,7 @@ At this point, close the browser window and go back into the Hubitat
     ![screenshot](img/he_config_server_9_2.png)
 
 ---
-### <h3 style="color: #FF6025;">Step 10:</h3>
+### <h3 class="doc-head">Step 10:</h3>
 Once you see your devices scroll down.
 
 * Tap on the **Device Testing**
@@ -108,17 +108,17 @@ Once you see your devices scroll down.
     ![screenshot](img/he_config_server_10_2.png)
 
 ---
-### <h3 style="color: #FF6025;">Step 11:</h3>
+### <h3 class="doc-head">Step 11:</h3>
 Select the devices to test and activate the **Perform the Speech Test** toggle.
 
 ![screenshot](img/he_config_server_11.png)
 
 * This will send a test text to speech command to selected devices.
 * If you hear the broadcast on your echo devices, then good.
-* If not, call Houston cause you have a problem.
+* If not, sometimes you will need to go into a device under devices and set the volume and try the speech test from there.
 
 ---
-### <h3 style="color: #FF6025;">You're Done!</h3>
+### <h3 class="doc-head">You're Done!</h3>
 Once you have completed these steps you are done.
 You can now use the devices in any of your supported Hubitat automations.
 

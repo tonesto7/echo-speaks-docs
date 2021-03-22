@@ -1,4 +1,4 @@
-### <h3 style="color: #FF6025;">Automated Method:</h3>
+### <h3 class="doc-head">Automated Method:</h3>
 Thanks to @zarthan there is now a new way to enable Auto Server Updates without adding me as a collaborator on Heroku.
 
 I appologize that this does not have any photos for the steps.
@@ -19,10 +19,8 @@ I appologize that this does not have any photos for the steps.
 14. To upgrade your current server scroll down to the Manual deploy section and make sure **```master```** branch is selected and press **```Deploy Branch```** and watch the little window below read out the progress of deployment.
 15. Now your done.
 
-### <h3 style="color: #FF6025;">Manual Method:</h3>
+### <h3 class="doc-head">Manual Method:</h3>
 In order to update your existing server it will actually need to be deleted from Heroku and reployed.
 This process is very simple just follow the removal process to get started.
 
 [Server Redeploy](/echo-speaks-docs/support/server_removal)
-
-

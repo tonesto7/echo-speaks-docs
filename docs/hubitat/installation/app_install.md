@@ -21,7 +21,7 @@ Click on the `Import` button at the top of the page:
 
 ![screenshot](img/he_app_install_4.png)
 
-* Copy this URL into the window: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks.src/echo-speaks.groovy`
+* Copy this URL into the window: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/tonesto7/echo-speaks.src/echo-speaks.groovy`
 * Click `Import`
 * Click `Save`
 
@@ -45,14 +45,14 @@ Finally, click on **`Update`**.
 
 ---
 ### <h3 style="color: #FF6025;">Step 8:</h3>
-Repeat Steps 3 & 4 for the Actions Child App: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-actions.src/echo-speaks-actions.groovy`
+Repeat Steps 3 & 4 for the Actions Child App: ```https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks-actions.groovy```
 
 ---
 ### <h3 style="color: #FF6025;">Step 9:</h3>
-Repeat Steps 3 & 4 for the Zone Child App: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/smartapps/tonesto7/echo-speaks-zones.src/echo-speaks-zones.groovy`
+Repeat Steps 3 & 4 for the Zone Child App: ```https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks-zones.groovy```
 
 ---
 ### <h3 style="color: #FF6025;">Step 10:</h3>
 Continue Device Driver Install Here:
 
-[Device Manual Install](/echo-speaks-docs/installation/hubitat/device_install)
+[Device Manual Install](/hubitat/installation/device_install)

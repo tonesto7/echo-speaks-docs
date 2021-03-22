@@ -11,8 +11,14 @@ google_analytics: ["UA-131811674-1", "tonesto7.github.io/echo-speaks-docs"]
 theme:
   name: material
   features:
-    - tabs
-    - instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - toc.integrate
+  hide:
+    - toc
   favicon: /img/favicon.png
   logo: /img/EchoSpeaks.png
 
@@ -32,46 +38,22 @@ theme:
 nav:
   - Home: index.md
 
-  - Hubitat:
-    - Install:
-      - Automated:
-        - Hubitat Package Manager: hubitat/installation/hpm_install.md
-
-      - Manual:
-        - App Install: hubitat/installation/app_install.md
-        - Driver Install: hubitat/installation/device_install.md
-
-    - Configuration:
-      - App Configuration: hubitat/configuration/config_app.md
-      - Server Configuration: hubitat/configuration/config_server.md
-
-    - Updates:
-      - App Updates: hubitat/updates/app_update.md
-      - Device Updates: hubitat/updates/device_update.md
-      - Server Updates: hubitat/updates/server_update.md
-
-
   - Install:
-      - "Select Platform":
-          - SmartThings: installation/smartthings/types.md
-          - Hubitat: installation/hubitat/types.md
+    - Automated:
+      - Hubitat Package Manager: hubitat/installation/hpm_install.md
+
+    - Manual:
+      - App Install: hubitat/installation/app_install.md
+      - Driver Install: hubitat/installation/device_install.md
 
   - Configuration:
-      - SmartThings:
-          - App: configuration/smartthings/config_app.md
-          - Server: configuration/smartthings/config_server.md
-      - Hubitat:
-          - App: configuration/hubitat/config_app.md
-          - Server: configuration/hubitat/config_server.md
+    - App Configuration: hubitat/configuration/config_app.md
+    - Server Configuration: hubitat/configuration/config_server.md
 
   - Updates:
-      - SmartThings:
-          - App: updates/smartthings/app_update.md
-          - Device: updates/smartthings/device_update.md
-      - Hubitat:
-          - App: updates/hubitat/app_update.md
-          - Device: updates/hubitat/device_update.md
-      - Server: updates/server_update.md
+    - App Updates: hubitat/updates/app_update.md
+    - Device Updates: hubitat/updates/device_update.md
+    - Server Updates: hubitat/updates/server_update.md
 
   - Actions:
       - Description: actions/actions_desc.md
