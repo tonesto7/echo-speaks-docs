@@ -1,7 +1,7 @@
-### <h3 style="color: #FF6025;">Donation Links</h3>
+## <h2 class="doc-head">Donations</h2>
 
-The development of these integrations takes a lot of time and effort and while donations will never be required they are always very much appreciated.
+The development of integrations like this takes a lot of time and effort. I will never require a donation, but they will always very much appreciated.
 
-![](https://tonesto7.github.io/echo-speaks-docs/static/img/Echospeaks_donation_qr.png)
+![](./img/donation_qr.png)
 
-***[PayPal Link](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HWBN4LB9NMHZ4)***
+[PayPal Link](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HWBN4LB9NMHZ4)
