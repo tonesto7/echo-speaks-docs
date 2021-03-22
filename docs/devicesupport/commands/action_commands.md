@@ -1,6 +1,6 @@
 ## <h2 class="doc-head">Do Not Disturb</h2>
 
-### <h3 class="doc-head">doNotDisturbOn()</h3>
+### <h4 class="doc-head">doNotDisturbOn()</h4>
 
 !!! quote "Description"
 
@@ -13,7 +13,7 @@
 
 ---
 
-### <h3 class="doc-head">doNotDisturbOff()</h3>
+### <h4 class="doc-head">doNotDisturbOff()</h4>
 
 !!! quote "Description"
 
@@ -27,7 +27,7 @@
 
 ## <h2 class="doc-head">Volume Control</h2>
 
-### <h3 class="doc-head">storeCurrentVolume()</h3>
+### <h4 class="doc-head">storeCurrentVolume()</h4>
 
 !!! tip "NOTICE"
 
@@ -43,7 +43,7 @@
 
 ---
 
-### <h3 class="doc-head">restoreLastVolume()</h3>
+### <h4 class="doc-head">restoreLastVolume()</h4>
 
 !!! quote "Description"
 
@@ -55,7 +55,7 @@
 
 ---
 
-### <h3 class="doc-head">setAlarmVolume()</h3>
+### <h4 class="doc-head">setAlarmVolume()</h4>
 
 !!! tip "NOTICE"
 
@@ -77,7 +77,7 @@
 
 ## <h2 class="doc-head">Change Wake Word</h2>
 
-### <h3 class="doc-head">setWakeWord()</h3>
+### <h4 class="doc-head">setWakeWord()</h4>
 
 !!! quote "Description"
 
@@ -99,7 +99,7 @@
 
 ## <h2 class="doc-head">Rename Device</h2>
 
-### <h3 class="doc-head">renameDevice()</h3>
+### <h4 class="doc-head">renameDevice()</h4>
 
 !!! quote "Description"
 
@@ -117,7 +117,7 @@
 
 ## <h2 class="doc-head">Device Activity</h2>
 
-### <h3 class="doc-head">getDeviceActivity()</h3>
+### <h4 class="doc-head">getDeviceActivity()</h4>
 
 !!! quote "Description"
 
@@ -135,7 +135,7 @@
 
 ## <h2 class="doc-head">Bluetooth Control</h2>
 
-### <h3 class="doc-head">getBluetoothDevices()</h3>
+### <h4 class="doc-head">getBluetoothDevices()</h4>
 
 !!! quote "Description"
 
@@ -151,7 +151,7 @@
 
 ---
 
-### <h3 class="doc-head">connectBluetooth()</h3>
+### <h4 class="doc-head">connectBluetooth()</h4>
 
 !!! quote "Description"
 
@@ -167,7 +167,7 @@
 
 ---
 
-### <h3 class="doc-head">disconnectBluetooth()</h3>
+### <h4 class="doc-head">disconnectBluetooth()</h4>
 
 !!! quote "Description"
 
@@ -183,7 +183,7 @@
 
 ---
 
-### <h3 class="doc-head">removeBluetooth()</h3>
+### <h4 class="doc-head">removeBluetooth()</h4>
 
 !!! quote "Description"
 
@@ -201,7 +201,7 @@
 
 ## <h2 class="doc-head">Sequences</h2>
 
-### <h3 class="doc-head">executeSequenceCommand()</h3>
+### <h4 class="doc-head">executeSequenceCommand()</h4>
 
 !!! quote "Description"
 
