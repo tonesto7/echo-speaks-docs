@@ -29,10 +29,11 @@
 | Vobot Bunny                  |
 | Lenovo SmartTab              |
 
-<p class="red">Notice:</p>
-  There are a lot of devices out there that have Alexa integrated which may or may not display in the Echo Speaks app.
-  I am attempting to make a better solution to help identify supported devices.
-  In the mean time I will update this list as often as I can.
+!!! tip "NOTICE"
+
+    There are a lot of devices out there that have Alexa integrated which may or may not display in the Echo Speaks app.<br>
+    I am attempting to make a better solution to help identify supported devices.<br>
+    In the mean time I will update this list as often as I can.
 
 ---
 

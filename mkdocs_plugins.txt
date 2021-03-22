@@ -10,4 +10,5 @@ pip3 install mkdocs-minify-plugin
 pip3 install pygments
 
 Themes:
-pip3 install mkdocs-material
+pip3 install mkdocs-material-insiders
+pip install git+https://09c9d663efe49a5dc30c0f6f93a17eae0548928e@github.com/squidfunk/mkdocs-material-insiders.git

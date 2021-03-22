@@ -24,9 +24,8 @@ Click on the `Import` button at the top of the page:
 
 ---
 
-
 ### <h3 class="doc-head">Step 4:</h3>
-Repeat Steps 1-3 with the Echo Speaks Zone Device: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-zones-device.groovy`
+Repeat Steps 1-3 with the Echo Speaks Zone Device: `https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-zone-device.groovy`
 
 ---
 

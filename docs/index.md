@@ -21,26 +21,26 @@ some_url: https://tonesto7.github.io/echo-speaks-docs/#
 | :----------------- | ---------------------------------- |
 | **Author:**        | Anthony Santilli                   |
 | **Documentation:** | Anthony Santilli and Jason Headley |
-| **Contributor:**   | Eric Schott (@nh.schottfam)      |
+| **Contributor:**   | Eric Schott (@nh.schottfam)        |
 | **Contributor:**   | Tony Fleisher (@TonyFleisher)      |
 
 ## <h2 class="doc-head">Getting Started</h2>
 
 ### <h3 class="doc-head">Hubitat Platform</h3>
 
-![](./img/logos/he_logo_64.png)
+![](./img/he_logo_64.png)
 
 #### <h4 class="doc-head">Code Links</h4>
 
 | **_Code Type:_**                      | **_Source Code URL:_**                                                                                                                           | **_Version:_** |
-| :------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
-| Echo Speaks:                          | [Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks.groovy)                                              | v4.1.0.0      |
-| Echo Speaks Actions:                  | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks-actions.groovy)                                       | v4.1.0.0      |
-| Echo Speaks Zones:                    | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks-zones.groovy)                                         | v4.1.0.0      |
-| Echo Speaks Driver:                   | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy)                                 | v4.1.0.0      |
-| Echo Speaks Zones Device:             | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-zones-device.groovy)                           | v4.1.0.0      |
-| Echo Speaks Websocket:                | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-ws.groovy)                                     | v4.1.0.0      |
-| Echo Speaks Server:                   | [Heroku Server](https://github.com/tonesto7/echo-speaks-server)                                                                                  | v2.7.0        |
+| :------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------  |
+| Echo Speaks:                          | [Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks.groovy)                                              | v4.1.0.0       |
+| Echo Speaks Actions:                  | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks-actions.groovy)                                       | v4.1.0.0       |
+| Echo Speaks Zones:                    | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks-zones.groovy)                                         | v4.1.0.0       |
+| Echo Speaks Driver:                   | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy)                                 | v4.1.0.0       |
+| Echo Speaks Zones Device:             | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-zone-device.groovy)                            | v4.1.0.0       |
+| Echo Speaks Websocket:                | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-ws.groovy)                                     | v4.1.0.0       |
+| Echo Speaks Server:                   | [Heroku Server](https://github.com/tonesto7/echo-speaks-server)                                                                                  | v2.7.0         |
 
 #### <h4 class="doc-head">Requirements</h4>
 

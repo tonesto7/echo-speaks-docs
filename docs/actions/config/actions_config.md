@@ -3,7 +3,7 @@
 ----
 
 An action is broken into 3 configuration steps:
-### <h3 style="color: #FF6025;">Create New Action:</h3>
+### <h3 class="doc-head">Create New Action:</h3>
 
 * Under the **Echo Speaks App** tap on `Manage Actions`
 
@@ -15,7 +15,7 @@ An action is broken into 3 configuration steps:
 
 ----
 
-### <h3 style="color: #FF6025;">Step 1: Configure Action Type</h3>
+### <h3 class="doc-head">Step 1: Configure Action Type</h3>
 
   Select the action type that will be executed by the triggers selected.
 
@@ -31,7 +31,7 @@ An action is broken into 3 configuration steps:
 
 
 ----
-### <h3 style="color: #FF6025;">Step 2: Configure Trigger Events</h3>
+### <h3 class="doc-head">Step 2: Configure Trigger Events</h3>
 
   * Tap on `Action Triggers`.
 
@@ -75,7 +75,7 @@ An action is broken into 3 configuration steps:
 
     * Press `Done/Save` to return to main action config page
 
-### <h3 style="color: #FF6025;">Step 3: Configure Conditions/Restrictions</h3>
+### <h3 class="doc-head">Step 3: Configure Conditions/Restrictions</h3>
 
 **Note:** Conditions are optional and just help fine tune when a action can execute.
 
@@ -92,7 +92,7 @@ An action is broken into 3 configuration steps:
 
 ----
 
-### <h3 style="color: #FF6025;">Step 4: Configure Action Execution</h3>
+### <h3 class="doc-head">Step 4: Configure Action Execution</h3>
 
 * Tap on `Execution Config` in Step 4.
 
@@ -136,4 +136,3 @@ An action is broken into 3 configuration steps:
     ![screenshot](img/action_config_5_1.png)
 
 * Press `Done/Save` to complete the creation of the new Action.
-

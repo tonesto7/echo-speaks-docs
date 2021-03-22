@@ -27,6 +27,7 @@ To as complex as selecting multiple triggers (contacts, motion, presence, etc.) 
 ***Actionable Device Events:***
 
   - Locks
+  - Lock Codes
   - Buttons
   - Outlets/Switches
   - Dimmers/Level
@@ -46,7 +47,7 @@ To as complex as selecting multiple triggers (contacts, motion, presence, etc.) 
   - Humidity
   - Water
   - Power
-  -
+
 ----
 
 ### <h3 class="doc-head">Action Types Available</h3>
@@ -80,12 +81,13 @@ To as complex as selecting multiple triggers (contacts, motion, presence, etc.) 
   - Bluetooth Control (Connect/Disconnect Paired DEvices)
   - Change Alexa Wake Word
   - Execute Alexa Routines
-  -
+
 ----
+
 #### <h4 class="doc-head">Configuration Options</h4>
 
-[Create a New Action](/actions/config/actions_config)
+[Create a New Action](./actions/config/actions_config)
 
 #### <h4 class="doc-head">Examples</h4>
 
-[View Examples](/actions/examples/actions_examples)
+[View Examples](./actions/examples/actions_examples)

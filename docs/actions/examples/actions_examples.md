@@ -1,7 +1,9 @@
-## <h2 style="color: #FF6025;">Example Actions</h2>
+
+## <h2 class="doc-head">Example Actions</h2>
 
 ----
-### <h3 style="color: #FF6025;">Contact Monitor Example:</h3>
+
+### <h3 class="doc-head">Contact Monitor Example:</h3>
 
 *This example subscribes to contact events. It's purpose is to monitor a contact and perform an action if it's in the trigger state for (xx) seconds, and has a repeat speech event if the contact trigger remains in the open state.*
 
@@ -32,7 +34,7 @@
 
 
 ----
-### <h3 style="color: #FF6025;">Complex Example:</h3>
+### <h3 class="doc-head">Complex Example:</h3>
 
 *This example subscribes to presense, power, temperature, motion attributes, routine and location mode execution. With each trigger type having it's own criteria for the attributes trigger value, wait, and custom voice responses (only available when Step 3 type is speech or announcement).*
 
@@ -67,7 +69,7 @@
 
 
 ----
-### <h3 style="color: #FF6025;">Contact Monitor Example:</h3>
+### <h3 class="doc-head">Contact Monitor Example:</h3>
 
 *This example subscribes to contact events. It's purpose is to monitor a contact and perform an action if it's in the trigger state for (xx) seconds, and has a repeat speech event if the contact trigger remains in the open state.*
 
