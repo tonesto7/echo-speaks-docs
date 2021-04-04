@@ -8,7 +8,7 @@ I appologize that this does not have any photos for the steps.
 3. Click on Fork in towards the top right of the page.
 4. This will create a copy under your github.com account.
 5. Follow the setup and configuration of the Pull app from here: [https://github.com/wei/pull](https://github.com/wei/pull).
-6. Once the pull app is configured head over to [https://dashboad.heroku.com](https://dashboad.heroku.com).
+6. Once the pull app is configured head over to [https://dashboard.heroku.com](https://dashboard.heroku.com).
 7. Click on your **```echo-speaks-xxxxxxxxx```** instance(s)
 8. Click on Deploy under Deployment method click GitHub and make sure you sign in to Github.
 9. Under repo-name text box enter **```echo-speaks-server```** and press Search.

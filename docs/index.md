@@ -3,7 +3,7 @@ title: Echo Speaks Documentation
 summary: A brief description of my document.
 authors:
   - A. Santilli
-date: 2021-03-22
+date: 2021-04-03
 some_url: https://tonesto7.github.io/echo-speaks-docs/#
 ---
 
@@ -34,12 +34,12 @@ some_url: https://tonesto7.github.io/echo-speaks-docs/#
 
 | **_Code Type:_**                      | **_Source Code URL:_**                                                                                                                           | **_Version:_** |
 | :------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------  |
-| Echo Speaks:                          | [Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks.groovy)                                              | v4.1.0.0       |
-| Echo Speaks Actions:                  | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks-actions.groovy)                                       | v4.1.0.0       |
-| Echo Speaks Zones:                    | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks-zones.groovy)                                         | v4.1.0.0       |
-| Echo Speaks Driver:                   | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy)                                 | v4.1.0.0       |
-| Echo Speaks Zones Device:             | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-zone-device.groovy)                            | v4.1.0.0       |
-| Echo Speaks Websocket:                | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-ws.groovy)                                     | v4.1.0.0       |
+| Echo Speaks:                          | [Parent App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks.groovy)                                              | v4.1.2.0       |
+| Echo Speaks Actions:                  | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks-actions.groovy)                                       | v4.1.2.0       |
+| Echo Speaks Zones:                    | [Child App](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/apps/echo-speaks-zones.groovy)                                         | v4.1.2.0       |
+| Echo Speaks Driver:                   | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-device.groovy)                                 | v4.1.2.0       |
+| Echo Speaks Zones Device:             | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-zone-device.groovy)                            | v4.1.2.0       |
+| Echo Speaks Websocket:                | [Device Driver](https://raw.githubusercontent.com/tonesto7/echo-speaks/master/drivers/echo-speaks-ws.groovy)                                     | v4.1.2.0       |
 | Echo Speaks Server:                   | [Heroku Server](https://github.com/tonesto7/echo-speaks-server)                                                                                  | v2.7.0         |
 
 #### <h4 class="doc-head">Requirements</h4>
