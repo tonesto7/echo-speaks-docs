@@ -19,7 +19,7 @@ Hopefully you will find a fix from one of the items below!**
 
   ```[WARN] Commands NOT Allowed! Device is currently (OFFLINE) | Type: (TTS)```
 
-
+ 
 ---
 ## <h3 style="color: #FF6025;">Status Code 400/401</h3>
 
