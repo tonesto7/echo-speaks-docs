@@ -86,8 +86,8 @@ To as complex as selecting multiple triggers (contacts, motion, presence, etc.) 
 
 #### <h4 class="doc-head">Configuration Options</h4>
 
-[Create a New Action](./actions/config/actions_config)
+[Create a New Action](/echo-speaks-docs/actions/config/actions_config)
 
 #### <h4 class="doc-head">Examples</h4>
 
-[View Examples](./actions/examples/actions_examples)
+[View Examples](/echo-speaks-docs/actions/examples/actions_examples)

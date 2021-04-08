@@ -1,5 +1,5 @@
 site_name: Echo Speaks Documentation
-site_url: https://tonesto7.github.io/echo-speaks-docs
+site_url: https://tonesto7.github.io/echo-speaks-docs/
 repo_url: https://github.com/tonesto7/echo-speaks
 edit_uri: edit/master/gh-pages/
 site_description: Echo Speaks Documentation
@@ -23,7 +23,7 @@ theme:
     - toc
   font:
     text: Roboto
-  favicon: img/favicon.png
+  # favicon: img/favicon.png
   logo: img/EchoSpeaks.png
   extra:
     social:
@@ -55,21 +55,23 @@ nav:
   - Home: index.md
 
   - Install:
+    - Install Types: installation/types.md
+
     - Automated:
-      - Hubitat Package Manager: hubitat/installation/hpm_install.md
+      - Hubitat Package Manager: installation/hpm_install.md
 
     - Manual:
-      - App Install: hubitat/installation/app_install.md
-      - Driver Install: hubitat/installation/device_install.md
+      - App Install: installation/app_install.md
+      - Driver Install: installation/device_install.md
 
   - Configuration:
-    - App Configuration: hubitat/configuration/config_app.md
-    - Server Configuration: hubitat/configuration/config_server.md
+    - App Configuration: configuration/config_app.md
+    - Server Configuration: configuration/config_server.md
 
   - Updates:
-    - App Updates: hubitat/updates/app_update.md
-    - Device Updates: hubitat/updates/device_update.md
-    - Server Updates: hubitat/updates/server_update.md
+    - App Updates: updates/app_update.md
+    - Device Updates: updates/device_update.md
+    - Server Updates: updates/server_update.md
 
   - Actions:
       - Description: actions/actions_desc.md

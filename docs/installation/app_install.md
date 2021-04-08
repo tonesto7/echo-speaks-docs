@@ -55,4 +55,4 @@ Repeat Steps 3 & 4 for the Zone Child App: ```https://raw.githubusercontent.com/
 ### <h3 style="color: #FF6025;">Step 10:</h3>
 Continue Device Driver Install Here:
 
-[Device Manual Install](./hubitat/installation/device_install)
+[Device Manual Install](./device_install.md)

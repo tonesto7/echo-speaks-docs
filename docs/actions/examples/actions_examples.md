@@ -97,4 +97,3 @@
    - No global responses were configured here.
 
     ![screenshot](img/action_examples_2_7.png)
-

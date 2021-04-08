@@ -41,4 +41,4 @@ Proceed through the remaining steps until it completes the install.
 
 Continue with App Configuration Here:
 
-[App Configuration](/hubitat/configuration/config_app/)
+[App Configuration](/echo-speaks-docs/configuration/config_app)
