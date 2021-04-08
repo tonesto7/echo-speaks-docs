@@ -1,7 +1,7 @@
 site_name: Echo Speaks Documentation
 site_url: https://tonesto7.github.io/echo-speaks-docs/
-repo_url: https://github.com/tonesto7/echo-speaks
-edit_uri: edit/master/gh-pages/
+repo_url: https://github.com/tonesto7/echo-speaks-docs
+# edit_uri: https://github.com/tonesto7/echo-speaks-docs/edit/master/
 site_description: Echo Speaks Documentation
 # use_directory_urls: False
 remote_branch: gh-pages

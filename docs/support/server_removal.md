@@ -53,5 +53,5 @@ Now that you have deleted the Echo Speaks server and reset the servic
 
 ### <h3 class="doc-head">Want to Redeploy?</h3>
 
-[Server Configuration](./hubitat/configuration/config_server)
+[Server Configuration](/echo-speaks-docs/configuration/config_server)
 

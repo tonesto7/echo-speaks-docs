@@ -12,6 +12,7 @@ You can submit a new or review any existing issues here:
   Logs/Screenshots would be great
 
 <br>
+
 ### <h3 class="doc-head">Was your Alexa Device Incorrectly Identified?</h3>
 
  Please create a new issue here: [https://github.com/tonesto7/echo-speaks/issues](https://github.com/tonesto7/echo-speaks/issues)
@@ -23,6 +24,7 @@ You can submit a new or review any existing issues here:
 * Generation of the device
 
 <br>
+
 ### <h3 class="doc-head">Project Board</h3>
 View Project Issues and Priorities: [GitKraken Glo Board](https://app.gitkraken.com/glo/board/XUiX0Z_0OgAP45W0)
 
