@@ -1,4 +1,4 @@
-Plugins:
+# Plugins:
 
 pip3 install mkdocs-tooltipster-links-plugin
 pip3 install git+https://github.com/midnightprioriem/mkdocs-autolinks-plugin
@@ -9,6 +9,8 @@ pip3 install mkdocs-awesome-pages-plugin
 pip3 install mkdocs-minify-plugin
 pip3 install pygments
 
-Themes:
+# Themes:
 pip3 install mkdocs-material-insiders
-pip install git+https://09c9d663efe49a5dc30c0f6f93a17eae0548928e@github.com/squidfunk/mkdocs-material-insiders.git
+
+# mkdocs material (insiders)
+pip3 install git+https://09c9d663efe49a5dc30c0f6f93a17eae0548928e@github.com/squidfunk/mkdocs-material-insiders.git

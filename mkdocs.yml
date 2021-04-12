@@ -1,7 +1,6 @@
 site_name: Echo Speaks Documentation
 site_url: https://tonesto7.github.io/echo-speaks-docs/
 repo_url: https://github.com/tonesto7/echo-speaks-docs
-# edit_uri: https://github.com/tonesto7/echo-speaks-docs/edit/master/
 site_description: Echo Speaks Documentation
 # use_directory_urls: False
 remote_branch: gh-pages
@@ -15,8 +14,11 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.tracking
     - navigation.sections
     - navigation.instant
+    - navigation.expand
+    - navigation.indexes
     - navigation.top
     - toc.integrate
   hide:
@@ -25,10 +27,10 @@ theme:
     text: Roboto
   # favicon: img/favicon.png
   logo: img/EchoSpeaks.png
-  extra:
-    social:
-      - icon: fontawesome/brands/github
-        link: https://github.com/tonesto7/echo-speaks
+  # extra:
+  #   social:
+  #     - icon: fontawesome/brands/github
+  #       link: https://github.com/tonesto7/echo-speaks
   highlightjs: true
   hljs_languages:
     - yaml
@@ -102,7 +104,11 @@ nav:
   - Donations:
       - Paypal: donations.md
 
+  - GitHub:
+      - Code Repository: github_repo.md
+
 markdown_extensions:
+  - attr_list
   - admonition
   - smarty:
       smart_quotes: false
@@ -113,16 +119,18 @@ markdown_extensions:
       baselevel: 2
       separator: "_"
   - codehilite
-  # - admonition
-  # - superfences
-  #   highlight_code: True
-  #   disable_indented_code_blocks: False
-  #   preserve_tabs: True
-  #   linenums: True
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+  - pymdownx.pathconverter
   - pymdownx.critic
   - pymdownx.highlight
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed
+
   - pymdownx.escapeall:
       hardbreak: True
       nbsp: True
@@ -146,5 +154,5 @@ extra_css:
 
 extra_javascript:
   - "js/extra.js"
+  - "js/config.js"
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js
-  - javascripts/config.js

@@ -1,1 +1,1 @@
-hljs.initHighlighting()
+hljs.initHighlighting();
