@@ -20,9 +20,10 @@ some_url: https://tonesto7.github.io/echo-speaks-docs/#
 |                    |                                    |
 | :----------------- | ---------------------------------- |
 | **Author:**        | Anthony Santilli                   |
-| **Documentation:** | Anthony Santilli and Jason Headley |
+| **Documentation:** | Anthony Santilli                   |
 | **Contributor:**   | Eric Schott (@nh.schottfam)        |
 | **Contributor:**   | Tony Fleisher (@TonyFleisher)      |
+| **Contributor:**   | Jason Headley (@bamarayne)         |
 
 ## <h2 class="doc-head">Getting Started</h2>
 
