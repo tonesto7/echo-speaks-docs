@@ -6,7 +6,7 @@
 
     Will replay the last text sent to the device.
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - None Accepted
 
@@ -24,7 +24,7 @@
 
     Sends volume command first, then plays message.
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Message (String): <code>Text between 1-400 characters in length</code>
@@ -43,7 +43,7 @@
     Simulates a voice initiated command.
     Can be used to do anything you can prompt by saying 'alexa'
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Command Message (String): <code>Text between 1-400 characters in length</code>
 
@@ -60,7 +60,7 @@
 
     Used by the main app to indentify simultaenous speech commands and merging them to into a single command to be sent to amazon
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Message (String): <code>Text between 1-400 characters in length</code>
 
@@ -82,7 +82,7 @@
 
     Sends volume command first, then plays message, and restores original volume
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Message (String): <code>Text between 1-400 characters in length</code>
@@ -102,7 +102,7 @@
 
     Alexa will give the current weather conditions
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -121,7 +121,7 @@
 
     Alexa will sing a random song
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -140,7 +140,7 @@
 
     Alexa will play the your flash briefing News (If device supports it)
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -159,7 +159,7 @@
 
     Alexa will play something containing Good News (If device supports it)
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -178,7 +178,7 @@
 
     Alexa will say a random happy birthday message
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -197,7 +197,7 @@
 
     Alexa will say a random compliment message
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -216,7 +216,7 @@
 
     Alexa will say a random goodbye message
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -235,7 +235,7 @@
 
     Alexa will play the your good morning run down
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -254,7 +254,7 @@
 
     Alexa will say a random good night message
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -273,7 +273,7 @@
 
     Alexa will say a random welcome home message
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -292,7 +292,7 @@
 
     Alexa will give the current traffic condition on your way to work
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -311,7 +311,7 @@
 
     Alexa will tell a random story
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -330,7 +330,7 @@
 
     Alexa will tell a random fun fact
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -349,7 +349,7 @@
 
     Alexa will tell a random joke
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -372,7 +372,7 @@
 
     Alexa will read all of the calendar events for the day
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -395,7 +395,7 @@
 
     Alexa will read all of the calendar events for tomorrow
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -418,7 +418,7 @@
 
     Alexa will read the next calendar event
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>
@@ -437,11 +437,11 @@
 
     This will make an announcement with the message on the device executing the command
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Message (String): <code>Text between 1-400 characters in length</code>
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Title (String): <code>String between 1-40 characters in length (For Echo Show/Spot Display)</code>
     - Volume (Integer): <code>Number between 0-100</code>
@@ -464,11 +464,11 @@
     <br>
     <small style="color: red; padding: 0.15em 0;"><b><i>Notice: </i></b>This command is a complicated one.  If you want to announce on all of your echo devices just select one device to send the command to.  Amazon will send it to all devices on it's end.  So a single device can trigger all to speak. I've seen it to where Amazon will rate-limit so if the devices in the announcement so they will not speak.</small>
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Message (String): <code>Text between 1-400 characters in length</code>
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Title(String): <code>String between 1-400 characters in length (For Echo Show/Spots Display)</code>
 
@@ -487,11 +487,11 @@
 
     Play sounds found in the Alexa Skills Kit Sound Library (Only Sounds who's file name starts with 'amzn_sfx_')
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Sound File Name (String): <code>String (Should support any alexa skills kit sound that starts with 'amzn_sfx_' | https://developer.amazon.com/docs/custom-skills/ask-soundlibrary.html)</code>
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - Restore Volume (Integer): <code>Number between 0-100</code>

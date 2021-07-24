@@ -7,7 +7,7 @@
     Activates Do Not Disturb for the device
 
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     None Accepted
 
@@ -19,7 +19,7 @@
 
     Disables Do Not Disturb for the device
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     None Accepted
 
@@ -37,7 +37,7 @@
 
     - Captures current device volume
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - None Accepted
 
@@ -49,7 +49,7 @@
 
     - Restores volume to captured volume using storeCurrentVolume()
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - None Accepted
 
@@ -65,7 +65,7 @@
 
     - Sets the Echo Devices Alarm and Reminder Notification volume
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Volume (Integer): <code>Number value between 0-100</code>
 
@@ -83,7 +83,7 @@
 
     - Change the alexa wake word used to get Alexa to respond to commands
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - WakeWord (String): <code>["ALEXA", "AMAZON", "ECHO", "COMPUTER"]</code>
 
@@ -105,7 +105,7 @@
 
     - Changes the alexa device name under your amazon account
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Device Name (String): <code>Any alphanumeric text accepted</code>
 
@@ -123,7 +123,7 @@
 
     Updates the activity data for the attributes "wasLastSpokenToDevice" and "lastVoiceActivity" (There can be a minor delay because of Amazon Rate-Limiting)
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - None Accepted
 
@@ -141,7 +141,7 @@
 
     - Refreshes all bluetooth devices for the alexa device
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - None Accepted
 
@@ -157,7 +157,7 @@
 
     Will connected a paired bluetooth device by name. (Look at attribute `btDevicesPaired` for a list of paired device names
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Device Name (String): <code>Look at attribute `btDevicesPaired` for a list of paired device names</code>
 
@@ -173,7 +173,7 @@
 
     - Disconnects the bluetooth device currently connected to the Alexa device
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - None Accepted
 
@@ -189,7 +189,7 @@
 
     Removes bluetooth device pairing from alexa device by name. (Look at attribute `btDevicesPaired` for a list of paired device names
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Device Name (String): <code>Look at attribute `btDevicesPaired` for a list of paired device names</code>
 
@@ -207,7 +207,7 @@
 
     Allows you to send a custom sequence of actions to Amazon as a single command that will be executed one at a time by Amazon.
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     <p>Available Sequence Items (String):</p>
     <h5>General Items:</h5>
