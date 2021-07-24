@@ -11,7 +11,7 @@
 
     Stops audio playback on all echo devices
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - None Accepted
 
@@ -50,7 +50,7 @@
 
     Used to play music from the desired music provider by using a specific search phrase.
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - SearchPhrase (String): <code>Text between 0-100 characters in length</code>
 
@@ -64,7 +64,7 @@
 
     - ProviderId (String): <code>[CLOUDPLAYER, AMAZON_MUSIC, APPLE_MUSIC, I_HEART_RADIO, PANDORA, SPOTIFY, TUNEIN]</code>
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
@@ -87,7 +87,7 @@
 
     Used to play music from Amazon Music provider
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - SearchPhrase (String): <code>String between 0-100 characters in length</code>
 
@@ -99,7 +99,7 @@
             <br>
             I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Between 0-100</code>
     - sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
@@ -124,7 +124,7 @@
     <br>
     I have alse discovered that when trying to play songs I had to add the word song to the search phrase.
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - SearchPhrase (String): <code>String between 0-100 characters in length.</code>
 
@@ -136,7 +136,7 @@
             <br>
             I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Between 0-100</code>
     - sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
@@ -159,7 +159,7 @@
 
     Used to play music from Pandora Radio provider
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - SearchPhrase (String): <code>Text between 0-100 characters in length.</code>
 
@@ -171,7 +171,7 @@
             <br>
             I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - SleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
@@ -194,7 +194,7 @@
 
     Used to play music from iHeartRadio provider
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - SearchPhrase (String): <code>Text between 0-100 characters in length</code>
 
@@ -206,7 +206,7 @@
             <br>
             I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - SleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
@@ -229,7 +229,7 @@
 
     - Used to play music from Sirius XM provider
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - SearchPhrase (String): <code>Text between 0-100 characters in length.</code>
 
@@ -241,7 +241,7 @@
             <br>
             I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - SleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
@@ -264,7 +264,7 @@
 
     - Used to play music from Spotify provider
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - SearchPhrase (String): <code>Text between 0-100 characters in length.</code>
 
@@ -276,7 +276,7 @@
             <br>
             I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>
@@ -299,7 +299,7 @@
 
     - Used to play music from Tune-In Radio provider
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - SearchPhrase (String): <code>Text between 0-100 characters in length.</code>
 
@@ -311,7 +311,7 @@
             <br>
             I have discovered that when trying to play songs I had to add the word song to the search phrase.
 
-!!! info "Optional Paramaters"
+!!! info "Optional Parameters"
 
     - Volume (Integer): <code>Number between 0-100</code>
     - sleepSeconds (Integer): <code>Number of seconds to play the music (Sleep timer)</code>

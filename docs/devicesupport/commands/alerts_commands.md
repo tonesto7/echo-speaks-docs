@@ -10,7 +10,7 @@
 
     This will create audible alarms for a specific device.
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Label (String): <code>Label to identify the alarm in the Alexa App</code>
     - Date (String): <code>This must be in this format (Year-Month-Day)</code>
@@ -34,7 +34,7 @@
 
     This will create audible Reminder and read back the label as the reminder message.
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Reminder (String): <code>Reminder message that is spoken back</code>
     - Date (String): <code>This must be in this format (Year-Month-Day)</code>
@@ -54,7 +54,7 @@
 
     Sends a push notification via the Alexa Mobile app.
 
-!!! summary "Required Paramaters"
+!!! summary "Required Parameters"
 
     - Message (String): <code>String between 1-400 characters in length</code>
 
